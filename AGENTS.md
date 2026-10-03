@@ -77,6 +77,7 @@ Definidos em `data/schema.json`: identificação (nome, nº, partido, coligaçã
 
 ```bash
 python etl/tse.py --ano 2026 --uf AM      # candidatos (TSE)
+python etl/ibge.py --ano 2026             # população (IBGE)
 python etl/validar.py 2026                # valida os YAML
 ```
 

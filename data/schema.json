@@ -89,7 +89,9 @@
             "properties": {
               "localidade": { "type": "string" },
               "codigo_ibge": { "type": ["string", "null"] },
-              "populacao": { "type": "integer" }
+              "ano": { "type": ["integer", "null"] },
+              "populacao": { "type": "integer" },
+              "fonte": { "type": ["string", "null"] }
             }
           }
         }

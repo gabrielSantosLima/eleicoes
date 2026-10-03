@@ -1,6 +1,16 @@
 ano: 2026
 escopo: Manaus
-fonte: "IBGE — https://servicodados.ibge.gov.br/api/v3/"
-censo: null
-atualizado_em: null
-dados: []
+fonte: IBGE — https://servicodados.ibge.gov.br/api/v3/
+censo: 2022
+atualizado_em: '2026-10-03'
+dados:
+- localidade: Manaus
+  codigo_ibge: '1302603'
+  ano: 2022
+  populacao: 2063689
+  fonte: https://servicodados.ibge.gov.br/api/v3/agregados/4714/periodos/2022/variaveis/93?localidades=N6[1302603]
+- localidade: Manaus
+  codigo_ibge: '1302603'
+  ano: 2026
+  populacao: 2327101
+  fonte: https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N6[1302603]
