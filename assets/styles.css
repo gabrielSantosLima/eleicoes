@@ -103,6 +103,35 @@ a { color: inherit; }
 .badge--count { background: var(--blue); color: #fff; }
 .party { font-weight: 700; color: var(--green-dark); }
 
+/* ---------- Candidate cards (mobile) ---------- */
+.cards { display: none; max-width: var(--max); margin: 0 auto; }
+.candidate-card {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+.candidate-card:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.candidate-card__head { display: flex; align-items: center; gap: 12px; }
+.candidate-card__photo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--yellow);
+  background: #eee;
+  flex: none;
+}
+.candidate-card__id { min-width: 0; display: grid; gap: 2px; }
+.candidate-card__fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 0; }
+.candidate-card__field { min-width: 0; }
+.candidate-card__field dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.candidate-card__field dd { margin: 3px 0 0; font-size: 0.92rem; }
+
 /* ---------- Compare bar ---------- */
 .compare-bar { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 45; display: flex; align-items: center; gap: 16px; padding: 10px 16px; background: var(--ink); color: #fff; border-radius: 999px; box-shadow: 0 12px 30px rgba(0,0,0,0.3); }
 .compare-bar[hidden] { display: none; }
@@ -161,7 +190,26 @@ a { color: inherit; }
   .hero__map { order: 2; }
   .hero__map img { max-height: 48vh; }
   .hero__note { margin-inline: auto; }
-  .modal { width: 100vw; }
+
+  /* Table becomes cards on small screens */
+  .table-wrap { display: none; }
+  .cards { display: grid; gap: 12px; }
+
+  .topbar { flex-wrap: wrap; padding: 10px 16px; }
+  .candidates { padding-left: 16px; padding-right: 16px; padding-bottom: 104px; }
+  .cloud { padding: 10px; }
+  .chip { font-size: 0.82rem; padding: 6px 11px; }
+
+  .compare-bar { left: 12px; right: 12px; bottom: 12px; transform: none; width: auto; justify-content: space-between; border-radius: 16px; }
+
+  .detail, .modal { width: 100vw; }
+  .detail { padding: 20px; }
+  .compare { font-size: 0.85rem; }
+}
+
+@media (max-width: 420px) {
+  .candidate-card__fields { grid-template-columns: 1fr; }
+  .hero__number { font-size: clamp(2.6rem, 16vw, 4rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {

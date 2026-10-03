@@ -12,7 +12,7 @@ import { mergeCandidateWithDossier } from './domain/candidates.js';
 import { renderPopulationHero } from './components/populationHero.js';
 import { renderCargoSelector } from './components/cargoSelector.js';
 import { renderColumnCloud } from './components/columnCloud.js';
-import { renderCandidatesTable } from './components/candidatesTable.js';
+import { renderCandidatesTable, renderCandidatesCards } from './components/candidatesTable.js';
 import { renderCandidateDetail } from './components/candidateDetail.js';
 import { renderComparisonModal, renderCompareBar } from './components/comparison.js';
 import { renderSourcesFooter } from './components/sourcesFooter.js';
@@ -37,6 +37,7 @@ const elements = {
   tableCaption: select('#table-caption'),
   columnCloud: select('#column-cloud'),
   table: select('#candidates-table'),
+  cards: select('#candidates-cards'),
   compareBar: select('#compare-bar'),
   compareCount: select('#compare-count'),
   compareOpenButton: select('#compare-open'),
@@ -67,8 +68,7 @@ function renderColumnCloudView() {
 }
 
 function renderTableView() {
-  renderCandidatesTable({
-    tableElement: elements.table,
+  const viewModel = {
     columns: store.getColumns(),
     visibleKeys: store.getVisibleColumnKeys(),
     candidates: store.getCandidates(),
@@ -79,7 +79,9 @@ function renderTableView() {
       onToggleCompare: handleToggleCompare,
       onOpenCandidate: handleOpenCandidate,
     },
-  });
+  };
+  renderCandidatesTable({ tableElement: elements.table, ...viewModel });
+  renderCandidatesCards({ container: elements.cards, ...viewModel });
 }
 
 function renderCompareBarView() {

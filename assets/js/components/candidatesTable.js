@@ -5,10 +5,11 @@
  * the store or the data source.
  */
 import { createElement, createFragmentFromHtml, replaceContent } from '../core/dom.js';
+import { isMissing } from '../core/format.js';
 import { selectVisibleColumns } from '../domain/candidateColumns.js';
 import { sortCandidates } from '../domain/candidates.js';
 
-function buildSelectionCell(candidate, isCompared, handlers) {
+function buildSelectionControl(candidate, isCompared, handlers) {
   const label = createElement('label', { class: 'pick', title: 'Selecionar para comparar' });
   const checkbox = createElement('input', {
     type: 'checkbox',
@@ -20,19 +21,26 @@ function buildSelectionCell(candidate, isCompared, handlers) {
     if (!handlers.onToggleCompare(candidate.id, checkbox.checked)) checkbox.checked = false;
   });
   label.append(checkbox);
-  return createElement('td', { class: 'cell-select' }, label);
+  return label;
 }
 
-function buildPhotoCell(candidate) {
-  const media = candidate.foto
+function buildPhotoMedia(candidate, className = 'thumb') {
+  return candidate.foto
     ? createElement('img', {
-        class: 'thumb',
+        class: className,
         src: candidate.foto,
         alt: `Foto de ${candidate.nome_urna || candidate.nome_completo}`,
         loading: 'lazy',
       })
-    : createElement('span', { class: 'thumb cell-muted', style: 'display:grid;place-items:center' }, '—');
-  return createElement('td', { class: 'cell-photo' }, media);
+    : createElement('span', { class: `${className} cell-muted`, style: 'display:grid;place-items:center' }, '—');
+}
+
+function buildSelectionCell(candidate, isCompared, handlers) {
+  return createElement('td', { class: 'cell-select' }, buildSelectionControl(candidate, isCompared, handlers));
+}
+
+function buildPhotoCell(candidate) {
+  return createElement('td', { class: 'cell-photo' }, buildPhotoMedia(candidate));
 }
 
 function buildHeaderCell(column, sort, onSortColumn) {
@@ -100,4 +108,60 @@ export function renderCandidatesTable({ tableElement, columns, visibleKeys, cand
     createElement('thead', {}, headerRow),
     createElement('tbody', {}, bodyRows),
   ]);
+}
+
+const CARD_HEADER_KEYS = new Set(['foto', 'nome_urna', 'numero', 'partido']);
+
+function buildCandidateCard(candidate, columns, isCompared, handlers) {
+  const identifier =
+    `${candidate.partido || ''}${isMissing(candidate.numero) ? '' : ` · nº ${candidate.numero}`}`.trim();
+
+  const head = createElement('header', { class: 'candidate-card__head' }, [
+    buildSelectionControl(candidate, isCompared, handlers),
+    buildPhotoMedia(candidate, 'candidate-card__photo'),
+    createElement('div', { class: 'candidate-card__id' }, [
+      createElement('div', { class: 'cell-name' }, candidate.nome_urna || candidate.nome_completo || '—'),
+      createElement('div', { class: 'detail__party' }, identifier || '—'),
+    ]),
+  ]);
+
+  const fields = columns
+    .filter((column) => !CARD_HEADER_KEYS.has(column.key))
+    .map((column) =>
+      createElement('div', { class: 'candidate-card__field' }, [
+        createElement('dt', {}, column.label),
+        createElement('dd', {}, createFragmentFromHtml(column.renderCell(candidate))),
+      ]),
+    );
+
+  const card = createElement(
+    'article',
+    {
+      class: 'candidate-card',
+      tabindex: '0',
+      'aria-label': `Ver detalhes de ${candidate.nome_urna || candidate.nome_completo}`,
+    },
+    [head, createElement('dl', { class: 'candidate-card__fields' }, fields)],
+  );
+  card.addEventListener('click', () => handlers.onOpenCandidate(candidate));
+  card.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      handlers.onOpenCandidate(candidate);
+    }
+  });
+  return card;
+}
+
+export function renderCandidatesCards({ container, columns, visibleKeys, candidates, sort, comparedIds, handlers }) {
+  const visibleColumns = selectVisibleColumns(columns, visibleKeys);
+  const sortColumn = columns.find((column) => column.key === sort.key);
+  const orderedCandidates = sortCandidates(candidates, sortColumn, sort.direction);
+
+  replaceContent(
+    container,
+    orderedCandidates.map((candidate) =>
+      buildCandidateCard(candidate, visibleColumns, comparedIds.has(candidate.id), handlers),
+    ),
+  );
 }
