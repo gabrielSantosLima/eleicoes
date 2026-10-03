@@ -1,53 +1,80 @@
 ano: 2026
-cargo: Presidente
+cargo: Vice-Presidente
 uf: null
 candidatos:
-- id: augusto-jorge-cury
-  nome_completo: Augusto Jorge Cury
-  nome_urna: Escritor Augusto Cury
-  numero: 70
-  partido: AVANTE
-  coligacao: BRASIL DOS NOSSOS SONHOS
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: clariana-zacarkim-barao
-  nome_completo: Clariana Zacarkim Barao
-  nome_urna: Clariana Barao
-  numero: 27
-  partido: DC
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: edmilson-silva-costa
-  nome_completo: Edmilson Silva Costa
-  nome_urna: Edmilson Costa
-  numero: 21
-  partido: PCB
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: flavio-nantes-bolsonaro
-  nome_completo: Flavio Nantes Bolsonaro
-  nome_urna: Flavio Bolsonaro
+- id: alfredo-gaspar-de-mendonca-neto
+  nome_completo: Alfredo Gaspar De Mendonça Neto
+  nome_urna: Alfredo Gaspar
   numero: 22
   partido: PL
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: hertz-da-conceicao-dias
-  nome_completo: Hertz Da Conceicao Dias
-  nome_urna: Hertz Dias
-  numero: 16
-  partido: PSTU
+- id: antonio-carlos-silva
+  nome_completo: Antonio Carlos Silva
+  nome_urna: Antônio Carlos
+  numero: 29
+  partido: PCO
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: leonardo-alves-de-araujo-2
+- id: aroldo-medina
+  nome_completo: Aroldo Medina
+  nome_urna: Coronel Medina
+  numero: 14
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: cleusa-dos-santos
+  nome_completo: Cleusa Dos Santos
+  nome_urna: Cleusa Santos
+  numero: 21
+  partido: PCB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: fabiana-cristina-tavares-torquato
+  nome_completo: Fabiana Cristina Tavares Torquato
+  nome_urna: Fabiana Torquato
+  numero: 27
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: geraldo-jose-rodrigues-alckmin-filho
+  nome_completo: Geraldo Jose Rodrigues Alckmin Filho
+  nome_urna: Geraldo Alckmin
+  numero: 13
+  partido: PSB
+  coligacao: BRASIL PRONTO PRA MAIS
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: gilberto-kassab
+  nome_completo: Gilberto Kassab
+  nome_urna: Gilberto Kassab
+  numero: 55
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: julio-cesar-delgado
+  nome_completo: Julio Cesar Delgado
+  nome_urna: Júlio Delgado
+  numero: 70
+  partido: AVANTE
+  coligacao: BRASIL DOS NOSSOS SONHOS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: leonardo-alves-de-araujo
   nome_completo: Leonardo Alves De Araujo
   nome_urna: Leonardo Avalanche
   numero: 28
@@ -56,74 +83,47 @@ candidatos:
   eh_reeleicao: false
   situacao_candidatura: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: luiz-inacio-lula-da-silva
-  nome_completo: Luiz Inácio Lula Da Silva
-  nome_urna: Lula
-  numero: 13
-  partido: PT
-  coligacao: BRASIL PRONTO PRA MAIS
-  eh_reeleicao: true
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: pablo-henrique-costa-marcal
-  nome_completo: Pablo Henrique Costa Marcal
-  nome_urna: Pablo Marçal
-  numero: 28
-  partido: PRTB
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: renan-antonio-ferreira-dos-santos
-  nome_completo: Renan Antonio Ferreira Dos Santos
-  nome_urna: Renan Santos
-  numero: 14
-  partido: MISSÃO
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: romeu-zema-neto
-  nome_completo: Romeu Zema Neto
-  nome_urna: Zema
+- id: luis-eduardo-grangeiro-girao
+  nome_completo: Luis Eduardo Grangeiro Girão
+  nome_urna: Eduardo Girão
   numero: 30
   partido: NOVO
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: ronaldo-ramos-caiado
-  nome_completo: Ronaldo Ramos Caiado
-  nome_urna: Ronaldo Caiado
-  numero: 55
-  partido: PSD
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: rui-costa-pimenta
-  nome_completo: Rui Costa Pimenta
-  nome_urna: Rui Costa Pimenta
-  numero: 29
-  partido: PCO
-  coligacao: PARTIDO ISOLADO
-  eh_reeleicao: false
-  situacao_candidatura: null
-  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: samara-martins-da-silva-feitosa
-  nome_completo: Samara Martins Da Silva Feitosa
-  nome_urna: Samara
+- id: raquel-nonato-de-bricio
+  nome_completo: Raquel Nonato De Bricio
+  nome_urna: Raquel Brício
   numero: 80
   partido: UP
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
-- id: wilson-grassi-junior
-  nome_completo: Wilson Grassi Junior
-  nome_urna: Veterinário Wilson Grassi
+- id: silvia-hellen-da-silva-pereira
+  nome_completo: Silvia Hellen Da Silva Pereira
+  nome_urna: Silvia
+  numero: 28
+  partido: PRTB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: sued-haidar-nogueira
+  nome_completo: Suêd Haidar Nogueira
+  nome_urna: Suêd Haidar
   numero: 35
   partido: DEMOCRATA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: vanessa-portugal-barbosa
+  nome_completo: Vanessa Portugal Barbosa
+  nome_urna: Vanessa Portugal
+  numero: 16
+  partido: PSTU
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null

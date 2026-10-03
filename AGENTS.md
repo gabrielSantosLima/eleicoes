@@ -73,6 +73,18 @@ Definidos em `data/schema.json`: identificação (nome, nº, partido, coligaçã
 3. Validar contra `data/schema.json`.
 4. Atualizar `atualizado_em` e `fontes`.
 
+### ETL (scripts genéricos por ano)
+
+```bash
+python etl/tse.py --ano 2026 --uf AM      # candidatos (TSE)
+python etl/validar.py 2026                # valida os YAML
+```
+
+`etl/tse.py` descobre os cargos do próprio dado, gera um `<CARGO>.yml` por cargo
+e atualiza `<ano>/index.yml`. Cargos nacionais (SG_UF=BR) ficam com `uf: null`.
+`eh_reeleicao` é inferido do `historico_candidatura` (eleito ao mesmo cargo no
+pleito anterior do mandato; Senador = 8 anos, demais = 4).
+
 ## Adicionar um novo ano
 
 Copiar a estrutura de `2026/`, atualizar `<ano>/index.yml` e ajustar as fontes.

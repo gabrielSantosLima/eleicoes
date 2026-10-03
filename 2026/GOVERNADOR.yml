@@ -1,0 +1,67 @@
+ano: 2026
+cargo: Governador
+uf: AM
+candidatos:
+- id: benevenuto-daciolo-fonseca-dos-santos
+  nome_completo: Benevenuto Daciolo Fonseca Dos Santos
+  nome_urna: Cabo Daciolo
+  numero: 33
+  partido: MOBILIZA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: david-antonio-abisai-pereira-de-almeida
+  nome_completo: David Antônio Abisai Pereira De Almeida
+  nome_urna: David Almeida
+  numero: 70
+  partido: AVANTE
+  coligacao: PRA CIMA AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: gilberto-vasconcelos-da-silva
+  nome_completo: Gilberto Vasconcelos Da Silva
+  nome_urna: Gilberto Vasconcelos
+  numero: 16
+  partido: PSTU
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: isael-franklin-goncalves
+  nome_completo: Isael Franklin Gonçalves
+  nome_urna: Isael Munduruku
+  numero: 18
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-do-carmo-seffair-lins-de-albuquerque
+  nome_completo: Maria Do Carmo Seffair Lins De Albuquerque
+  nome_urna: Professora Maria Do Carmo
+  numero: 22
+  partido: PL
+  coligacao: MUDAR É URGENTE
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: omar-jose-abdelaziz
+  nome_completo: Omar Jose Abdelaziz
+  nome_urna: Omar Aziz
+  numero: 55
+  partido: PSD
+  coligacao: FORÇA AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: roberto-maia-cidade-filho
+  nome_completo: Roberto Maia Cidade Filho
+  nome_urna: Roberto Cidade
+  numero: 44
+  partido: UNIÃO
+  coligacao: UNIÃO PELO AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

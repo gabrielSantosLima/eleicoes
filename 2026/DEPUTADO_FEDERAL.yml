@@ -1,4 +1,1255 @@
 ano: 2026
 cargo: Deputado Federal
-uf: null
-candidatos: []
+uf: AM
+candidatos:
+- id: adail-jose-figueiredo-pinheiro
+  nome_completo: Adail José Figueiredo Pinheiro
+  nome_urna: Adail Filho
+  numero: 1515
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: adriana-de-almeida-neves-xavier
+  nome_completo: Adriana De Almeida Neves Xavier
+  nome_urna: Adriana Xavier
+  numero: 1300
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: adriana-pinto-borges
+  nome_completo: Adriana Pinto Borges
+  nome_urna: Adriana Borges
+  numero: 1001
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: adriana-sales-gomes
+  nome_completo: Adriana Sales Gomes
+  nome_urna: Tenente Coronel Adriana
+  numero: 1144
+  partido: PP
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alexandre-da-silva-salazar
+  nome_completo: Alexandre Da Silva Salazar
+  nome_urna: Sargento Salazar
+  numero: 2211
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alexandre-mateus-dos-santos-lima
+  nome_completo: Alexandre Mateus Dos Santos Lima
+  nome_urna: Mateus Do Ti
+  numero: 1420
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alexandre-neves-solorzano
+  nome_completo: Alexandre Neves Solorzano
+  nome_urna: Alexandre Solorzano
+  numero: 1600
+  partido: PSTU
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alfredo-alexandre-de-menezes-junior
+  nome_completo: Alfredo Alexandre De Menezes Junior
+  nome_urna: Coronel Menezes
+  numero: 7022
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alfredo-pereira-do-nascimento
+  nome_completo: Alfredo Pereira Do Nascimento
+  nome_urna: Alfredo Nascimento
+  numero: 2222
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alice-mafra-cavalcante-reis-penafort
+  nome_completo: Alice Mafra Cavalcante Reis Penafort
+  nome_urna: Doutora Alice Mafra
+  numero: 3333
+  partido: MOBILIZA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: amanda-martins-pinheiro
+  nome_completo: Amanda Martins Pinheiro
+  nome_urna: Dra. Amanda Pinheiro
+  numero: 1505
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: amanda-tereza-nascimento-de-souza
+  nome_completo: Amanda Tereza Nascimento De Souza
+  nome_urna: Doutora Amanda Souza
+  numero: 2766
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: amauri-gomes-dos-santos
+  nome_completo: Amauri Gomes Dos Santos
+  nome_urna: Amauri Gomes
+  numero: 5511
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: amilton-bezerra-gadelha
+  nome_completo: Amilton Bezerra Gadelha
+  nome_urna: Professor Amilton Gadelha
+  numero: 2025
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: amom-mandel-lins-filho
+  nome_completo: Amom Mandel Lins Filho
+  nome_urna: Amom Mandel
+  numero: 1000
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ana-alice-roque-de-souza
+  nome_completo: Ana Alice Roque De Souza
+  nome_urna: Ana Roque
+  numero: 8000
+  partido: UP
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ana-paula-mesquita-de-araujo
+  nome_completo: Ana Paula Mesquita De Araujo
+  nome_urna: Ana Paula Mesquita
+  numero: 5512
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: anne-karolyne-moura-de-souza
+  nome_completo: Anne Karolyne Moura De Souza
+  nome_urna: Anne Moura
+  numero: 1314
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: antonio-dalmir-bezerra-salazar
+  nome_completo: Antonio Dalmir Bezerra Salazar
+  nome_urna: Professor Dalmir Salazar
+  numero: 7012
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: antonio-marcos-de-oliveira-apurina
+  nome_completo: Antonio Marcos De Oliveira Apurinã
+  nome_urna: Marcos Apurinã
+  numero: 1818
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: arqleydsson-de-lima-pinheiro
+  nome_completo: Arqleydsson De Lima Pinheiro
+  nome_urna: Professor Arqleydsson
+  numero: 6555
+  partido: PCDOB
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: arthur-virgilio-do-carmo-ribeiro-neto
+  nome_completo: Arthur Virgilio Do Carmo Ribeiro Neto
+  nome_urna: Arthur Neto
+  numero: 1545
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: atila-sidney-lins-de-albuquerque
+  nome_completo: Atila Sidney Lins De Albuquerque
+  nome_urna: Atila Lins
+  numero: 5525
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: caila-carim-belchior
+  nome_completo: Caila Carim Belchior
+  nome_urna: Caila Carim
+  numero: 1516
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: carles-waldemar-correa-dos-santos
+  nome_completo: Carles Waldemar Correa Dos Santos
+  nome_urna: Carles Waldemar Maguila
+  numero: 7770
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: carlos-alexandre-ferreira-silva
+  nome_completo: Carlos Alexandre Ferreira Silva
+  nome_urna: Alexandre Da Carbrás
+  numero: 7777
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: carlos-edgar-tavares-de-oliveira
+  nome_completo: Carlos Edgar Tavares De Oliveira
+  nome_urna: Edgar Oliveira
+  numero: 1456
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: cesar-augusto-oliveira-da-fonseca
+  nome_completo: Cesar Augusto Oliveira Da Fonseca
+  nome_urna: Sargento Augusto
+  numero: 2044
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: christiane-maciel-de-lima-melchior
+  nome_completo: Christiane Maciel De Lima Melchior
+  nome_urna: Christiane Melchior
+  numero: 4000
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: creuza-regina-de-souza-lima
+  nome_completo: Creuza Regina De Souza Lima
+  nome_urna: Loira Do Salgado
+  numero: 4007
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: cristina-lucia-ferreira-paiva
+  nome_completo: Cristina Lucia Ferreira Paiva
+  nome_urna: Cris Paiva
+  numero: 7007
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: daniel-almeida-de-souza
+  nome_completo: Daniel Almeida De Souza
+  nome_urna: Daniel Souza
+  numero: 1213
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: darlene-pereira-neves
+  nome_completo: Darlene Pereira Neves
+  nome_urna: Darlene Neves
+  numero: 1222
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: denis-da-silva-figueiroa
+  nome_completo: Denis Da Silva Figueiroa
+  nome_urna: Denis Real
+  numero: 7707
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: denis-da-silva-pereira
+  nome_completo: Denis Da Silva Pereira
+  nome_urna: Denis Da Silva
+  numero: 1313
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: denison-de-carvalho-vilar
+  nome_completo: Denison De Carvalho Vilar
+  nome_urna: Denison Vilar Da Saúde
+  numero: 2777
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: denison-nascimento-de-rezende
+  nome_completo: Denison Nascimento De Rezende
+  nome_urna: Ronaldinho Show
+  numero: 4011
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: diana-greicy-rodrigues-da-silva
+  nome_completo: Diana Greicy Rodrigues Da Silva
+  nome_urna: Diana Rodrigues
+  numero: 3011
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: debora-cristina-pereira-mafra
+  nome_completo: Débora Cristina Pereira Mafra
+  nome_urna: Delegada Débora Mafra
+  numero: 5580
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: eberson-dos-santos-lima
+  nome_completo: Eberson Dos Santos Lima
+  nome_urna: Eberson Batera
+  numero: 3322
+  partido: MOBILIZA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: edivan-castilho-ferreira
+  nome_completo: Edivan Castilho Ferreira
+  nome_urna: Pr. Edivan Castilho
+  numero: 2021
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: edjane-rodrigues-da-silva
+  nome_completo: Edjane Rodrigues Da Silva
+  nome_urna: Edjane Da Fetagri
+  numero: 1333
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: eduardo-theo-ferreira-de-menezes
+  nome_completo: Eduardo Theo Ferreira De Menezes
+  nome_urna: Eduardo Theo
+  numero: 1401
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: eliabe-almeida-campos
+  nome_completo: Eliabe Almeida Campos
+  nome_urna: Eliabe Campos
+  numero: 1414
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: elizabeth-de-souza-levy-vasconcelos
+  nome_completo: Elizabeth De Souza Levy Vasconcelos
+  nome_urna: Beth Docinho
+  numero: 1551
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: elpidio-marques-dacio
+  nome_completo: Elpídio Marques Dácio
+  nome_urna: Elpídio Dos Povos Mura
+  numero: 2772
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: estelio-pereira-gabino
+  nome_completo: Estelio Pereira Gabino
+  nome_urna: Mestre Estelio Gabino
+  numero: 4022
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: evalcilene-costa-dos-santos
+  nome_completo: Evalcilene Costa Dos Santos
+  nome_urna: Val Santos
+  numero: 5013
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: evaldo-do-nascimento-vasconcelos
+  nome_completo: Evaldo Do Nascimento Vasconcelos
+  nome_urna: Evaldo Vasconcelos
+  numero: 1299
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: fausto-vieira-dos-santos-junior
+  nome_completo: Fausto Vieira Dos Santos Junior
+  nome_urna: Fausto Jr
+  numero: 4477
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: fernanda-aryel-rodrigues-de-almeida-lima
+  nome_completo: Fernanda Aryel Rodrigues De Almeida Lima
+  nome_urna: Dra Aryel Almeida
+  numero: 7070
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: francisco-assis-santos-soares
+  nome_completo: Francisco Assis Santos Soares
+  nome_urna: Jornada
+  numero: 1233
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: frank-carlos-oliveira-de-souza
+  nome_completo: Frank Carlos Oliveira De Souza
+  nome_urna: Frank Carlos
+  numero: 2700
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: gilberto-borges-dos-santos-junior
+  nome_completo: Gilberto Borges Dos Santos Junior
+  nome_urna: Junior Resgate
+  numero: 7000
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: givanildo-marques-maia
+  nome_completo: Givanildo Marques Maia
+  nome_urna: Marquinhos Maia
+  numero: 7706
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: glaucia-rebelo-barcelos
+  nome_completo: Glaucia Rebelo Barcelos
+  nome_urna: Glaucia Rebelo
+  numero: 1063
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: glaucia-amazonas-da-silva
+  nome_completo: Gláucia Amazonas Da Silva
+  nome_urna: Gláucia Amazonas
+  numero: 2707
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: hermano-galvao-alves-junior
+  nome_completo: Hermano Galvão Alves Junior
+  nome_urna: Hermano Junior
+  numero: 2040
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: hissa-nagib-abrahao-filho
+  nome_completo: Hissa Nagib Abrahao Filho
+  nome_urna: Hissa Abrahão
+  numero: 1011
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: iana-nadina-lima-de-oliveira
+  nome_completo: Iana Nadina Lima De Oliveira
+  nome_urna: Iana Nadina
+  numero: 1415
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: israel-fontes-dutra
+  nome_completo: Israel Fontes Dutra
+  nome_urna: Dr. Israel Tuyuka
+  numero: 1251
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jardel-araujo-da-silva-inacio
+  nome_completo: Jardel Araujo Da Silva Inacio
+  nome_urna: Jàrdel Inácio
+  numero: 4004
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jean-alexander-batista-francine
+  nome_completo: Jean Alexander Batista Francine
+  nome_urna: Jean Batista
+  numero: 2210
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jean-carlos-de-alencar-carvalho-2
+  nome_completo: Jean Carlos De Alencar Carvalho
+  nome_urna: Jean Carlos
+  numero: 3044
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jesus-alves-dos-santos
+  nome_completo: Jesus Alves Dos Santos
+  nome_urna: Jesus Alves
+  numero: 1500
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joana-darc-cordeiro-de-lima
+  nome_completo: Joana Darc Cordeiro De Lima
+  nome_urna: Joana Darc
+  numero: 4444
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joao-antonio-de-oliveira-marques-lima
+  nome_completo: Joao Antonio De Oliveira Marques Lima
+  nome_urna: João Lima
+  numero: 8080
+  partido: UP
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joao-carlos-dos-santos-mello
+  nome_completo: Joao Carlos Dos Santos Mello
+  nome_urna: João Carlos
+  numero: 1033
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joao-victor-tayah-lima
+  nome_completo: Joao Victor Tayah Lima
+  nome_urna: Delegado Tayah
+  numero: 1350
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joaquim-felipe-guimaraes-gomes
+  nome_completo: Joaquim Felipe Guimaraes Gomes
+  nome_urna: Joaquim Felipe
+  numero: 4044
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: joelson-sales-silva
+  nome_completo: Joelson Sales Silva
+  nome_urna: Joelson Silva
+  numero: 7001
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jorge-elias-costa-de-oliveira
+  nome_completo: Jorge Elias Costa De Oliveira
+  nome_urna: Jorge Oliveira
+  numero: 5500
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: josildo-de-oliveira-silva
+  nome_completo: Josildo De Oliveira Silva
+  nome_urna: Josildo Oliveira
+  numero: 1044
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: josilene-vasconcelos-maia
+  nome_completo: Josilene Vasconcelos Maia
+  nome_urna: Professora Lene Maia
+  numero: 2789
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: juarez-souza-brandao-junior
+  nome_completo: Juarez Souza Brandão Junior
+  nome_urna: Jota Brandão
+  numero: 1433
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: karola-karen-pontes-caldas
+  nome_completo: Karola Karen Pontes Caldas
+  nome_urna: Karola Pro Vida
+  numero: 7711
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: keylla-maria-de-oliveira-marinho
+  nome_completo: Keylla Maria De Oliveira Marinho
+  nome_urna: Keylla Marinho
+  numero: 7713
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: layon-gabriel-moraes-nunes
+  nome_completo: Layon Gabriel Moraes Nunes
+  nome_urna: Layon Nunes
+  numero: 3030
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: lazaro-sebastiao-santiago-mendes-neto
+  nome_completo: Lazaro Sebastiao Santiago Mendes Neto
+  nome_urna: Delegado Lázaro Mendes
+  numero: 5588
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: luciana-soares-viga
+  nome_completo: Luciana Soares Viga
+  nome_urna: Luciana Viga
+  numero: 1400
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: lucilene-rodrigues-de-souza
+  nome_completo: Lucilene Rodrigues De Souza
+  nome_urna: Lene Souza
+  numero: 7790
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: luis-carlos-rodrigues-de-moura
+  nome_completo: Luis Carlos Rodrigues De Moura
+  nome_urna: Luis Carlos Velho
+  numero: 1363
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: luiz-andrade-de-sousa
+  nome_completo: Luiz Andrade De Sousa
+  nome_urna: Luiz Andrade
+  numero: 1800
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: luiz-andre-souto-passos
+  nome_completo: Luiz Andre Souto Passos
+  nome_urna: Andre Passos
+  numero: 2022
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: luiz-de-souza-borges-neto
+  nome_completo: Luiz De Souza Borges Neto
+  nome_urna: Luiz Borges
+  numero: 1377
+  partido: PT
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: madalena-de-souza-silva
+  nome_completo: Madalena De Souza Silva
+  nome_urna: Madalena Silva
+  numero: 1212
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: manoel-da-paixao-tavares-da-graca
+  nome_completo: Manoel Da Paixao Tavares Da Graca
+  nome_urna: Paixão
+  numero: 4023
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: marciana-silva-de-oliveira
+  nome_completo: Marciana Silva De Oliveira
+  nome_urna: Marcia Silva
+  numero: 4008
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-auxiliadora-oliveira-de-castro
+  nome_completo: Maria Auxiliadora Oliveira De Castro
+  nome_urna: Auxiliadora Castro
+  numero: 1616
+  partido: PSTU
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-eunice-torres-do-nascimento
+  nome_completo: Maria Eunice Torres Do Nascimento
+  nome_urna: Dra. Eunice Nascimento
+  numero: 7077
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-odimar-da-silva-guimaraes
+  nome_completo: Maria Odimar Da Silva Guimaraes
+  nome_urna: Odimar Guimarães
+  numero: 1813
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-osvaldina-gato-castro
+  nome_completo: Maria Osvaldina Gato Castro
+  nome_urna: Maria Gato
+  numero: 3033
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: marilia-freire-da-silva
+  nome_completo: Marilia Freire Da Silva
+  nome_urna: Marília Freire
+  numero: 6565
+  partido: PCDOB
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: masami-miki
+  nome_completo: Masami Miki
+  nome_urna: Massami Miki
+  numero: 1024
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: mauro-teixeira-pires-junior
+  nome_completo: Mauro Teixeira Pires Junior
+  nome_urna: Mauro Teixeira
+  numero: 2066
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: melyssa-geber-correa-reboucas-de-lima
+  nome_completo: Melyssa Geber Correa Reboucas De Lima
+  nome_urna: Melyssa Geber
+  numero: 4040
+  partido: PSB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: mickaelle-sevalho-neves-barbosa
+  nome_completo: Mickaelle Sevalho Neves Barbosa
+  nome_urna: Micka Sevalho
+  numero: 2244
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: miguel-carratte-neto
+  nome_completo: Miguel Carratte Neto
+  nome_urna: Dr. Miguel Carratte
+  numero: 4455
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: natalia-demes-bezerra-tavares-pereira
+  nome_completo: Natalia Demes Bezerra Tavares Pereira
+  nome_urna: Natalia
+  numero: 5055
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: nathalia-rachel-silva-nascimento
+  nome_completo: Nathalia Rachel Silva Nascimento
+  nome_urna: Nath Nascimento
+  numero: 5544
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: nathan-macena-de-souza
+  nome_completo: Nathan Macena De Souza
+  nome_urna: Nathan Macena
+  numero: 1522
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: oder-coelho-aurelio
+  nome_completo: Oder Coelho Aurélio
+  nome_urna: Oder Aurélio
+  numero: 3077
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: pablo-oliva-souza
+  nome_completo: Pablo Oliva Souza
+  nome_urna: Delegado Pablo
+  numero: 2255
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: patricia-barroso-veras
+  nome_completo: Patricia Barroso Veras
+  nome_urna: Patrícia Barroso
+  numero: 1888
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: patricia-del-pilar-suarez-sicchar
+  nome_completo: Patricia Del Pilar Suarez Sicchar
+  nome_urna: Dra. Patricia Sicchar
+  numero: 2259
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: patricia-rakelly-benzaquem-da-cruz
+  nome_completo: Patricia Rakelly Benzaquem Da Cruz
+  nome_urna: Patricia Benzaquem
+  numero: 1477
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: pauderney-tomaz-avelino
+  nome_completo: Pauderney Tomaz Avelino
+  nome_urna: Pauderney
+  numero: 5522
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: paula-jussara-dos-santos-portela
+  nome_completo: Paula Jussara Dos Santos Portela
+  nome_urna: Paula Portela
+  numero: 2200
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: paulo-arthur-braga-ruiz
+  nome_completo: Paulo Arthur Braga Ruiz
+  nome_urna: Paulo Arthur
+  numero: 3010
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: radyr-gomes-de-oliveira-junior
+  nome_completo: Radyr Gomes De Oliveira Junior
+  nome_urna: Radyr Junior
+  numero: 7025
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: rafael-amaral-da-costa-e-silva
+  nome_completo: Rafael Amaral Da Costa E Silva
+  nome_urna: Delegado Costa E Silva
+  numero: 2277
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: raimundo-nonato-da-conceicao-rodrigues
+  nome_completo: Raimundo Nonato Da Conceição Rodrigues
+  nome_urna: Nonato Chegado
+  numero: 2711
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: raione-cabral-queiroz
+  nome_completo: Raione Cabral Queiroz
+  nome_urna: Dr Raione Cabral
+  numero: 7010
+  partido: AVANTE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: renata-costa-nascimento
+  nome_completo: Renata Costa Nascimento
+  nome_urna: Renata Kokama
+  numero: 1234
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: richard-santos-stone
+  nome_completo: Richard Santos Stone
+  nome_urna: Richard Stone
+  numero: 3067
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: rita-do-socorro-cristo-dos-santos
+  nome_completo: Rita Do Socorro Cristo Dos Santos
+  nome_urna: Rita Da Enfermagem
+  numero: 2015
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: roberio-ramires-dos-santos
+  nome_completo: Roberio Ramires Dos Santos
+  nome_urna: Robério Kambeba
+  numero: 1255
+  partido: PDT
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ronaldo-gonzaga-lavareda
+  nome_completo: Ronaldo Gonzaga Lavareda
+  nome_urna: Gonza
+  numero: 2757
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: roque-lane-wilkens-marinho
+  nome_completo: Roque Lane Wilkens Marinho
+  nome_urna: Professor Roque Lane
+  numero: 2727
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ruth-da-costa-conceicao-da-rocha
+  nome_completo: Ruth Da Costa Conceição Da Rocha
+  nome_urna: Pastora Ruth Costa
+  numero: 2012
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: saullo-velame-vianna
+  nome_completo: Saullo Velame Vianna
+  nome_urna: Saullo Vianna
+  numero: 1555
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: sebastiao-efigenio-rodrigues-carvalho
+  nome_completo: Sebastião Efigênio Rodrigues Carvalho
+  nome_urna: Efigênio Carvalho
+  numero: 3022
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: sidney-ricardo-de-oliveira-leite
+  nome_completo: Sidney Ricardo De Oliveira Leite
+  nome_urna: Sidney Leite
+  numero: 5555
+  partido: PSD
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: silas-camara
+  nome_completo: Silas Camara
+  nome_urna: Silas Câmara
+  numero: 1010
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: simon-de-souza-guimaraes-bessa
+  nome_completo: Simon De Souza Guimaraes Bessa
+  nome_urna: Saimon Bessa
+  numero: 4433
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: soraya-gomes-cohen
+  nome_completo: Soraya Gomes Cohen
+  nome_urna: Soraya Cohen
+  numero: 3000
+  partido: NOVO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: tadeu-de-souza-silva
+  nome_completo: Tadeu De Souza Silva
+  nome_urna: Tadeu De Souza
+  numero: 1111
+  partido: PP
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: thaysa-lippy-de-souza-florencio
+  nome_completo: Thaysa Lippy De Souza Florencio
+  nome_urna: Thaysa Lippy
+  numero: 4400
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: therezinha-ruiz-de-oliveira
+  nome_completo: Therezinha Ruiz De Oliveira
+  nome_urna: Professora Therezinha Ruiz
+  numero: 4411
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ubirajara-rosses-do-nascimento-junior
+  nome_completo: Ubirajara Rosses Do Nascimento Junior
+  nome_urna: Coronel Rosses
+  numero: 2233
+  partido: PL
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: valdenir-costa-soares
+  nome_completo: Valdenir Costa Soares
+  nome_urna: Valdeco Tattoo
+  numero: 5033
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: vanderlecia-ortega-dos-santos
+  nome_completo: Vanderlécia Ortega Dos Santos
+  nome_urna: Vanda Witoto
+  numero: 1513
+  partido: MDB
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: vanete-cezario-carvalho
+  nome_completo: Vanete Cezario Carvalho
+  nome_urna: Vanete Carvalho
+  numero: 2026
+  partido: PODE
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: viviane-pereira-da-silva-lago-lima
+  nome_completo: Viviane Pereira Da Silva Lago Lima
+  nome_urna: Viviane Lima
+  numero: 1055
+  partido: REPUBLICANOS
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: walzenir-de-oliveira-falcao
+  nome_completo: Walzenir De Oliveira Falcao
+  nome_urna: Walzenir Falcão
+  numero: 4456
+  partido: UNIÃO
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: welton-yudi-oda
+  nome_completo: Welton Yudi Oda
+  nome_urna: Professor Welton Oda
+  numero: 5067
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: wick-ryan-barbosa-bitencourt
+  nome_completo: Wick Ryan Barbosa Bitencourt
+  nome_urna: Wick Ryan
+  numero: 1444
+  partido: MISSÃO
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: will-robson-fontes-goiabeira
+  nome_completo: Will Robson Fontes Goiabeira
+  nome_urna: Goiabeira
+  numero: 7712
+  partido: SOLIDARIEDADE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: alex-sousa-de-sa
+  nome_completo: Álex Sousa De Sá
+  nome_urna: Álex Sousa
+  numero: 5050
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

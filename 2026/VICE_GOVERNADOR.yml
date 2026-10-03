@@ -1,0 +1,67 @@
+ano: 2026
+cargo: Vice-Governador
+uf: AM
+candidatos:
+- id: alessandra-campelo-da-silva
+  nome_completo: Alessandra Campelo Da Silva
+  nome_urna: Alessandra Campelo
+  numero: 55
+  partido: PSD
+  coligacao: FORÇA AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: igor-felipe-oliveira-bezerra
+  nome_completo: Igor Felipe Oliveira Bezerra
+  nome_urna: Professor Igor Oliveira
+  numero: 33
+  partido: MOBILIZA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: juliana-frota-reboucas
+  nome_completo: Juliana Frota Rebouças
+  nome_urna: Juliana Frota
+  numero: 16
+  partido: PSTU
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: leonardo-balbi-da-silva
+  nome_completo: Leonardo Balbi Da Silva
+  nome_urna: Leo Balbi
+  numero: 18
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: mario-anibal-gomes-da-costa-junior
+  nome_completo: Mario Anibal Gomes Da Costa Junior
+  nome_urna: Coronel Anibal
+  numero: 22
+  partido: PL
+  coligacao: MUDAR É URGENTE
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: serafim-fernandes-correa
+  nome_completo: Serafim Fernandes Correa
+  nome_urna: Serafim
+  numero: 44
+  partido: PSB
+  coligacao: UNIÃO PELO AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: shadia-hussami-hauache-fraxe
+  nome_completo: Shadia Hussami Hauache Fraxe
+  nome_urna: Dra. Shádia
+  numero: 70
+  partido: AVANTE
+  coligacao: PRA CIMA AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

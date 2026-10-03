@@ -1,4 +1,85 @@
 ano: 2026
 cargo: Senador
-uf: null
-candidatos: []
+uf: AM
+candidatos:
+- id: alberto-barros-cavalcante-neto
+  nome_completo: Alberto Barros Cavalcante Neto
+  nome_urna: Capitão Alberto Neto
+  numero: 222
+  partido: PL
+  coligacao: MUDAR É URGENTE
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: carlos-eduardo-de-souza-braga
+  nome_completo: Carlos Eduardo De Souza Braga
+  nome_urna: Eduardo Braga
+  numero: 155
+  partido: MDB
+  coligacao: FORÇA AMAZONAS
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: dailson-de-queiroz-correa
+  nome_completo: Dailson De Queiroz Corrêa
+  nome_urna: Dailson Corrêa
+  numero: 277
+  partido: DC
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: francisco-plinio-valerio-tomaz
+  nome_completo: Francisco Plinio Valerio Tomaz
+  nome_urna: Plinio Valério
+  numero: 455
+  partido: PSDB
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: true
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: ismael-franklin-goncalves
+  nome_completo: Ismael Franklin Goncalves
+  nome_urna: Ismael Munduruku
+  numero: 181
+  partido: REDE
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: jose-evandro-de-oliveira
+  nome_completo: José Evandro De Oliveira
+  nome_urna: Evandro De Oliveira
+  numero: 161
+  partido: PSTU
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: maria-evany-do-nascimento
+  nome_completo: Maria Evany Do Nascimento
+  nome_urna: Professora Evany
+  numero: 500
+  partido: PSOL
+  coligacao: FEDERAÇÃO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: milton-rogerio-moreira-pinto
+  nome_completo: Milton Rogério Moreira Pinto
+  nome_urna: Xuxa Do Amazonas
+  numero: 333
+  partido: MOBILIZA
+  coligacao: PARTIDO ISOLADO
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- id: wilson-miranda-lima
+  nome_completo: Wilson Miranda Lima
+  nome_urna: Wilson Lima
+  numero: 444
+  partido: UNIÃO
+  coligacao: UNIÃO PELO AMAZONAS
+  eh_reeleicao: false
+  situacao_candidatura: null
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
