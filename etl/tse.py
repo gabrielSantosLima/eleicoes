@@ -40,6 +40,19 @@ TERMO_PADRAO = 4
 # Cargos que não representam disputa direta ao cargo (chapas de suplentes).
 IGNORAR = ("SUPLENTE",)
 
+# Campos gravados em <CARGO>.yml (contrato de data/schema.json).
+CAMPOS_CARGO = (
+    "id",
+    "nome_completo",
+    "nome_urna",
+    "numero",
+    "partido",
+    "coligacao",
+    "eh_reeleicao",
+    "situacao_candidatura",
+    "fonte",
+)
+
 
 def baixar(url: str, destino: str) -> str:
     os.makedirs(CACHE, exist_ok=True)
@@ -146,6 +159,9 @@ def coletar(
                 "eh_reeleicao": eh_reeleicao,
                 "situacao_candidatura": None,
                 "fonte": url,
+                "sq": sq,
+                "grau_instrucao": limpar(r["DS_GRAU_INSTRUCAO"]),
+                "ocupacao": limpar(r["DS_OCUPACAO"]),
             }
         )
     return por_cargo, nacional
@@ -160,7 +176,7 @@ def gravar_cargo(
         "ano": ano,
         "cargo": nome_cargo(cargo),
         "uf": None if nacional else uf,
-        "candidatos": candidatos,
+        "candidatos": [{k: c[k] for k in CAMPOS_CARGO} for c in candidatos],
     }
     destino = os.path.join(ROOT, str(ano), arquivo)
     os.makedirs(os.path.dirname(destino), exist_ok=True)

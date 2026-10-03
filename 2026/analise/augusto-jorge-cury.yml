@@ -1,0 +1,40 @@
+id: augusto-jorge-cury
+nome_completo: Augusto Jorge Cury
+nome_urna: Escritor Augusto Cury
+numero: 70
+partido: AVANTE
+coligacao: BRASIL DOS NOSSOS SONHOS
+grau_instrucao: SUPERIOR COMPLETO
+ocupacao: ESCRITOR E CRÍTICO
+formacao_academica:
+- curso: Medicina
+  instituicao: Faculdade de Medicina de São José do Rio Preto (Famerp)
+  conclusao: 1984
+dias_trabalhados_ultimos_2_anos: null
+eh_reeleicao: false
+noticias:
+- titulo: Saiba qual é o número de Augusto Cury, candidato do Avante à Presidência
+  veiculo: CNN Brasil
+  data: '2026-10-01'
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQemdhQ2YxdVhMRXN5NnlfU1JSb0k1Qkl3Z1FDY01XX2JoT18xcU5NQzdaYlU5aWVuMFZrNm9yWFhLb1Q3ZTFseTgxWGdwaUd2ODItYXdLVmNqRVg0U3ZJWDBRekYxYWM2cnlmN0RDVmd3a0hFNFNfSENnUVpuNFVaVVdJTFdjY3Rvbk9YOVBscW8xQU5Vb1V4eUVTN1NRT3lObjQ0V05zbUwweUs5eTlF?oc=5
+- titulo: Cury chegou a 3º lugar, mas não sustentou ganho
+  veiculo: Valor Econômico
+  data: '2026-10-02'
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGhycm5FQlpFUDEwamxET0o1V3N3TkNoY1ljWnlUdnlkRnRxVFpxeFluaHczS0pGOE9qczRpc2Zrb1UyVWotakZWeVhDYjFtN2Z5T0Rrb1l6cml6dUtXZWFVQVVZbHktOUwxLThqTmxURHRUSW0weGFEMXFCd2JVSmtxc0J3YVRCZUNONlhBRTFsYlYwVUxJZlg2bnlhZXJOOVFlTFRQWmNIRU42aml5R3M4Y1c0S0dhRVHSAcgBQVVfeXFMTmNJWDQ3Qmt6X1VvUGJySS1zQ1B5bHgtNVUweGlpYm54UV9ialdYNWhoODB1QUVBaHVuaXRNZHNBWG9ReUxvTndlcWxicGo2OEdFVjhZQjhnU2d2NDE5eDItcGlPMWpxcHQzdC1jblo2dTB2cnJCRWowSjlfZDRFSW9WRG13WUMzbTdyTE1rY3pXdVBWdEFEenpmVTFRbUNqMWtLdkdfN1NfQUNBNGFmeDBnMEtGT3d2cURkNXZjME5YdHVXRDc3Zl8?oc=5
+- titulo: Quem é Augusto Cury, escritor best-seller que tenta ocupar a terceira via nas eleições de 2026
+  veiculo: Folha de S.Paulo
+  data: '2026-10-01'
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRVNEMzA0XzVkWWZFVV9fdTM3cURFSjZhcGx4LW9DaGxSajF3Zm9JTUtxS1Z1XzNSM1FZOFBzS0pMZDZ5WGJKVW5wdHBfTFZHR3p3NF9VY2drRWN1dDc0anRyRkd1elNCSXk3MlY2RUl2Vm1KWllvOXR1OGVLZk5fTExTdElSZHMwM2NnYmV4NVgwM01mZ0VsWU9lNW1ZamFZTi1WdGxTMlB4VWNVai1tQlBVT2JXZHlLS2Z3RWpaNEpOa0lXejZOV1dMT0RqbGtjS2lDdXE5cw?oc=5
+- titulo: Com defesa de mudanças no STF e adoção de IA no serviço público, Augusto Cury tenta ser terceira via
+  veiculo: O TEMPO
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPekZsZks1U2V3UGFBTXJETzNqZndaQTFVT1RFWTk1d19oSnhBRi1pd2x1eHhJZm9fcTFqSVI2bkNWaHNhTVZ5bHpoSkNSSkxyTGxubFZnZ09QSFVPdTBWTE1RUUtXelZqaXhQNHpUdWJqV0tGdWxCT2E2dVU3amdYUEdVWUhJTmlwMnZnWHRMXzNVbkxVUGFPdFk0a1ZLS3R5Vjk5ZnJfdFk3SGRuNnYzSkZhYmtCSDJxdHNabHRpSnRTM1NKcUpBYlZyaDlUbW9zbDJRNWp3?oc=5
+- titulo: 'CNT/MDA: Em 1º turno, Lula tem 47,8% dos votos válidos, Flávio soma 42,1% e Cury, 3,6%'
+  veiculo: Estadão
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3ZQX3dYdmpsM1dCN1lESHZUVEpYUEJhRXY3Wk1vYmJ2cTlmZTd0Tm1Mc1JudWlRcmVEeDF1eFFNRXV4U1VRdzd5ZWk0Zm5PWF9Rcnc5akdVYTBpSWZ0SE5famlPYUxzYzJ5a3R0NXltRWlQNlNhMlNkYVZCZmRfNExtNzA4Vl9ENkFjVlNsaHBfbDZ2d2k5V19vXzh2b2k3OGZzLWFoWVJxUkgxNHFMT2VzbDJVblRfQlFwdNIBwgFBVV95cUxOM0wyMTZIWjh2dEo0VEVLd0IyckZlNklZZjVTS0E3VWt3ekdOS2RwdXB6LWJ2RGRvN3p2aURhV0poRlh1Zm5lLTE4aTQ5OG5rTmV0QzZFTzRpSVh5dHN4cjNMOXItOEh3Z2JKbi1lZVVMRS14MnFaNElwSkFzMWxQdENTOVBvZVBJTzFRT3VrYW8wYnJSS3E1V0tHMEpJcUVVZlpoaUlzcDh1bkVwZE95c0h4bmp6bEtnQVpndkZjTzlJZw?oc=5
+projetos_aprovados: []
+fontes:
+- https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- https://pt.wikipedia.org/wiki/Augusto_Cury
+atualizado_em: '2026-10-03'

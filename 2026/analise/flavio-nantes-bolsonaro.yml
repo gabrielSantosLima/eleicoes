@@ -1,0 +1,46 @@
+id: flavio-nantes-bolsonaro
+nome_completo: Flavio Nantes Bolsonaro
+nome_urna: Flavio Bolsonaro
+numero: 22
+partido: PL
+coligacao: PARTIDO ISOLADO
+grau_instrucao: SUPERIOR COMPLETO
+ocupacao: SENADOR
+formacao_academica:
+- curso: Direito
+  instituicao: Universidade Candido Mendes
+  conclusao: null
+- curso: Especialização em Empreendedorismo
+  instituicao: Fundação Getulio Vargas
+  conclusao: null
+- curso: Especialização em Políticas Públicas
+  instituicao: IUPERJ
+  conclusao: null
+dias_trabalhados_ultimos_2_anos: null
+eh_reeleicao: false
+noticias:
+- titulo: Maior região eleitoral do país, Sudeste tem disputa apertada entre Lula e Flávio Bolsonaro
+  veiculo: g1.globo.com
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbEl6X2FGY1BVRWZwWlNFeEdlTGFfNThDZkxOVDFzNU1SRG9iUDdVRGctaEE5T1FoZ0gwVVJ0YkE0MzROdlBINTR6bnFScXNZWnRaVkVFMURNOEczM253MHZWYnMtSE5QTmU1cXlaTk9YYTU5Q1dQVVc0UUlyLUFoVmxDbWlxUFduRXR2TkRhYkN3SHNHS1NfMy1YN0dMbEJicF8tWDBuRlpsTkVuSVRhNTRqd1Ztb0UxQ1hoTXZwZDU2bFdxTWpHYXZ4RXpldjgycTVqNEtua0Rjd05QNi1nQ0hsWFQ2MkZ1NnlLaUtLdVN2Y2JWTDllTDM0X3VfUl8yOGQ4UHp6N1rSAZcCQVVfeXFMTlJnd1dHY3lpUUhhRUlBZzFHdklWU19UWFdSRjhFZEhvWkJ4QkNON25TYkV0Vlo0eDNjbG01NXRTdFhOcnB2MnpmcDBzU0dscGc3ZUtXNnYtNUZiTTh3YUFLdUJxdUsyV2FxbzljbDMwVUhfa2h3TmkwUDZrNmd0NHVIT0h1SDE3UThlV0VSU1NWamR3ZjZ6UVN0NGtYTzFDZm84U0FUREdOeG00RHBKc3JmU20zMnFOeFAzQXRrS1c2aGpsekx3ZlN5NUdKLTlwQ0Y4VUw0MXdxVUotX2JTYTRMb2FfcC1IQTNDTXJDMWFwR0x2TmV1MzV5alBhckV6Q2NoYzBzRmpYTUhUU2otTEdqbXNwb0ZB?oc=5
+- titulo: 'Sakamoto: Tarcísio estaria à frente de Flávio, que carrega mais ''BOs'''
+  veiculo: UOL Notícias
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUXRBVGFVeU9OcXBsRnFndHhlVUd4dUtiZ2tQX210ODJFeDNOSU04cjZoWmNhaFNmckF3QXVxc2hxSjUxbEVIMEJJa3JOZFNMRVYtTE5hV18yZFp1QlQ4OXZHd3huOXo5Yzd4N2lwRkVVQU1BVVNLZGVYdTFyb3NCSFJfSGxPT3plUk5LUDNjcXR5Snk4NU1Oa0NpM1NXaHBPZllQZGJXU3lJS0w2LVVHaVBlRmFqaGQzUU42c1BlaEtVejFKQnEwdTNFY3MtbzIzNkRNQjBzdW41ejJkaXhtQ213?oc=5
+- titulo: Flávio Bolsonaro inicia último ato de rua antes do 1º turno ao lado de aliados no Rio
+  veiculo: InfoMoney
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc0NsZ2FETUdYc2RwVl82bUNuUk1RZkZpZkptWk9ZUzJYbjBmU2tIdVBfbmRubVp4ZHk2ZVFnbVhPcldpQktTV0RkRlpwdWRlMExPQW9LV183aWJabVNaT1lxVFRfNEVVbnhiZlVjX3RIR3FwclV1WURvRzBvWWxSQnhubGJMOVZwOUlWUGQyZVBIMWJlSXRsckhENFlJc3RMMTdTTWE5ZmhKVjdXT2tmeUk3VUItaXp5b1JPdlhXZDVpUdIBxwFBVV95cUxOcU15YXAxaDhIalNHS2NoSlBKNEtva3lwM19LeVFzMnZuNWN1cmFPX0lXWHlZTG52MTJXVHg1cXFQZjVlSFdoS1dvd0x0MFR6TThWaERJVW1yUXFjd0xoS0hGQ1hQMW14MUVkR3NDcnFWWlVsSlRUOWR4YW9QWWV3Q3FWREVITDBlSTVWeWZjNHVGbV9ZSTg0NWx2NlIxaUpLSDhYbm8xMm01WlhjY01Odi03cVc4NmFwOFBVaUozUFRhdHk1S2dN?oc=5
+- titulo: Flávio termina 1º turno sem atos de rua ao lado de Michelle Bolsonaro
+  veiculo: CNN Brasil
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNR09QdklUU293T2ZTMUNYUEhCZW5UTVRLLVR4bXR6SGx5aEpJcVN3RlBfdTU2aHYwV3czeEtBQjVLblZIOXU1em1rdVc0QUxDaWctSU9wMDRnRFlXVnRGcXVBMlEzT0ZTMzJzWG9SU3hhakhoOVFsVG0yQ0RtSUpGeHB0bHA0RWxvdnYzMGRXX2xxVHVKRExLck8wUkVfdDlSM256ZWJCRUxDbWJP?oc=5
+- titulo: Por que a Assembleia de Deus Ministério Madureira rejeita Flávio Bolsonaro
+  veiculo: Terra
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaUU3UmJTaGxLUFU3b1FSOXlOb3pBVFRGdlhCdlNZTmo5ZVNsYUVHRV9LbkpMaXFQVEtBZDZiQ1Fhc3oxd0FLckpsRGR6N3dMX1JRenhTYnM1WWw4aWtpWXZsWnVlOC0tYk9NUHFfSFBEVU96dEktT0tSOUVpWF9aQzAycFppMHVTVWxLQkMtYk4wZDg0bVhGMllnYldlT0dfQTdrdkJKVUluOXdYN01sel9jNmlBc3g5T3hJanBYbEdEekhpd1BRVDJDekVvUHotQ2lsRkVFQmJvUndqOWdYcG5xUnB3cFUtd0NvRGFIajZrVWfSAWhBVV95cUxOcjRRazZ0NEFBbkNSYW9wRlFQYW10bU5NOGIxTVk4c3J3cFlHNHJlY25zM0tBWWRkdjdPX3JZaC1rUG1vOVJkazltSG9NUFJQSU1NZXlkVmM2cEpOSWVHc1ItYmxwdkNWWg?oc=5
+projetos_aprovados: []
+fontes:
+- https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro
+atualizado_em: '2026-10-03'

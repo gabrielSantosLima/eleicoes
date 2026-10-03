@@ -1,0 +1,43 @@
+id: edmilson-silva-costa
+nome_completo: Edmilson Silva Costa
+nome_urna: Edmilson Costa
+numero: 21
+partido: PCB
+coligacao: PARTIDO ISOLADO
+grau_instrucao: SUPERIOR COMPLETO
+ocupacao: APOSENTADO (EXCETO SERVIDOR PÚBLICO)
+formacao_academica:
+- curso: Comunicação Social
+  instituicao: Universidade Federal do Maranhão (UFMA)
+  conclusao: 1974
+- curso: Doutorado em Economia
+  instituicao: Universidade Estadual de Campinas (Unicamp)
+  conclusao: null
+dias_trabalhados_ultimos_2_anos: null
+eh_reeleicao: false
+noticias:
+- titulo: 'Eleições 2026: Ficha de Edmilson Costa (PCB)'
+  veiculo: Folha de S.Paulo
+  data: '2026-09-29'
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNZkplRVh3eWlPWmNMSU1PQldBVzFkR0tKckhSSlRJYS1YR0NNcHdiRktlaGpzVWwyejl6UEVKVktkbW8wcExGOW5CeXh2SU05a3lGeGRobEpLZVlJZ3NGcnVfa2M0RVdEMWp6VmxxbWZWS1FYUVB3a0NpeVk0WVlZNV95S3N0RnpaZnFKQTl6eEpOYVdOandrTFJaeUhhM1BENE9LQzFzTUtpcjZh?oc=5
+- titulo: Edmilson Costa, candidato do PCB à Presidência, faz campanha no Distrito Federal
+  veiculo: g1.globo.com
+  data: '2026-10-01'
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ0pYcEpPQ3BTWUJYbHQ1WkhJSWNZdEJ2OVk2eUlyUU1DbFV6T1R3VkxkaW5KbVJBVkp0MjdRaHVxS3NheU16UXhtR0VjS0pjWkZMTlJfWmR2cF9qRWFTVmNsWEFjOE42R2gxMjc1aEFLMm91OVF6ekZJSDQ3LUNFQktKZEZhSjYzdkFDbXdOay00c29kNkdscWVJS1pHYW1lQ1puZlhRYnFJTUk3UzFiOWlLekJiRUlJWUxabjV3Z3ZZX0U4Z2I1VkVDcGhINGxQNjdaSmJ6Y9IB5gFBVV95cUxNb0xJXzlpeG9NeGMtTnhoRm9meHFnSjFiQ0ZfdXM4VDFDVVZnYXZSdjdBR3JEOFQyVmNXTzJWSFZzN0FiTENJZUhfYnctM3gyWFg5M0J0WXNqZTAyWHNYRm9EMzgzSll3aV9BQjhwXzRqdllZTmJfVU5tb0xOQ3Jrd0ZCaU9hTjlHSmwzaUJqekwyTmtsTzJJSGZKMUN1R0w0R1lhZmRvZ2xrSEgxb1Nac2FhX3QwTHdSaGlWZktFVFA2WU9kSnFDQkdTdmlLNG9jblNYMTVrS3ZMUkNJM3UxUWtlZTFHQQ?oc=5
+- titulo: Quem é Edmilson Costa, candidato à Presidência pelo PCB
+  veiculo: CNN Brasil
+  data: '2026-09-14'
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQX3Bpb2VSUThUMlM5VkxjQ3YtWm1sUjRORFZFbGJFYXBoenl0MjMwdVhsZVFuQ3o4emVZV3ZuVGNoOW92a2NmM05JM3B6UlZvTldSTUxTcmc0dENadUpGYlRYTDhCbzBhQXRlU3dXdjdYWkZ4RGszY0JqZVVndjEyaUk2bENfX3BWN09pUjJ4S0kxczBRWXg2RQ?oc=5
+- titulo: 'Saúde e educação 100% estatais, extinção do Senado e fim do vestibular: o que propõe Edmilson Costa'
+  veiculo: O TEMPO
+  data: '2026-10-03'
+  url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWGVjSkZ2R1JCZ3c1a25fTHVrT1JXR1c2RnA0cGlVV201ZHlKLUdQdU5qcDFEdTFJbjZzY0hucmJHbHF2c25EanRWUDJJSUJsUEVPekRtUTRaSWp5cG1WTndjOFY3QnZFQ09JSlEzUHpwZTE4elBnTEROT3piMl9RelpvWk1weS11djBySFhQTU9mVDdvNUxxcDdZZ1FPQlZma2F6VnVHbC1XVFQyT1YwRndGSmNUVVVLdVpkcDY4ck1nTkZaODhJeUpRVmFHbHdob0tpRGRQQk5INHRKVUpWS3ZFOEFQVmJjRV9CS0V0OA?oc=5
+- titulo: Edmilson Costa defende jornada de 30 horas e fim da escala 6x1
+  veiculo: Agência Brasil
+  data: '2026-09-17'
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxQTGJBN0g2akdCNHc0aUZiTVpEWGdRdlhzdE1NVUY5bXc4RGFFdm80QzZVZUltc2FrdF96M0NGV2ZrODJKTkFwSllSWkUwcVZhODU1S2RmUFFsRG1rZ0ZPMGUxMjdnTjVPQXdnSzZLbTlzMTg5Y19Qal9kSXo2T3pvcGRnQnRNcklnQV9VeWNCbkw0U0RQQW1oMWhxTGRabFBocjdreERuTS1pZEN3WXFWUTdVNnJ3V2VnNlhfZQ?oc=5
+projetos_aprovados: []
+fontes:
+- https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- https://pt.wikipedia.org/wiki/Edmilson_Costa
+atualizado_em: '2026-10-03'

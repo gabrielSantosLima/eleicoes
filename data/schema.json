@@ -139,6 +139,8 @@
         "numero": { "type": ["integer", "null"] },
         "partido": { "type": "string" },
         "coligacao": { "type": ["string", "null"] },
+        "grau_instrucao": { "type": ["string", "null"] },
+        "ocupacao": { "type": ["string", "null"] },
         "formacao_academica": {
           "type": "array",
           "items": { "$ref": "#/$defs/formacao" }
