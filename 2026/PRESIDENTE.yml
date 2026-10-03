@@ -10,7 +10,7 @@ candidatos:
   coligacao: BRASIL DOS NOSSOS SONHOS
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/8/88/Augusto_Cury%2C_escritor_%2828339139296%29_%28cropped%29.jpg
+  foto: assets/photos/augusto-jorge-cury.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: clariana-zacarkim-barao
   nome_completo: Clariana Zacarkim Barao
@@ -20,7 +20,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/4/45/Clariana_Zacarkim_Bar%C3%A3o.jpg
+  foto: assets/photos/clariana-zacarkim-barao.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edmilson-silva-costa
   nome_completo: Edmilson Silva Costa
@@ -30,7 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/3/3d/Edmilson_Costa_-_PCB.jpg
+  foto: assets/photos/edmilson-silva-costa.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: flavio-nantes-bolsonaro
   nome_completo: Flavio Nantes Bolsonaro
@@ -40,7 +40,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg
+  foto: assets/photos/flavio-nantes-bolsonaro.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: hertz-da-conceicao-dias
   nome_completo: Hertz Da Conceicao Dias
@@ -50,7 +50,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/2/25/Hertz_Dias_PSTU.jpg
+  foto: assets/photos/hertz-da-conceicao-dias.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leonardo-alves-de-araujo-2
   nome_completo: Leonardo Alves De Araujo
@@ -60,7 +60,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/0/0a/Leonardo_Avalanche.jpg
+  foto: assets/photos/leonardo-alves-de-araujo-2.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luiz-inacio-lula-da-silva
   nome_completo: Luiz Inácio Lula Da Silva
@@ -70,7 +70,7 @@ candidatos:
   coligacao: BRASIL PRONTO PRA MAIS
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg
+  foto: assets/photos/luiz-inacio-lula-da-silva.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: pablo-henrique-costa-marcal
   nome_completo: Pablo Henrique Costa Marcal
@@ -80,7 +80,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/b/b8/Pablo_Mar%C3%A7al_entrevista_Kim_Kataguiri_%28cropped%29.jpg
+  foto: assets/photos/pablo-henrique-costa-marcal.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: renan-antonio-ferreira-dos-santos
   nome_completo: Renan Antonio Ferreira Dos Santos
@@ -90,7 +90,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/b/b9/Renan_Santos_-_Congresso_do_Partido_Miss%C3%A3o%2C_2026_%28cropped_2%29.jpg
+  foto: assets/photos/renan-antonio-ferreira-dos-santos.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: romeu-zema-neto
   nome_completo: Romeu Zema Neto
@@ -100,7 +100,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/c/cc/Romeu_Zema_2025_%28cropped%29.jpg
+  foto: assets/photos/romeu-zema-neto.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ronaldo-ramos-caiado
   nome_completo: Ronaldo Ramos Caiado
@@ -110,7 +110,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/f/f5/Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28ombros%29.jpg
+  foto: assets/photos/ronaldo-ramos-caiado.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rui-costa-pimenta
   nome_completo: Rui Costa Pimenta
@@ -120,7 +120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/2/27/Rui_Costa_Pimenta_Close.jpg
+  foto: assets/photos/rui-costa-pimenta.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: samara-martins-da-silva-feitosa
   nome_completo: Samara Martins Da Silva Feitosa
@@ -130,7 +130,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/e/e0/Samara_Paran%C3%A1_%28cropped%29.png
+  foto: assets/photos/samara-martins-da-silva-feitosa.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wilson-grassi-junior
   nome_completo: Wilson Grassi Junior
@@ -140,5 +140,5 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/7/74/Wilson_Grassi_J%C3%BAnior_2024.jpg
+  foto: assets/photos/wilson-grassi-junior.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

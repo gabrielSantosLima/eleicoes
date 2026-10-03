@@ -13,29 +13,103 @@ formacao_academica:
 dias_trabalhados_ultimos_2_anos: null
 eh_reeleicao: false
 noticias:
-- titulo: Saiba qual é o número de Augusto Cury, candidato do Avante à Presidência
-  veiculo: CNN Brasil
-  data: '2026-10-01'
-  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQemdhQ2YxdVhMRXN5NnlfU1JSb0k1Qkl3Z1FDY01XX2JoT18xcU5NQzdaYlU5aWVuMFZrNm9yWFhLb1Q3ZTFseTgxWGdwaUd2ODItYXdLVmNqRVg0U3ZJWDBRekYxYWM2cnlmN0RDVmd3a0hFNFNfSENnUVpuNFVaVVdJTFdjY3Rvbk9YOVBscW8xQU5Vb1V4eUVTN1NRT3lObjQ0V05zbUwweUs5eTlF?oc=5
-- titulo: Cury chegou a 3º lugar, mas não sustentou ganho
-  veiculo: Valor Econômico
-  data: '2026-10-02'
-  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGhycm5FQlpFUDEwamxET0o1V3N3TkNoY1ljWnlUdnlkRnRxVFpxeFluaHczS0pGOE9qczRpc2Zrb1UyVWotakZWeVhDYjFtN2Z5T0Rrb1l6cml6dUtXZWFVQVVZbHktOUwxLThqTmxURHRUSW0weGFEMXFCd2JVSmtxc0J3YVRCZUNONlhBRTFsYlYwVUxJZlg2bnlhZXJOOVFlTFRQWmNIRU42aml5R3M4Y1c0S0dhRVHSAcgBQVVfeXFMTmNJWDQ3Qmt6X1VvUGJySS1zQ1B5bHgtNVUweGlpYm54UV9ialdYNWhoODB1QUVBaHVuaXRNZHNBWG9ReUxvTndlcWxicGo2OEdFVjhZQjhnU2d2NDE5eDItcGlPMWpxcHQzdC1jblo2dTB2cnJCRWowSjlfZDRFSW9WRG13WUMzbTdyTE1rY3pXdVBWdEFEenpmVTFRbUNqMWtLdkdfN1NfQUNBNGFmeDBnMEtGT3d2cURkNXZjME5YdHVXRDc3Zl8?oc=5
-- titulo: Quem é Augusto Cury, escritor best-seller que tenta ocupar a terceira via nas eleições de 2026
-  veiculo: Folha de S.Paulo
-  data: '2026-10-01'
-  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRVNEMzA0XzVkWWZFVV9fdTM3cURFSjZhcGx4LW9DaGxSajF3Zm9JTUtxS1Z1XzNSM1FZOFBzS0pMZDZ5WGJKVW5wdHBfTFZHR3p3NF9VY2drRWN1dDc0anRyRkd1elNCSXk3MlY2RUl2Vm1KWllvOXR1OGVLZk5fTExTdElSZHMwM2NnYmV4NVgwM01mZ0VsWU9lNW1ZamFZTi1WdGxTMlB4VWNVai1tQlBVT2JXZHlLS2Z3RWpaNEpOa0lXejZOV1dMT0RqbGtjS2lDdXE5cw?oc=5
-- titulo: Com defesa de mudanças no STF e adoção de IA no serviço público, Augusto Cury tenta ser terceira via
-  veiculo: O TEMPO
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPekZsZks1U2V3UGFBTXJETzNqZndaQTFVT1RFWTk1d19oSnhBRi1pd2x1eHhJZm9fcTFqSVI2bkNWaHNhTVZ5bHpoSkNSSkxyTGxubFZnZ09QSFVPdTBWTE1RUUtXelZqaXhQNHpUdWJqV0tGdWxCT2E2dVU3amdYUEdVWUhJTmlwMnZnWHRMXzNVbkxVUGFPdFk0a1ZLS3R5Vjk5ZnJfdFk3SGRuNnYzSkZhYmtCSDJxdHNabHRpSnRTM1NKcUpBYlZyaDlUbW9zbDJRNWp3?oc=5
-- titulo: 'CNT/MDA: Em 1º turno, Lula tem 47,8% dos votos válidos, Flávio soma 42,1% e Cury, 3,6%'
-  veiculo: Estadão
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3ZQX3dYdmpsM1dCN1lESHZUVEpYUEJhRXY3Wk1vYmJ2cTlmZTd0Tm1Mc1JudWlRcmVEeDF1eFFNRXV4U1VRdzd5ZWk0Zm5PWF9Rcnc5akdVYTBpSWZ0SE5famlPYUxzYzJ5a3R0NXltRWlQNlNhMlNkYVZCZmRfNExtNzA4Vl9ENkFjVlNsaHBfbDZ2d2k5V19vXzh2b2k3OGZzLWFoWVJxUkgxNHFMT2VzbDJVblRfQlFwdNIBwgFBVV95cUxOM0wyMTZIWjh2dEo0VEVLd0IyckZlNklZZjVTS0E3VWt3ekdOS2RwdXB6LWJ2RGRvN3p2aURhV0poRlh1Zm5lLTE4aTQ5OG5rTmV0QzZFTzRpSVh5dHN4cjNMOXItOEh3Z2JKbi1lZVVMRS14MnFaNElwSkFzMWxQdENTOVBvZVBJTzFRT3VrYW8wYnJSS3E1V0tHMEpJcUVVZlpoaUlzcDh1bkVwZE95c0h4bmp6bEtnQVpndkZjTzlJZw?oc=5
+- titulo: 'Escritor Augusto Cury: candidato a PRESIDENTE'
+  veiculo: Metrópoles
+  data: '2026-09-23'
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1fUElnWUI0WWJzR1dhZ0VOTy02dFBWd2tzbk9QanZjNlFoRVBEbVlNUWFZUU1LUXpxdG9TS1psTzd2MzJ1eTBjYWdORE03T3EyVHZqWW52U2hjZVBGMWIxNmRPT2pNamZERjI1MlkxMlFmMF9IUC1GbU4zblFVRk0?oc=5
+- titulo: O lamento de Augusto Cury sobre a morte de conselheiro em queda de helicóptero em SC
+  veiculo: VEJA
+  data: '2026-09-23'
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3pYQmp2bTdraVBURlVmWnYzX21TdEl0ZU9DUFNud2duRFBaWGtXS0FlampIY29XR1k2dnp0MHJNLVlkR01XcWlXcVE2QUxjZFZnOWdyWllCNmUtWjJQMFFIcm1KcnMzQzY1UG9aN0lKZE9TNThxalRDTmpjbDhJZFpkbnhJd091cWhZSGFxalBZekhIaVJoc2xpWldXZFBFWmFvWVVBYU9oZVZrcTlBd29uZ1dTLUFjV1pJaA?oc=5
+- titulo: Psiquiatra e escritor Augusto Cury realizará palestra em Cuiabá
+  veiculo: MidiaNews
+  data: '2024-12-13'
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0xNbXA2WWlLMHdjVzE4WWJaZWJXSEF4amlvcFVJenl6ZlRld0d3YmRPTXdINC1vbmVRVlYtWmV4MDBPUXZpVmdnM2VvLTlGQTRMM2pLa3p5TVhRSUN4ZUNCVmR2Q0VHMlNtYkxnTVF4VE9MeW5lV0s2eEVYLXh1LUdvaXhtT3ZGQkFtMkhKTklsLVFLdlp4c1JWaVBaSThiWVVvN0UyakMwd2p6Y2c?oc=5
+- titulo: Podcast Direito e Saúde recebe psiquiatra e escritor Augusto Cury
+  veiculo: MPMG
+  data: '2024-07-12'
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOMFBnNlpHdGN2NVg2M1I2OGQzZWdLZEEyTjRVZDBsd0o3X0tQeTctZHFFamNOdnRyeEs2bjV0bDZQeUVPekh0cXVxUThyeE5uS0FGSXhTUU9WNGRvSkNJRVpKZTRyVnlDTDg4U1dfWlZ1Y3pWM2Naak02U2dpcXRMV2U1MDBRMEltVXc2eWp6UDJIcUw3YUxqVWhGOXF4R0FrdjBlVU10dVU4ZUxrb0p4Ml9Ld1ZJU0g3NDBnNUctb0FUZFo1?oc=5
+- titulo: Theatro Vasques recebe peça 'O Homem Mais Inteligente da História', baseada em romance de Augusto Cury
+  veiculo: G1
+  data: '2023-07-23'
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxPb0FfNTFzQUEwNUo1c1ptdW56NGxrMldIRWN6Zk1BYktSNmFhck1NY1gyTzBIbFVyZFpjUXo3dzdJcTRBSU5NOWhvaG53dlRDbmNzLU81bVhaTzRzRnBIbWZ4RjFHbGlEbG5LU0RsajQ2RGl2ME9OeGU5ekpQY0ZyQXFRWlhUQjFoYXlVR3BHcHdXNWlaZGVTdi1PY2YtT05jaklsM044WGRWTWZPYy1LaHYxS0ZVQ0pfRUhzYU1VWWwydnlRUGlxRFpuQWdNbFltOWg4bnlDcGlLYTNpWUxtaFhfRVlDTlc5eGtNeTZhekNNQ2JlYUtYcnBaR2hLVUZs0gGPAkFVX3lxTE1xU0M0Q1lZLUZpXzVnXzE2ZTloRDRZdDFhTktuY2k4VWpiYjFGM09haHlkMVVKNmVvYjZleUhFeGJZS2ZVcDBoemM0UWVwLXg1by03eGd0SGptWWFvY0ZsMFQtUXY1ekhoY1hwWi0wZzRoa2s5ZUo0OUlvVG8yQlk0LUNQTFRfSjdFYlg5c05FREt5NVZHZHp5blRkTjM3T1Ytdm5OWS1QV0ZxR3NPOENvSWhQLXZMZEkwbFZlSUVZZDE3NTc3SEx0VHVKYnpYZi00QU0wcDZneVdoS3VLSW1WUjAtcmtoSlFINUVsZ0k2akl4aFNvOXZidWdsSGZGNGNCcDgzaENiQVMtOWdfTTg?oc=5
+- titulo: Peça baseada em best-seller de Augusto Cury, “O Vendedor de Sonhos”, acontece sexta em Manaus
+  veiculo: G1
+  data: '2022-06-01'
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOem83WVZQWDctd2t0S1B0RGpGNlZINDlUNkhORzVSS3VyWlNyb2hnT1JjZHZ2ekpiQWJUZk5aWjZKVy1RUTRIbnM1cGMzVGtjc1g0WUhreHkwVWw5S3pINUFiMG4tNW5DVVpsQUNfS18zQWRTTHVnam13aW5DODdGcG1kYk83dkF6ZVpfWWFiMERvWmpRcVBPc1ZyZjN6c2lnbnJ6dTRoN2VLd0cxOGFZTXJNUC1USk9NUXU5bUx1b2JtSnM1cEN1TlRyRGZudGFIS3YyclNRODRJQnAwRnNqdNIB7wFBVV95cUxOWjhCb05LRXZxdnVtSGVtYkl2Q2NKS1JXSGlfRkJQYnZ0MGUybnNBNlVBQ0pSa2tzUTgtVW50YzY1ZWxRam4zUzhXb3NJblFRbVVWem5HcFl3RlN0NjdEd3k2d2pyaERRbmx0NmliVkhxcTlqaG1YeFR6QWx4T2h2bUdSd3F0Ti1JZVFjMndFZ0cycXozUkJHenVISzZiR1ZkaTEzNUlzd0hISGtJdDF0SU1fOVFiLV9vbEJZMm4taDNQZ3RySmdMbWc5a3hfM3NJSFRXVzlqR0dDMmcydGU0bTVuYmlTNjVkWktyaHFWTQ?oc=5
+- titulo: Livro de Augusto Cury sobre ansiedade volta aos mais vendidos e inspira curso da Polícia Federal
+  veiculo: O GLOBO
+  data: '2020-06-23'
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam9CUWlBTmRSeVNzcVJ5N2RLU1NNSDJrVXlWNGJ6SHZrcm8wZTBvWTNnN0IzajdSeWhFcDR5MDJKc2dDcjJWMG1jX1ByWEhOS2VZdS1SUGU3SHQxM0RmbHdxOGlmZmZ1TTloS3hLX0hFZU50MURoNHZWY3FaTW9oSHNtaXdGcnVlQkxNZDU4LWItSGdXU1ZvWWRaOWg5UzBlS0gzR0pTUWM4cHc5ZkxCcEJGMFY3VjgydEtsd0FPa3FlbmtzV0JURnoyUWVLNDBubUHSAeABQVVfeXFMTVRINjJ5WXdkck1uUlV3S2JxTzRJd0M2MjlId2owbi1DY1IzS3ZreTY1bDVxOUJtNUVGQTR2WnQ3MWtlVnBXY193c2hQTkI0eF93Q0JVd2pualVXbm85Q3pKeDg1UTdwYmxTYzRnU0lRdnhHaW9ZLUVhY0NpWGxKSmNseHZhT3R4T01PVmJTN2J5RlladEVxNXhOcHFtc3JldVg2Z2toZWxhaUlqRTFaNldyUXVMa09OeHAxMUwxc0plSk1tUWFtdDROT2pjcmhSRGxMLU1GOE9ianpqemRhaXI?oc=5
+- titulo: 'Augusto Cury: ''Infelizmente, as pessoas esquecem da higiene mental na quarentena'''
+  veiculo: O GLOBO
+  data: '2020-06-22'
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVWJHSDBOOTY0TzJQZEY5WWMxWk00UDJoNDl6MF9LX09tMHVlYkxTSmxHeTRMWEtLakF5N1pLNHlONEUzNEtjMEZPMzhqV1NyZ0NvQnd4M3BJLVpqQml1bGRiNG55UEhuR09sZ2ZiX01sRUlSZDFabVVldExzWlUtaldodmpfWXZFV1lJUEVHYVRtWkdzbmlGTmJDQXhpQms0N1NTZF9PUzBiUjZXaHNvY1lqUEJLWTJ1c3ZR0gHKAUFVX3lxTE1STGV4cElIdnAwTE1fekw4N3FrczgyTF9WUHFrdURqQUQ2NW13b2daQUZ0NmczNld4LXVVSGk4ekV6c25IX3J4N2VzRW5RZkdldDlndWlGY1RFaDZ0aWlENVltNGFYMU1UaDlEYU5TRjZkbVp2cG1NdURZdlJTTTAxSEsxWUVqVTkxS0hwLWlITmw0NDIxY3NHbnl2UXl6eGFhdnltblVacEZ2NE1DTWl2TVphckZOTldHT3h0V1pwYWJWclMtNFJvVVE?oc=5
+- titulo: 'Augusto Cury fala aos eleitores: ‘Devemos ter doses elevadas de paciência’'
+  veiculo: VEJA
+  data: '2018-10-24'
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ29KWU96d2M2LWNzUmU4RXllWGFqc3ZCSTJVbnJFUFk1SFJoSDBMRlY2YnFtVTllb0dORDFzYU05c2xScHJ0QXJkNVlWQ2RpQWx6M0haQ0xnZG5lQ1Y1STUxdkVGT2RhX0JiVzN4SFhXZzZOdk03TFpJTmpUN2tqV2dfbHFXcGRRTGk5Y2JnUThYQ3ZsMXhRLWNsUC1FaDVhWXFqU0s0U1F3UQ?oc=5
+- titulo: '''Congresso da Felicidade'' conta com palestras de Augusto Cury e Monja Cohen'
+  veiculo: Globo
+  data: '2017-11-16'
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb1pFQ1NQaUt0Y2MtYVV0T21oU19tN0VZUGgtSU9ibG80OEtDMUxnMi1hM25za2JaQ1l6bEFRODNZV2dwVUJZb3Z6S0trYnNkRlZub3V5NURsWThHM2pzdE5FaV84ZVR6MU9GM3R6Y1B1VEZOdU9Gblh3c1h3cjFHdmp2X19EV1BBWlp4QWVERDNRM2ZJazFlUHh0UWJiWlQ4YTFLOFgwd3RKYmNtNmpWNGptMEhPTHdSM1g4ejl3NmNRekxQT3BfVEZNS09maVZ0RW9sbG81dEE3U3gz0gHrAUFVX3lxTE5ENXBpT25ET2tHdGpwYUJhMGhHRlZCalRVMU42M3I0M1JDaW54N2NlWENsRXlqQnM5X2tNaXRhX1Y4S0Nnc3hjUnh6VGhEblhNVWk2TGNPLUJaV19lVmpUakxCQWV5enBhUmpUOWJrZXNyNHQzdE1RVjVjYUFMTnJpSUx5TGJqSG1WSkVaaUY2Z3ViZENWMG5RbDdUMDl3MDNsQnplU3g3Q09RTFdFM2RlcVpfbWRxVTlLejFCZnBIUER0RHFZa3pxNFhJX3IybmM4T0VBNEJvZDhnZkFfd1dJMVBEUWhBMnlqemM?oc=5
 projetos_aprovados: []
 fontes:
 - https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - https://pt.wikipedia.org/wiki/Augusto_Cury
+- https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
 atualizado_em: '2026-10-03'
-foto: https://upload.wikimedia.org/wikipedia/commons/8/88/Augusto_Cury%2C_escritor_%2828339139296%29_%28cropped%29.jpg
+foto: assets/photos/augusto-jorge-cury.jpg
+propostas_governo:
+- area: Economia e Trabalho
+  resumo: Propõe criar a Escola do Empreendedor, aproveitando escolas, universidades, institutos e centros comunitários para ensinar milhões de brasileiros a criar trabalho, renda e empresas.
+  texto: 'Queremos transformar patrimônio em segurança, e segurança em liberdade para empreender. ESCOLA DO EMPREENDEDOR O Brasil precisa ensinar milhões de pessoas não apenas a procurar emprego, mas também a criar trabalho, renda e empresas. Será criada a Escola do Empreendedor, com presença nas comunidades participantes do programa. Não construiremos milhares de prédios desnecessariamente. Utilizaremos estruturas existentes: escolas públicas no período noturno e nos finais de semana, universidades, institutos federais, centros comunitários e instituições parceiras.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Educação
+  resumo: Prevé um programa nacional de inclusão e combate à evasão, ao bullying e à exclusão nas redes públicas, com formação continuada de professores, protocolos de inclusão e indicadores de bem-estar dos estudantes.
+  texto: 'Os dados serão anonimizados e utilizados para planejamento, nunca para discriminar estudantes. META NACIONAL O programa deverá alcançar progressivamente todas as redes públicas de educação básica, estabelecer formação continuada de professores, criar protocolos de inclusão em cada escola e desenvolver indicadores objetivos de redução de evasão, bullying e exclusão, além de acompanhar aprendizagem, participação e bem -estar dos estudantes. A avaliação do projeto não perguntará apenas quantos alunos passaram de ano, mas também: quantos passaram a participar? Quantos deixaram de sofrer silenciosamente? Quantos descobriram habilidades que a escola tradicional jamais enxergaria?'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Saúde
+  resumo: Propõe o programa Tele Saúde Brasil para ampliar a telemedicina e desafogar o SUS, além de ações de prevenção e detecção precoce do câncer e do plano de combate mundial à fome.
+  texto: '146 PROJETO 12 - PLANO DE COMBATE MUNDIAL DA FOME .............................. 157 PROJETO 13 - TELE SAÚDE BRASIL: TRANSFORMAR O BRASIL NA MAIOR TELE MEDICINA DO MUNDO, DESAFOGANDO O SUS .......................................... 161 PROJETO 14 - PREVENÇÃO E DETECÇÃO PRECOCE DO CÂNCER: SOCIEDADE ESTÁ ABRAÇANDO (SEA) ........................................................................... 166 PROJETO 15 - ENERGIAS RENOVÁVEIS DO BRASIL: PENER-BR ..................... 175 PROJETO 16 - PETRA BR: TERRAS RARAS E MINERAIS ESTRATÉGICOS DO BRASIL ................................................................................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Segurança Pública
+  resumo: Propõe o Programa Mulheres Vivas, integrando tecnologia, forças de segurança, apoio psicológico e assistência jurídica às vítimas, além de fortalecer o policiamento comunitário e as Guardas Municipais.
+  texto: Implantaremos o Programa Mulheres Vivas, integrando tecnologia, forças de segurança, atendimento psicológico, assistência jurídica e proteção social para oferecer respostas rápidas às vítimas e prevenir novos casos de violência. O programa também fortalecerá o policiamento comunitário e a atuação das Guardas Municipais, com estratégias de acompanhamento preventivo e visitas comunitárias às residências de mulheres em situação de risco, além de promover maior integração com os Juizados Especializados de Violência Doméstica e Familiar contra a Mulher, garantindo atuação coordenada entre segurança pública e Poder Judiciário. b) Resposta rápida às emergências Utilizaremos monitoramento inteligente, aplicativos de emergência (botão do pânico ou de alerta com geolocalização), centrais integradas e protocolos de resposta imediata para proteger mulheres em situação de risco. O tempo de resposta das autoridades poderá significar a diferença entre a vida e a morte. 54 c) Autonomia econômica
+    feminina A independência financeira é uma das maiores formas de proteção social.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Meio Ambiente
+  resumo: Defende protagonismo do Brasil nas negociações globais de clima, tratando a Amazônia e a biodiversidade como ativos estratégicos e conciliando conservação com desenvolvimento sustentável.
+  texto: O objetivo é aumentar exportações, atrair investimentos e fortalecer a competitividade da economia brasileira. d) Diplomacia climática e ambiental O Brasil terá papel central nas negociações globais sobre clima e meio ambiente, defendendo um modelo de desenvolvimento sustentável que reconheça a importância da Amazônia e da biodiversidade como ativos estratégicos do país. 60 e) Cooperação Sul-Sul e multilateralismo Fortaleceremos a cooperação com países em desenvolvimento, promovendo parcerias em tecnologia, energia, educação e infraestrutura, além de defender o multilateralismo como base da ordem internacional. f) Proteção de interesses estratégicos nacionais A política externa brasileira será guiada pela defesa da soberania, da segurança econômica e dos interesses estratégicos do país, com atuação firme em temas como comércio internacional, energia, tecnologia e recursos naturais , com diálogo e sem manifestações agressivas, sem sentido estratégico, que possam aumentar o custo
+    de vida dos brasileiros. REFORMA POLÍTICA E INSTITUCIONAL a) Implantação do semipresidencialismo Propomos a adoção de um modelo semipresidencialista, no qual o Presidente da República compartilha a condução do governo com um Primeiro-Ministro escolhido a partir da maioria parlamentar.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Infraestrutura e Mobilidade
+  resumo: Prevé infraestrutura básica para as cidades amazônicas, com saneamento, energia limpa e conectividade digital, além de crédito e capacitação para ribeirinhos e pequenos empreendedores.
+  texto: 'Portanto, proteger a floresta exige proteger as pessoas. 8.1 DESENVOLVIMENTO DOS RIBEIRINHOS • Criação de microempresas locais: • Bioeconomia (açaí, castanha, óleos naturais) • Pesca sustentável • Artesanato e turismo ecológico • Capacitação técnica e empreendedora 8.2 DESENVOLVIMENTO DAS CIDADES AMAZÔNICAS • Programas de infraestrutura básica: • Saneamento 184 • Energia limpa • Conectividade digital • Criação de polos econômicos sustentáveis 8.3 BANCO EMPREENDEDOR AMAZÔNICO Linha de crédito acessível para pequenos empreendedores, cooperativas, negócios sustentáveis e microcrédito com orientação técnica. 8.4 GERAÇÃO DE RENDA COMO PROTEÇÃO AMBIENTAL • Transformar a população local em guardiã da floresta. • Incentivar economicamente a preservação. 8.5 META SOCIAL E AMBIENTAL • Resgatar milhões de brasileiros de condições sub-humanas.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Direitos Humanos
+  resumo: Defende programas educacionais de cultura de paz e igualdade de oportunidades e propõe educação financeira e igualdade na concessão de crédito para mulheres.
+  texto: Desenvolveremos programas educacionais que promovam respeito mútuo, cultura de paz, resolução pacífica de conflitos, igualdade de oportunidades e valorização da dignidade humana, contribuindo para uma sociedade mais justa e segura. h) Igualdade na Concessão de Crédito para Mulheres O Banco Central, com a contribuição da Febraban, da FGV , do Sebrae e da Skema Business School, realizou um levantamento de dados sobre o panorama da cidadania financeira no Brasil, apresentando conclusões alarmantes sobre as diferenças nas taxas de juros praticadas para homens e mulheres. O dado levantado é relevante, mas chama atenção a pouca visibilidade dada ao tema e, sobretudo, a ausência de propostas concretas para enfrentar um problema estrutural que pode estar presente nas matrizes de risco utilizadas pelas instituições financeiras para definir as taxas de juros aplicadas aos contratos de financiamento bancário. O relatório concluiu que, “considerando o montante total de crédito utilizado em
+    2024 nas duas populações (homens e mulheres), para uma mesma raça, as mulheres contratam créditos mais caros do que os homens” . Vamos investir em políticas públicas voltadas à educação financeira específicas para o público feminino, ampliando ações relevantes do Sebrae e articulando iniciativas em diferentes níveis de atuação do poder público.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Agricultura
+  resumo: Destaca a agricultura familiar e a fruticultura como áreas estratégicas e propõe ampliar a competitividade e as exportações do setor, valorizando os estabelecimentos familiares.
+  texto: 'Ou seja: não é uma periferia do Brasil; é uma fronteira nacional de segurança hídrica, alimentar, social e exportadora. Também vale confirmar o número da agricultura familiar: o dado mais sólido continua sendo cerca de 3,9 milhões de estabelecimentos, equivalentes a 77% das unidades agropecuárias do país. Eles ocupam cerca de 23% da área agrícola e concentram a maior parte dos postos de trabalho no campo. Na fruticultura, o contraste internacional realmente chama atenção. O Brasil exportou em 2024 pouco mais de US$ 1,287 bilhão em frutas, enquanto o Peru fechou 2024 com algo acima de US$ 7,6 bilhões em frutas e hortaliças, chegando a mais de US$ 8,2 bilhões em algumas consolidações de escopo semelhante.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Tecnologia e Inovação
+  resumo: Propõe tornar o Brasil produtor de inovação, com investimento em ciência e tecnologia e uma estratégia nacional de inteligência artificial tratada como infraestrutura estratégica de Estado.
+  texto: e) Participação cívica e protagonismo juvenil Incentivaremos a participação dos jovens na vida pública, em conselhos, projetos sociais, iniciativas comunitárias e espaços de decisão, fortalecendo o sentimento de pertencimento e responsabilidade com o futuro do país. CIÊNCIA, TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL a) Brasil como potência científica e tecnológica O Brasil precisa deixar de ser apenas consumidor de tecnologia e se tornar produtor de inovação. Ampliaremos significativamente os investimentos em ciência, pesquisa e desenvolvimento, com foco em áreas estratégicas como biotecnologia, energia, saúde, defesa e inteligência artificial. b) Estratégia nacional de inteligência artificial 58 A inteligência artificial será tratada como infraestrutura estratégica de Estado. Criaremos uma política nacional para desenvolvimento, regulação e aplicação da IA em serviços públicos, educação, saúde, segurança e gestão governamental, garantindo soberania tecnológica e competitividade global.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Gestão Pública e Combate à Corrupção
+  resumo: Propõe o programa Sociedade Está de Olho para ampliar o controle social e usar inteligência artificial no cruzamento de dados e na fiscalização de gastos públicos e licitações.
+  texto: Também incentivaremos programas permanentes de conservação do solo e dos recursos hídricos, bem como a recuperação produtiva de áreas degradadas, promovendo maior sustentabilidade, produtividade e resiliência da agropecuária brasileira. COMBATE À CORRUPÇÃO E TRANSPARÊNCIA a) Programa SEO — Sociedade Está de Olho Implantaremos uma ampla rede nacional de controle social denominada Sociedade Está de Olho (SEO), envolvendo cidadãos, universidades, entidades da sociedade civil, órgãos de controle e tecnologias inteligentes para acompanhar a aplicação dos recursos públicos. A transparência deixará de ser apenas um princípio legal para tornar-se um instrumento permanente de participação da sociedade. b) Inteligência Artificial no controle dos gastos públicos Utilizaremos sistemas avançados de Inteligência Artificial para cruzar milhões de informações, identificar sobrepreços, pagamentos indevidos, fraudes em licitações, conflitos de interesse e outras irregularidades. Quanto mais tecnologia
+    houver na fiscalização, menor será o espaço para a corrupção.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Política Externa
+  resumo: Defende recuperar a credibilidade internacional do Brasil com uma diplomacia de Estado, ativa, equilibrada e pragmática, baseada no diálogo e na defesa dos interesses nacionais.
+  texto: Programas de inclusão digital, capacitação tecnológica e acesso universal a ferramentas digitais serão ampliados em todo o território nacional. RELAÇÕES INTERNACIONAIS E DIPLOMACIA ESTRATÉGICA É necessário enfrentar a perda de credibilidade internacional decorrente da apropriação da diplomacia por sucessivos governos . É necessário recuperar a 59 credibilidade e devolver a serenidade e a capacidade de diálogo que sempre foi um traço marcante da política externa brasileira. A diplomacia deve ser tratada como política de Estado e não de governo. a) Brasil como potência diplomática global O Brasil adotará uma política externa ativa, equilibrada e pragmática, baseada no diálogo, na cooperação internacional e na defesa dos interesses nacionais.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Assistência Social
+  resumo: Compromete-se com a proteção social de crianças em extrema pobreza, idosos frágeis e pessoas sem condições de competir economicamente, equilibrando liberdade econômica e dignidade humana.
+  texto: Ao mesmo tempo, nenhuma sociedade madura abandona completamente seus vulneráveis. Crianças em extrema pobreza, idosos frágeis e pessoas incapazes de competir economicamente precisam de proteção social. O valor de uma civilização não pode ser medido apenas pelo tamanho do PIB. Deve ser medido também pela forma como trata os mais frágeis. 27 O grande desafio d o país será equilibrar liberdade econômica, eficiência estatal e dignidade humana.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip

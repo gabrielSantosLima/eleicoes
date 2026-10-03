@@ -12,6 +12,7 @@ export const DEFAULT_VISIBLE_COLUMN_KEYS = Object.freeze([
   'partido',
   'eh_reeleicao',
   'formacao_academica',
+  'propostas_governo',
   'noticias',
 ]);
 
@@ -119,6 +120,14 @@ export const CANDIDATE_COLUMNS = Object.freeze([
     getSortValue: (candidate) => (candidate.noticias || []).length,
     getPlainText: (candidate) => String((candidate.noticias || []).length),
     renderCell: (candidate) => countBadge((candidate.noticias || []).length, 'notícia', 'notícias'),
+  },
+  {
+    key: 'propostas_governo',
+    label: 'Propostas',
+    isNumeric: true,
+    getSortValue: (candidate) => (candidate.propostas_governo || []).length,
+    getPlainText: (candidate) => String((candidate.propostas_governo || []).length),
+    renderCell: (candidate) => countBadge((candidate.propostas_governo || []).length, 'área', 'áreas'),
   },
   {
     key: 'projetos_aprovados',

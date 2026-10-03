@@ -17,6 +17,11 @@ noticias:
     veiculo: "Veículo"
     data: 2024-05-01
     url: "https://..."
+propostas_governo:
+  - area: "Segurança Pública"
+    resumo: "Resumo curto automático."
+    texto: "Texto bruto extraído da proposta de governo."
+    fonte: "https://cdn.tse.jus.br/.../proposta_governo_2026_BR.zip"
 projetos_aprovados:
   - titulo: "Título do projeto"
     ano: 2023

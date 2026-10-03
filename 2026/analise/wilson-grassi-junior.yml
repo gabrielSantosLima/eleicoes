@@ -13,29 +13,63 @@ formacao_academica:
 dias_trabalhados_ultimos_2_anos: null
 eh_reeleicao: false
 noticias:
-- titulo: 'Eleições 2026: Ficha de Veterinário Wilson Grassi (DEMOCRATA)'
-  veiculo: Folha de S.Paulo
-  data: '2026-10-02'
-  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDc3MEppX1Nla2ZtU0cwd2F6Z0tvaDhKR0N5ZU1MSzg5VVVKUmwzazgyeUR6MzZGRG01VTl3M043S1JIa2VrNDBXSV92bmZIdl9xZnNTdE9kN3ZCVnRNdElTRHhCa045enl4ZmRPSGpfZTd3Q2EwbGw5LU8tYy1qSjdrSnhpM0FwR2VuRGZfMWNpZVczVzZGX0JqZXVmWENSVmRTM2F0V1NCOFpzcGZjRzFRVTFkLWFqd3lB?oc=5
-- titulo: Qual é o número de Wilson Grassi para Presidência da República?
-  veiculo: O GLOBO
-  data: '2026-10-01'
-  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxQTTcwcXFHY0duSHY3Q0tuLUZ6N1B6NzJBVC04WTQ1aktkRFNvRVMzTHcxeXNnN1ItTl9qSFdnM0VjUW9yaUxvME5KUk9lTFRLUG5zTk5fTXNyc2g3OWVub1hydmJHcWt0Y1dldnM0ZzVvOTNIM2tkT3BJNlZCQTZhQWNQQ3BYRW9TS2lzWGF0Ykh5Nzc4Sk1McTdKa0w4Rmd2ay05NmU2bHJldkQxbkhqa1ZpTFM3MzVhTnRLeXZnd3AzcFNQZ1g5ZHJsWjXSAcwBQVVfeXFMUE03MHFxR2NHbkh2N0NLbi1GejdQejcyQVQtOFk0NWpLZERTb0VTM0x3MXlzZzdSLU5fakhXZzNFY1FvcmlMbzBOSlJPZUxUS1Buc05OX01zcnNoNzllbm9YcnZiR3FrdGNXZXZzNGc1bzkzSDNrZE9wSTZWQkE2YUFjUENwWEVvU0tpc1hhdGJIeTc3OEpNTHE3SmtMOEZndmstOTZlNmxyZXZEMW5IamtWaUxTNzM1YU50S3l2Z3dwM3BTUGdYOWRybFo1?oc=5
-- titulo: Saiba o número de Wilson Grassi, candidato do Democrata à Presidência
-  veiculo: CNN Brasil
-  data: '2026-10-01'
-  url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQU1ibk84bmJCaWFDSlJMbmNwc1EtY1J6bTRGZklWa2R6OEJsNm8tcElmcTBndGhiYW0zaXVldHJoOTh1OVJ4VC1aQ0ltUVJZbHg4c3M2NnBNcnlFczM3MFFZaTZPbzgzUXBjeXo4dnRMYktPaVQyTFIzSFB1STBkXzQyM0UtSk03YzNHYWFKb1N2ZFo4X0NoWDhCZTZkU0FTRnFoN2xULWJlRnM?oc=5
-- titulo: Wilson Grassi defende imposto único e mais rigor contra facções
-  veiculo: Agência Brasil
-  data: '2026-09-20'
-  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNcG5XUDNsSmw1RnZTSkVxMmxuUzZjcGtMd3NkcUdjM2ZoZ1VxeGNSMVVDelV2OUljbFM1blNCR2I3RjVYTF9JdlIxeVljeUVaYUlFd3RIYjBHcmNFWjJQMDdMT09odTRpelkxZWtWLWFpZ3N4OVZwNnI3YXBuYmV0MDF3eDZmNnRfTjBPQWZ0NkdTT2NnS1E2WDdwYzBjUnBpSFQwT3ZPNU9VRDlQSE5tS0ZQeGVpZzU5S3VJNVVR?oc=5
-- titulo: 'Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)'
-  veiculo: band.com.br
-  data: '2026-09-08'
-  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2N2UUlWS1FWNm1KelJOSWtqRUlJYlF1QjNYMUVuM1ZXZVJ4MXBxampDZF94TzdrWVdrd0JiQ1gyYW9sd1FEUG5QamtqaDZHbzZwRElNdFVjS0ZlVURGWFJyQVFVWVE1UHlVY2VXRzJDMElVOEgzaDZGQnpxVlNVRy1MZjFvSEpOemlKSzF2cjdCaUpfNXgxLXVYZ1ptZERFX1FNWnI0bDNFVVNKX1Q4a0wxb1A?oc=5
+- titulo: Veterinário Wilson Grassi, do Democrata, fez campanha em São Paulo
+  veiculo: G1
+  data: '2026-09-17'
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPSFhRd1R1MThBbUpmNjhySWlEN0VhSGpRRWhzbElhWUFVRURTbHBlYXVMRXBaa0NJQ2VldmV4UEc2U2JWN0FsYV9XcE5sTVM3azhvNnFta0hkbmFQU1hmV1FGeHhWczBCM3pYNW1WakRfMzZQQnJzdkJ3b2FSNmxuYmx5LVBtREYyTnFGZUIxVGl4anJUaTE2cW5kM2lzZzVBaHlDbHl6bUtyU0ZGMDlFZVd6NGFzOTFmZExfeFppTdIBzgFBVV95cUxPRHVlUVpEVmNvS0RNUGFVSnE0MWN5RWtVMDVVdHBjd2l4RUxsSFZMSG1XeG1VblJYRVR0QXU3Z1h6Ykx4cVFUN1FCeEI5Vy1YMEZzcFh1aHJ4MG1tT3N0RXR5aUx3MlA2YXh2aGNxVjhfNFNfRXBNZEFGbkZPSTAtMTB4TXhHbW1sVzhtMGtRaEQweGRKZy1qYnlKck9qYzl5U1gtcUtyT3lzS0NxdU1UTEozX2tpNEpjdXNCY0pWX2tlV0hVR1NaUWZBdENhZw?oc=5
+- titulo: 'Veterinário Wilson Grassi: candidato a presidente em 2026'
+  veiculo: Estadão
+  data: '2026-08-27'
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWxSUDdaN2Y3S3FLYXhMbHZ2ZlJJbkxGbjBuRTZJOFk5cUFKN1RhT3hoVXJXQ2h4QUlSbk5GdVlnYnRiRE9HUURjZHhuWkhlYkViWEtOdVZBRmxVUlROQ0xnRUNmTTlCSGo0NElIZVdaSEZXZDVzd0VlQlc4S3oxSmpLNlYwZEc3UmFYRkJYbE10Wk5nZjhqU1B5alBHOURSZkRaNXp5cw?oc=5
 projetos_aprovados: []
 fontes:
 - https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - https://pt.wikipedia.org/wiki/Wilson_Grassi
+- https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
 atualizado_em: '2026-10-03'
-foto: https://upload.wikimedia.org/wikipedia/commons/7/74/Wilson_Grassi_J%C3%BAnior_2024.jpg
+foto: assets/photos/wilson-grassi-junior.jpg
+propostas_governo:
+- area: Economia e Trabalho
+  resumo: Propõe uma reforma tributária com a criação de um Imposto Único Federal e um eixo dedicado a trabalho, emprego e renda, simplificando a cobrança de tributos.
+  texto: '7 Eixo 1 — Reforma tributária: o Imposto Único Federal ........................................................... 8 Eixo 2 — Trabalho, emprego e renda .................................................................................... 19 Eixo 3 — Segurança pública .................................................................................................. 21 Eixo 4 — Saúde Única ........................................................................................................... 26 Eixo 5 — Proteção e direitos animais ....................................................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Educação
+  resumo: Reconhece que a União não administra o ensino fundamental e propõe que a Presidência atue financiando, avaliando, induzindo e formando na área de educação.
+  texto: PRAZO Fila pública nacional no primeiro ano; metas de cobertura ao longo do mandato. Partido Democrata · Brasil em Primeiro Lugar · Plano de Governo 2027–2030 — 36 — Eixo 8 — Educação e formação A União não administra escola de ensino fundamental. Vale dizer isso de saída, porque metade das promessas de campanha em educação é feita por quem não tem a caneta. O que a Presidência faz é financiar, avaliar, induzir e formar. É a isso que este eixo se limita.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Saúde
+  resumo: Adota a abordagem de Saúde Única, prevenindo zoonoses que circulam entre animais e pessoas e que custam mais caro ao SUS quando tratadas no leito hospitalar.
+  texto: Todas circulam entre animal e pessoa. E todas custam ao SUS muito mais no leito hospitalar do que custariam no território. O caso mais caro dessa lista não está nela. A pandemia de covid-19 parou o país, matou centenas de milhares de brasileiros e custou ao Estado uma cifra que nenhuma política de vigilância chegaria perto de gastar em um século. Sobre a origem, é preciso precisão em vez de slogan.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Segurança Pública
+  resumo: Propõe um cadastro nacional de infratores por maus-tratos a animais, integrado às bases de segurança pública e usado como alerta no risco de violência doméstica.
+  texto: 'Mas é sólido o bastante para justificar uma providência barata: registrar quem faz. ▪ Cadastro nacional de infratores por maus-tratos a animais no ar até o fim do primeiro ano de mandato, integrado às bases de segurança pública e usado como fator de alerta na avaliação de risco de violência doméstica. Prazo curto porque a medida é barata, n ão depende de emenda constitucional e dá resposta concreta à sociedade sem esperar o ciclo inteiro do governo. ▪ Protocolo padronizado de comunicação entre serviços de proteção animal, conselhos tutelares e delegacias especializadas em violência doméstica. ▪ Programas territoriais para juventude nas áreas de maior incidência criminal, com avaliação de impacto feita por terceiro.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Meio Ambiente
+  resumo: Propõe combater o desmatamento ilegal com inteligência e rastreabilidade da cadeia produtiva e definir prazo ao licenciamento ambiental, com responsável nomeado.
+  texto: ▪ Reduzir os encargos setoriais embutidos na tarifa, com transparência sobre o que cada consumidor paga e por quê. 12.3 Meio ambiente e clima ▪ Combater o desmatamento ilegal com inteligência, rastreabilidade da cadeia produtiva e responsabilização patrimonial, com o mesmo instrumental do Pilar 2 do Eixo 3. ▪ Licenciamento ambiental com prazo definido e análise técnica de qualidade. Demora não é rigor; costuma ser falta de gente. ▪ Responsável nomeado para cada processo de licenciamento e para cada marco de obra, com prazo correndo em painel público e apuração automática ao ser descumprido, na mesma regra de ônus adotada no Eixo 2.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Infraestrutura e Mobilidade
+  resumo: Prevê investimentos em infraestrutura e energia integrados à agenda ambiental, para ampliar a capacidade produtiva e melhorar a logística do país.
+  texto: 40 Eixo 11 — Estado digital, desburocratização e transparência ............................................... 42 Eixo 12 — Infraestrutura, energia e meio ambiente .............................................................. 44 Eixo 13 — Defesa nacional e guerra ao crime organizado .................................................... 47 Eixo 14 — Pacto institucional e superação da polarização ................................................... Os primeiros cem dias .....................................................................................................
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Direitos Humanos
+  resumo: Reafirma o compromisso com a Convenção Americana de Direitos Humanos e a proibição da tortura, lembrando que situações excepcionais seguem o rito constitucional com prazo e controle do Congresso.
+  texto: 60, §4º, IV, da Constituição, e nem emenda os suprime. O Brasil é parte da Convenção Americana sobre Direitos Humanos, e a proibição da tortura e do tratamento desumano ou degradante não se submete a urna. Situação excepcional tem rito próprio na Constituição, nos arts. 136 a 141, com prazo, controle do Congresso e responsabilização. Se algum dia for necessário, é por ali.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Agricultura
+  resumo: Dedica um eixo à agropecuária, sanidade e comércio exterior, buscando ampliar a competitividade e o acesso do agronegócio brasileiro aos mercados internacionais.
+  texto: '26 Eixo 5 — Proteção e direitos animais .................................................................................... 29 Eixo 6 — Agropecuária, sanidade e comércio exterior .......................................................... 31 Eixo 7 — Saúde: atenção primária e o fim da fila .................................................................. 33 Eixo 8 — Educação e formação ............................................................................................ 35 Eixo 9 — Esporte: formar atleta, não só premiar medalha ....................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Tecnologia e Inovação
+  resumo: Propõe financiamento estável e previsível à pesquisa e fomento dirigido à sanidade animal, às zoonoses e ao desenvolvimento de imunizantes veterinários.
+  texto: Prometer efetivação imediata e universal de todo bolsista do país seria mentira. 8.4 Ensino superior e financiamento à ciência ▪ Financiamento estável e previsível à pesquisa, com regra plurianual. Ciência não se planeja em ciclo de contingenciamento. ▪ Fomento dirigido à pesquisa em sanidade animal, zoonoses e desenvolvimento de imunizantes veterinários. O Brasil tem base instalada nessa área e a subaproveita.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Gestão Pública e Combate à Corrupção
+  resumo: Defende a digitalização do Estado, a desburocratização e a transparência na gestão pública, reduzindo a máquina e facilitando o acesso do cidadão aos serviços.
+  texto: '37 Eixo 10 — Habitação: casa própria onde a pessoa escolhe morar ....................................... 40 Eixo 11 — Estado digital, desburocratização e transparência ............................................... 42 Eixo 12 — Infraestrutura, energia e meio ambiente .............................................................. 44 Eixo 13 — Defesa nacional e guerra ao crime organizado .................................................... 47 Eixo 14 — Pacto institucional e superação da polarização ...................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Política Externa
+  resumo: Propõe uma diplomacia sanitária ativa, com presença técnica permanente nos foros internacionais e nas negociações de acesso a mercados para produtos brasileiros.
+  texto: ▪ Assistência técnica e crédito em condição melhor para quem adota o padrão. ▪ Diplomacia sanitária ativa, com presença técnica permanente nos foros internacionais e nas negociações de acesso a mercado. 6.4 Quem produz pouco também produz ▪ Crédito simplificado para agricultura familiar, com redução drástica de exigência documental. ▪ Assistência técnica pública com meta de cobertura por região, e não por edital. ▪ Compras públicas de alimentação escolar com prioridade efetiva à produção local e pagamento em prazo curto.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip

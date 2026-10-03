@@ -129,6 +129,17 @@
         "url": { "type": ["string", "null"] }
       }
     },
+    "proposta": {
+      "type": "object",
+      "required": ["area"],
+      "additionalProperties": false,
+      "properties": {
+        "area": { "type": "string" },
+        "resumo": { "type": ["string", "null"] },
+        "texto": { "type": ["string", "null"] },
+        "fonte": { "type": ["string", "null"] }
+      }
+    },
     "candidato_dossie": {
       "type": "object",
       "required": ["id", "nome_completo", "partido"],
@@ -152,6 +163,10 @@
         "noticias": {
           "type": "array",
           "items": { "$ref": "#/$defs/noticia" }
+        },
+        "propostas_governo": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/proposta" }
         },
         "projetos_aprovados": {
           "type": "array",

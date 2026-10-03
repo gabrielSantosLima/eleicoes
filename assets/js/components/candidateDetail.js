@@ -50,6 +50,42 @@ function infoRow(label, value) {
   return sectionWithHeading(label, createElement('p', {}, String(value)));
 }
 
+function proposalsSection(propostas) {
+  const section = createElement('div');
+  section.append(createElement('h3', {}, 'Propostas de governo'));
+  if (!propostas || propostas.length === 0) {
+    section.append(emptyMessage());
+    return section;
+  }
+  for (const proposta of propostas) {
+    section.append(createElement('h4', { class: 'detail__area' }, proposta.area));
+    if (proposta.resumo) section.append(createElement('p', { class: 'detail__summary' }, proposta.resumo));
+    if (proposta.texto) section.append(createElement('p', {}, proposta.texto));
+  }
+  return section;
+}
+
+function newsByYearSection(noticias) {
+  const section = createElement('div');
+  section.append(createElement('h3', {}, 'Principais notícias'));
+  if (!noticias || noticias.length === 0) {
+    section.append(emptyMessage());
+    return section;
+  }
+  const byYear = new Map();
+  for (const noticia of noticias) {
+    const year = String(noticia.data || '').slice(0, 4) || '—';
+    if (!byYear.has(year)) byYear.set(year, []);
+    byYear.get(year).push(noticia);
+  }
+  const years = [...byYear.keys()].sort((first, second) => second.localeCompare(first));
+  for (const year of years) {
+    section.append(createElement('h4', { class: 'detail__year' }, year));
+    section.append(createElement('ul', {}, byYear.get(year).map(buildNewsLine)));
+  }
+  return section;
+}
+
 function buildHeader(candidate) {
   const name = candidate.nome_urna || candidate.nome_completo;
   const header = createElement('div', { class: 'detail__head' });
@@ -81,7 +117,8 @@ export function renderCandidateDetail(drawerElement, candidate, onClose) {
       'Formação acadêmica',
       (candidate.formacao_academica || []).map((entry) => formatEducation([entry])),
     ),
-    linkedListSection('Principais notícias', candidate.noticias, buildNewsLine),
+    proposalsSection(candidate.propostas_governo),
+    newsByYearSection(candidate.noticias),
     linkedListSection('Projetos aprovados', candidate.projetos_aprovados, buildProjectLine),
     linkedListSection('Fontes', candidate.fontes, (url) => createElement('li', {}, externalLink(url, url))),
     infoRow('Atualizado em', candidate.atualizado_em),

@@ -82,12 +82,18 @@ a { color: inherit; }
 .table tbody tr:hover { background: var(--green-soft); }
 .table td { padding: 10px 14px; vertical-align: middle; }
 .table td.num, .table th.num { text-align: right; font-variant-numeric: tabular-nums; }
-.cell-photo { position: sticky; left: 0; z-index: 1; background: #fff; padding: 8px 12px; }
+.table thead th.cell-select { left: 0; }
+.table thead th.cell-photo-head { left: 44px; }
+.cell-select { position: sticky; left: 0; z-index: 2; width: 44px; padding: 8px 10px; background: #fff; text-align: center; }
+.table tbody tr:nth-child(even) .cell-select { background: #fafcfa; }
+.table tbody tr:hover .cell-select { background: var(--green-soft); }
+.cell-select::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 1px; background: var(--line); }
+.cell-photo { position: sticky; left: 44px; z-index: 1; background: #fff; padding: 8px 12px; }
 .table tbody tr:nth-child(even) .cell-photo { background: #fafcfa; }
 .table tbody tr:hover .cell-photo { background: var(--green-soft); }
 .cell-photo::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 1px; background: var(--line); }
-.pick { position: relative; display: inline-block; cursor: pointer; }
-.pick input { position: absolute; top: 4px; left: 4px; z-index: 2; width: 18px; height: 18px; accent-color: var(--green); cursor: pointer; }
+.pick { display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.pick input { width: 18px; height: 18px; accent-color: var(--green); cursor: pointer; }
 .thumb { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; border: 2px solid var(--yellow); background: #eee; display: block; }
 .cell-name { font-weight: 700; }
 .cell-muted { color: var(--muted); }
@@ -119,6 +125,9 @@ a { color: inherit; }
 .detail__name { font-size: 1.2rem; }
 .detail__party { color: var(--muted); }
 .detail h3 { margin: 20px 0 8px; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--green-dark); }
+.detail__area { margin: 16px 0 4px; font-size: 0.95rem; color: var(--ink); }
+.detail__summary { font-style: italic; color: var(--muted); margin-bottom: 6px; }
+.detail__year { margin: 14px 0 6px; font-size: 0.9rem; color: var(--green-dark); }
 .detail ul { margin: 0; padding-left: 18px; }
 .detail li { margin-bottom: 8px; }
 .detail a { color: var(--blue); word-break: break-word; }
@@ -134,6 +143,8 @@ a { color: inherit; }
 .compare th.attr { width: 220px; background: var(--surface); font-weight: 700; }
 .compare td.diff { background: #fff7cc; }
 .compare .compare-photo { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; border: 2px solid var(--yellow); }
+.compare__heading { margin: 26px 0 12px; color: var(--green-dark); font-size: 1rem; }
+.compare__proposals td { font-size: 0.85rem; }
 
 /* ---------- Footer ---------- */
 .footer { padding: 28px clamp(16px, 5vw, 64px); background: #0c1a12; color: #cfe3d5; font-size: 0.85rem; }

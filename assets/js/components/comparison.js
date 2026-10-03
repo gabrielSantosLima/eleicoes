@@ -36,10 +36,42 @@ function buildAttributeRow(column, candidates) {
   return row;
 }
 
+function buildProposalsTable(candidates) {
+  const areas = [];
+  const seen = new Set();
+  for (const candidate of candidates) {
+    for (const proposta of candidate.propostas_governo || []) {
+      if (!seen.has(proposta.area)) {
+        seen.add(proposta.area);
+        areas.push(proposta.area);
+      }
+    }
+  }
+  if (areas.length === 0) return null;
+
+  const headerRow = createElement('tr', {}, [
+    createElement('th', { class: 'attr' }, 'Propostas por área'),
+    ...candidates.map((candidate) => createElement('th', {}, candidate.nome_urna || candidate.nome_completo)),
+  ]);
+  const rows = areas.map((area) => {
+    const row = createElement('tr', {}, [createElement('th', { class: 'attr' }, area)]);
+    for (const candidate of candidates) {
+      const proposta = (candidate.propostas_governo || []).find((item) => item.area === area);
+      row.append(createElement('td', {}, proposta?.resumo || '—'));
+    }
+    return row;
+  });
+
+  return createElement('table', { class: 'compare__proposals' }, [
+    createElement('thead', {}, headerRow),
+    createElement('tbody', {}, rows),
+  ]);
+}
+
 export function renderComparisonModal(modalElement, { candidates, columns, cargoLabel }, onClose) {
   const attributeColumns = columns.filter((column) => column.key !== 'foto');
 
-  const table = createElement('table', {}, [
+  const attributesTable = createElement('table', {}, [
     createElement('thead', {}, buildHeaderRow(candidates)),
     createElement('tbody', {}, attributeColumns.map((column) => buildAttributeRow(column, candidates))),
   ]);
@@ -47,12 +79,17 @@ export function renderComparisonModal(modalElement, { candidates, columns, cargo
   const closeButton = createElement('button', { class: 'close', type: 'button', 'aria-label': 'Fechar comparação' }, '×');
   closeButton.addEventListener('click', onClose);
 
-  replaceContent(modalElement, [
-    closeButton,
-    createElement('div', { class: 'compare' }, [
-      createElement('h2', {}, `Comparação de candidatos — ${cargoLabel}`),
-      table,
-    ]),
-  ]);
+  const content = [
+    createElement('h2', {}, `Comparação de candidatos — ${cargoLabel}`),
+    attributesTable,
+  ];
+
+  const proposalsTable = buildProposalsTable(candidates);
+  if (proposalsTable) {
+    content.push(createElement('h3', { class: 'compare__heading' }, 'Propostas de governo (resumo por área)'));
+    content.push(proposalsTable);
+  }
+
+  replaceContent(modalElement, [closeButton, createElement('div', { class: 'compare' }, content)]);
   modalElement.hidden = false;
 }

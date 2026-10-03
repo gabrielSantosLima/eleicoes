@@ -19,29 +19,99 @@ formacao_academica:
 dias_trabalhados_ultimos_2_anos: null
 eh_reeleicao: false
 noticias:
-- titulo: Maior região eleitoral do país, Sudeste tem disputa apertada entre Lula e Flávio Bolsonaro
-  veiculo: g1.globo.com
+- titulo: Flávio Bolsonaro e Tarcísio encerram campanha juntos no interior de São Paulo
+  veiculo: O GLOBO
   data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbEl6X2FGY1BVRWZwWlNFeEdlTGFfNThDZkxOVDFzNU1SRG9iUDdVRGctaEE5T1FoZ0gwVVJ0YkE0MzROdlBINTR6bnFScXNZWnRaVkVFMURNOEczM253MHZWYnMtSE5QTmU1cXlaTk9YYTU5Q1dQVVc0UUlyLUFoVmxDbWlxUFduRXR2TkRhYkN3SHNHS1NfMy1YN0dMbEJicF8tWDBuRlpsTkVuSVRhNTRqd1Ztb0UxQ1hoTXZwZDU2bFdxTWpHYXZ4RXpldjgycTVqNEtua0Rjd05QNi1nQ0hsWFQ2MkZ1NnlLaUtLdVN2Y2JWTDllTDM0X3VfUl8yOGQ4UHp6N1rSAZcCQVVfeXFMTlJnd1dHY3lpUUhhRUlBZzFHdklWU19UWFdSRjhFZEhvWkJ4QkNON25TYkV0Vlo0eDNjbG01NXRTdFhOcnB2MnpmcDBzU0dscGc3ZUtXNnYtNUZiTTh3YUFLdUJxdUsyV2FxbzljbDMwVUhfa2h3TmkwUDZrNmd0NHVIT0h1SDE3UThlV0VSU1NWamR3ZjZ6UVN0NGtYTzFDZm84U0FUREdOeG00RHBKc3JmU20zMnFOeFAzQXRrS1c2aGpsekx3ZlN5NUdKLTlwQ0Y4VUw0MXdxVUotX2JTYTRMb2FfcC1IQTNDTXJDMWFwR0x2TmV1MzV5alBhckV6Q2NoYzBzRmpYTUhUU2otTEdqbXNwb0ZB?oc=5
-- titulo: 'Sakamoto: Tarcísio estaria à frente de Flávio, que carrega mais ''BOs'''
-  veiculo: UOL Notícias
+  url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWko2ZHljWTE1S0ExeUxEWU5pMXpYX3pzVDJKTkt4UkkyV2xaWnJITDdSY3lnSW5SeTBPZFBVM2RHN2pQZ0R1X1VQVW8ydXRCWEFVTWNILXR4SExmbnJkSlViTTl1WTd1VDRnNkxMdXdtY2dBVkdDeGxLcHdJcXZfV3BfLTVEN3ZSUFJyVkZRcmxrZjZYdjk5Z1QyQkI1RmVVZ2FXSXpZUGNXd091SXlKc19zRlJCZFBnazY5WXpQc28zMi1ZRmVnVGR0LVNpRW0yR1RGc0VqR2RjUy1Zd1ZuZGFCOHbSAfMBQVVfeXFMUDBTLTQ0MDdrekN4bHJSOS1rUkQ0S1ZYdms3RTdndkNoenZHbk5DQ3pVdm13QklHekJ3V084WkVZc0J6RnEzM1o2WENycndTdkpCTTlvR1lscVRLd3gyU1EzSWtDeXNwUnF2elZNanVCV3Nha1NFWHI3Q3VhU19aRGppN3U4d090UzQycmlFb0d2SmR2Ml9nYlJqd20tN3Rob2NvbThLYVU2N1RmOXhtNnVnb1Z0dk9MdWxucjBGSmV4aVB1OEhBR3hYRXl4bV85RlhWX21IN19wSDdQMVFCRmlUaGhTOFlaNUpab1NVY296YVQw?oc=5
+- titulo: Flávio Bolsonaro encerra campanha no interior de SP e zona oeste do Rio; Lula na av. Paulista
+  veiculo: Brasil de Fato
   data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUXRBVGFVeU9OcXBsRnFndHhlVUd4dUtiZ2tQX210ODJFeDNOSU04cjZoWmNhaFNmckF3QXVxc2hxSjUxbEVIMEJJa3JOZFNMRVYtTE5hV18yZFp1QlQ4OXZHd3huOXo5Yzd4N2lwRkVVQU1BVVNLZGVYdTFyb3NCSFJfSGxPT3plUk5LUDNjcXR5Snk4NU1Oa0NpM1NXaHBPZllQZGJXU3lJS0w2LVVHaVBlRmFqaGQzUU42c1BlaEtVejFKQnEwdTNFY3MtbzIzNkRNQjBzdW41ejJkaXhtQ213?oc=5
-- titulo: Flávio Bolsonaro inicia último ato de rua antes do 1º turno ao lado de aliados no Rio
-  veiculo: InfoMoney
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc0NsZ2FETUdYc2RwVl82bUNuUk1RZkZpZkptWk9ZUzJYbjBmU2tIdVBfbmRubVp4ZHk2ZVFnbVhPcldpQktTV0RkRlpwdWRlMExPQW9LV183aWJabVNaT1lxVFRfNEVVbnhiZlVjX3RIR3FwclV1WURvRzBvWWxSQnhubGJMOVZwOUlWUGQyZVBIMWJlSXRsckhENFlJc3RMMTdTTWE5ZmhKVjdXT2tmeUk3VUItaXp5b1JPdlhXZDVpUdIBxwFBVV95cUxOcU15YXAxaDhIalNHS2NoSlBKNEtva3lwM19LeVFzMnZuNWN1cmFPX0lXWHlZTG52MTJXVHg1cXFQZjVlSFdoS1dvd0x0MFR6TThWaERJVW1yUXFjd0xoS0hGQ1hQMW14MUVkR3NDcnFWWlVsSlRUOWR4YW9QWWV3Q3FWREVITDBlSTVWeWZjNHVGbV9ZSTg0NWx2NlIxaUpLSDhYbm8xMm01WlhjY01Odi03cVc4NmFwOFBVaUozUFRhdHk1S2dN?oc=5
-- titulo: Flávio termina 1º turno sem atos de rua ao lado de Michelle Bolsonaro
-  veiculo: CNN Brasil
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNR09QdklUU293T2ZTMUNYUEhCZW5UTVRLLVR4bXR6SGx5aEpJcVN3RlBfdTU2aHYwV3czeEtBQjVLblZIOXU1em1rdVc0QUxDaWctSU9wMDRnRFlXVnRGcXVBMlEzT0ZTMzJzWG9SU3hhakhoOVFsVG0yQ0RtSUpGeHB0bHA0RWxvdnYzMGRXX2xxVHVKRExLck8wUkVfdDlSM256ZWJCRUxDbWJP?oc=5
-- titulo: Por que a Assembleia de Deus Ministério Madureira rejeita Flávio Bolsonaro
-  veiculo: Terra
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaUU3UmJTaGxLUFU3b1FSOXlOb3pBVFRGdlhCdlNZTmo5ZVNsYUVHRV9LbkpMaXFQVEtBZDZiQ1Fhc3oxd0FLckpsRGR6N3dMX1JRenhTYnM1WWw4aWtpWXZsWnVlOC0tYk9NUHFfSFBEVU96dEktT0tSOUVpWF9aQzAycFppMHVTVWxLQkMtYk4wZDg0bVhGMllnYldlT0dfQTdrdkJKVUluOXdYN01sel9jNmlBc3g5T3hJanBYbEdEekhpd1BRVDJDekVvUHotQ2lsRkVFQmJvUndqOWdYcG5xUnB3cFUtd0NvRGFIajZrVWfSAWhBVV95cUxOcjRRazZ0NEFBbkNSYW9wRlFQYW10bU5NOGIxTVk4c3J3cFlHNHJlY25zM0tBWWRkdjdPX3JZaC1rUG1vOVJkazltSG9NUFJQSU1NZXlkVmM2cEpOSWVHc1ItYmxwdkNWWg?oc=5
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc2tlMV9pYzZKZzBQYjJGemx4UVdoWWZzcjdRa0M4MG13VzNYbHRpb0JjbG1hb2JmbktLQ2ZnVnB3ZU5KNWljR0JjWlpmd245MEZaZnJPdEYzdTRucTEzQzdkRDZEMGp1ZXJjRGZFWGdiU3FaRW1uTHpHeVc3VDExVmxrSjZqMkFvOGFKUHN3QXVRN1liSTJheUo2SmxXb3czM0J2c011MkgtcUxsSmRhU0FSSUFNS3dGaW1ud0hVRnRBSzdyS0w5cmlUeUFhdG1y?oc=5
+- titulo: Flávio Bolsonaro vai a Israel em 1ª agenda internacional como pré-candidato a presidente
+  veiculo: O GLOBO
+  data: '2025-12-23'
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNanpwN2cxTFhGcGVHZTJRdVlVYkM5cVd5OTczWDFqa2VhOEJ0YU5xVnNQcGZqTFdaTUFKdENYTk13ZnAtclJPb0t0X1FjMU1wZlRUN2s1aWw0ZmhBaEkwRTdHY0NoNjRZc1BZeUpfYW5Mb3hKSlFJZjYxNmc2RXRHS0ozdzBRUGJsbExvaVdyMTJ3T19adGo2T3ZHTkVwZG9SQkFJajM5MXNFT0J4S3lKUUdmUnNncnFTeHFTcjYxUXdRM2U5ZWZMQjlQUnJPMnkxMFFZUnFTakQybThvb1k1VtIB7wFBVV95cUxOclNkZUc1d3pkZW91TzZTam84aE1Gd0hCdElLTzVFM0pXZ1pFTE5BeDNMeWhQQkVXVWZuamlqT2tfUDVveDVrTVRzYnl2ZnRPM3R2QzFMbFFhaXhtb05RamZPLW92eS10b3pJZGNjMzA0Y3Jtb2huRF9TZHdjSVh0ZEJROG15Wk16Q1NYUHFXaC1OTDhteGdsbGNWV01IV05qMS1vb1oza3JJclp1Y0hDbndmX1Y5bVhpVnZQV0hlMWFBOE5VUzd0RGRFajFpcm5ybHVZQ3NKWFlreHdIb1RBUHF1UnBnRXpDSTdJRnpuNA?oc=5
+- titulo: 49% acham que Flávio Bolsonaro leva candidatura até o fim, aponta Genial/Quaest
+  veiculo: Estadão
+  data: '2025-12-21'
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQQTlpb0loZy1zQU9RMlpGY3JYVjBfdjZoeUtkYnVVa1FtU3ZpLTk0SjlIMlhERGtnRDloeF9CcTdHcDRnbmk5Q3JsRzBCWG1qd2F6TlhXcVU4QVVuWi00VXR1MjBuOTg5d0RnQ2NjTVNmSkxrajYtR1dReFM2Ujd4OG92ZzVib1FRS1BuZEZXZ3JIVUp5SE1QdjJEM2UwcmZnWmNhOWZiNkZjNDdjb0NCb0NhZ9IBuAFBVV95cUxNb24tNkFWUFdiX0s0TXpyRnFxQWZJMnZXTVpaRHlaQTNjaTM1dGp2NXNYOFJEOTJqX2o2aGZhbTYzUDJDdXlJaFhta1FxNzBVaTNrN2VXSWViVS1nVmRucVRzWnlTUHAzWC1zNktfSmJFajVIaGExYlBYOTZ0QnJycVJoWmdXQXFtallWdlNiamhIQV91OWt2Vm10UkFDUVlyUWJQU3psUU54YXdUTXc5TUxhZ3lSZ1Zp?oc=5
+- titulo: Flávio Bolsonaro nega que será candidato à Presidência
+  veiculo: Poder360
+  data: '2024-12-18'
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNMmpaSkhUM3ZRRDR0RjA1NnVJV0NxZzg1OFV0NkE3Y3oydGsyT2V6Y21pZkpDNzBaa2UyVEFCYUVqZTVwcGxfTi02bHF5QlhhT0d4VmRiZmI3djFWeV9nWXFNTTBOOUFkR3k3T2NGM3p4UUd0cUMzMWFHRHVILU5LMHpBSnEtdno5MTV6MXFTazhFZGFMTzFvOUZnVkZTTXhT?oc=5
+- titulo: 'Flávio Bolsonaro critica decisão de Barroso sobre uso de câmeras pela PM de SP: ''Vão preferir não correr risco de errar'''
+  veiculo: O GLOBO
+  data: '2024-12-09'
+  url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQX1hqX3Q1YWJXek8zZjVfeE4teHhuRFlrbnlYcFJwN05MQlEtX0pucDlWT1RGb3NYU2FoOTB3a3NZZ3ItTDBWLU81RFZrSzlBa3U2WmNiVGs4N1RVLUFXTjVjRkhHVTlIUW1aT1FkSDJ3bGwway1oR0ItUEVMOHVWQ1F1b0o0NEFwbXBKZmVVNGQtY1duZTQ4a0l6SGZxM0NsMTJ6a016bVZBelh0ZlJTT2NySEp6OG40MXJIYUp3VW5KTmUxUTJ0bWNWNjVVR3c2eXNFbGl1T3JoNW0xRUtkQnpUUVdpRThORlQxLWtfb0ZnQVRGNTF1eFdXcVJOeUVGcElvLXRwdjJ5blp1VldrbkI0SmNCY3MyZjNOM9IBqwJBVV95cUxNS3QwSW9uLVJtVlVqX0lFV0t5YnYwekI5LWNTU1NYT19xT0E2QkF1Mmd1MlZzLWFYUkVnZHVrSnpHN0pxWkpOUWxLMDZFbE5UczNKZHNaQi1DdXlCRHZsbWJnQmU1MktwclFEdDBzTzRoMFFjdHhndUtKODFhbXVkMmtsbjVkem11dlJsYVd5X2ltaUUtT3ZOZGVZcl9NYWZkbDZsc2VwNE1YTGJrQ2tRamxEYkpsS0JSTkt0TTE3c2NVZDhaVEdKbkNCXzl0YnR0Mml3RFp2Y2FnZE0xX01Wb0VXMnhhN21wS29BTEJJVWFsdUdDSS1OUEpWX2w1UjZPeWpHNUZVMlQzeHhyT1ZHZ3ljMUpzcFQ1UUZUdHQ2VC1Ua1JibHNYZk1hWQ?oc=5
+- titulo: Flávio Bolsonaro diz que pai, quando presidente, cogitou indicá-lo ao STF; assista
+  veiculo: O GLOBO
+  data: '2023-12-13'
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNNFdjSWxMb1p3REExb3Z5eXRvYmdHdndnbTNhQ1pDZk81RWdBd1dCd1pIR1hsS0pqRkNxbEFQb3JsdGU1R01zUDVRcmFFdlRpVGFLZmZTWEVwNGNvc2NlWGdncVRkUDhrTWdEYk9hQWU1TUlCMGNRQjk1RGM1M2dWOTJIMVJPcUhVM1dSeWVNeW84T3pXWVVPa0NaOUMzN0xoSF9fYnJmWEx5X3dFR1JWb1luN0c0QUHSAcYBQVVfeXFMTk93SHBEUHlzZlNWaFhTRV9ueHVLMzc2S0E0enc0RUVxel9iMXJiZlZyQXd2MGV6QTdCT0lHd1pTbnRIQ1AtaTJEbW0zVDFpVG5KNjExLXV6LWNsMjg0R1dnRTlVeWhwcnNndm93SGhyLWVxSl9EM0xEbGdnOXZ3WXBGcGpvZFBRdFlONWpnSFJONXdLdGEzVmYxdzRtQ21rQTlNVGNZdFFTa3liYjZxSlNJRTZrVUhLOVczLXpUNG9MSjFsSU9R?oc=5
+- titulo: Flávio Bolsonaro diz que o pai quis indicá-lo ao STF na vaga de André Mendonça, mas ele recusou
+  veiculo: Estadão
+  data: '2023-12-13'
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQNnhrSHFLWVpBTUtkVEVRUi1penRlUjMzQW9kc0ZrX3lQYUstV1RtRUQ3R3QwaC1vU1ZOekVBaHNFcEhwc3pTeWRQXzhnQzdNVEQwTVlnT2xuSFFOc1lMX2xFQjFrak5MUzgwVlN3ZUV6RWJpSVhDY3ktVkZDYXhVNV95ZnFsRV8wbTJacjJTaTdwakc2Zm9TLXBsNDdrX1dOZFhnTGpjdUkyckpSajRnaFFrcG9XYlpydm9Gbk03dUppWWJxZDNtRGNjQdIB0AFBVV95cUxPSHFYUFVqVEhXQzJDblItd1pZMW5TUXhnMlVpNGwtZk9iRWtER1FBZzZkQWtTeGtWZXNvZmFieGlPUGg4RXI3NzUxY0xDV1RaRVdWVTNQMkc3RGdJWGtESjBrWnpybE9kUE85U3hrYldDT1ZmRkpFU0tiNi1TWTI3dVBDQWZOdzN2QmFWZlJrWjloMXZTN1MtbWhPT0s3V2pueXJ3TlJIUG03TEpfb2ZlVWdVSUJTNFRtUEQ5QlJHZDllMjVvQmg4MXpaRjl6akYw?oc=5
+- titulo: Com fala sobre ‘ameaça petista’, Flávio Bolsonaro inaugura oposição a Lula
+  veiculo: VEJA
+  data: '2022-12-06'
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFBmNmJ0N3lUVW9iM1BSV2I4TnFIMldKTHI4RUZBb1ZjS2kwYkg0ODJINEl0T3NBX2ZZWm9KSzU3T3VkT3lzZXlBRkZVS3ZtRkhlYUQ5SUJaOEtjczJGMk5iZW5hMlFBeVlpdWVYRWVTTGNzdFA1alZSNl9GWVc5R0JjU2MwRF8zcTE2ZjBHbDBDaVJtT0N3UGU2c2hmaHo4SEVXS0VSSFdaMU9fcW0xbkVXUW8zZw?oc=5
+- titulo: 'Silvinei Vasques: diretor-geral da PRF é próximo de Flávio Bolsonaro e tem respaldo do Planalto'
+  veiculo: O GLOBO
+  data: '2022-11-03'
+  url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNWlPSlhoYXdmdFdSYWFNS3VIajJoY1hfdFFkbmxYc3dTcjNmeEEyRzJfRVhOOHg3cFo2SGNBd3FEMnFLdDFjYkRSM0Etbl80NFJDNFNraTVSaWIxS1ZYLVVkYVJNRXR1UkYzVmpvOVpsaUpOLVlzVDVpd2lJYmUxdU8xQkctdG9MSlc4SlIzS2V5ZUFTS2RLVTlUU1NkQ2QtQy1fQi1EWmJDaXlTc200Z3JEa0tEeFZRblNyWEVLeVNSMElZUFF3aG9fQVBGZEZPeXQwZnlYYTJ0dUhRZ0hnR0VDd2FLdjVtclpOSXZ3Q0NTbjY5X0530gGGAkFVX3lxTFBFYjJ4LVp2aFIyZ2FKVndWZ0IyTDB4ZEh6elo3bzhyN2RnUW9LNU1qV1lJUVRlaGFkQWZ0dGNaSGZfenJuSHcwbjFXLWdlTTNValZKTTNPQzVFUGlVVl8zSEdfMDkza0JRLUE2bnNPZHI0SUJYRGJxLW9Gb3BNUnNPb2hnbzh3NGVPLXgwQjN4Q2FheDE1MUJ0VXVKaXpWc1dwSTY0dm5Va2Y2NVBQVjZFb3ZBdlBPeVF2Zlh3RHBjdVVmdFVDWkJiOEJCVmFOX1ZyNFlXTGZCMjYtMm1ib2t4bkFsdUs3TEdpb2NfU0lNS0p5SFdlVFhDNG16MElpY0FmMXRvOUE?oc=5
 projetos_aprovados: []
 fontes:
 - https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro
+- https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
 atualizado_em: '2026-10-03'
-foto: https://upload.wikimedia.org/wikipedia/commons/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg
+foto: assets/photos/flavio-nantes-bolsonaro.jpg
+propostas_governo:
+- area: Economia e Trabalho
+  resumo: Cursos, presenciais ou online, terão certificado e conexão com vagas de emprego e trilhas para abrir o próprio negócio. O plano integra vagas, qualificação e abertura simplificada de empresas, com foco na inserção de mulheres no mercado de trabalho.
+  texto: Todos os cursos, online ou presenciais, terão certificado ao final e conexão com vagas de emprego e trilhas para quem deseja abrir o próprio negócio. Mais Trabalho para Elas mais emprego, mais renda, mais independência Vamos criar um sistema que integre vagas de emprego, qualificação, abertura simplificada de empresa, apoio ao pequeno negócio e intermediação de mão de obra. E vamos montar um grande banco de dados conectado ao RH de empresas de todo o país, para impulsionar de forma mais segura a colocação de mais mulheres no mercado de trabalho. 21 Creche garantida para toda criança o cuidado como parte da economia As mulheres dedicam quase o dobro de horas dos homens ao trabalho doméstico, um cuidado não remunerado que equivale a cerca de 8,5% do PIB brasileiro. Vamos ampliar a oferta de creches para as crianças desde a primeira infância, em período integral, com alimentação digna e foco no desenvolvimento infantil.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Educação
+  resumo: Ampliar a oferta de ensino técnico no ensino médio, em parceria com o setor produtivo, para que o jovem conclua a escola já com uma profissão. O setor produtivo poderá custear bolsas de formação técnica.
+  texto: Há anos, setores organizados resistem a um ensino técnico voltado às necessidades reais do mercado, como se preparar o jovem para trabalhar fosse algo menor. Vamos ampliar a oferta de educação técnica para os alunos do ensino médio, para que o jovem saia da escola já com uma profissão na mão, e não apenas com um diploma. E vamos fazer essa formação técnica em parceria com o setor produtivo, com foco na inovação, de modo que quem forma o profissional converse diretamente com quem vai contratá-lo. Nessa parceria, o setor produtivo poderá custear bolsas de formação técnica , financiando a qualificação dos profissionais de que precisa. A escola também precisa preparar para a economia que vem chegando.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Saúde
+  resumo: Cuidar da saúde da mulher de forma preventiva, com atendimento perto de casa, telemedicina e prontuário eletrônico integrado. Ampliar exames preventivos, saúde bucal e Unidades Móveis de Saúde da Mulher.
+  texto: 'Nosso compromisso é devolver às mulheres aquilo que hoje lhes falta: tempo, inclusive para cuidar de si mesmas. Saúde para Elas mais prevenção, menos filas Vamos cuidar da saúde da mulher de forma preventiva, sem fila longa, com atendimento perto de casa e também pelo celular, por telemedicina ou em postos de saúde que vamos ampliar e construir. O prontuário eletrônico integrado garantirá rastreamento e acompanhamento ao longo da vida, através de um banco de dados da saúde que conectará médicos de diferentes especialidades, e a mulher não perderá mais o dia inteiro de trabalho para cuidar da própria saúde. Vamos ampliar o acesso a exames preventivos, cuidando da mulher com câncer, na menopausa, na gestação ou que sofre de endometriose, por exemplo, e dar acesso também à saúde bucal. E teremos Unidades Móveis de Saúde da Mulher, ônibus ou caminhões adaptados que percorrerão o país, além de barcos adaptados para atender a população ribeirinha.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Segurança Pública
+  resumo: Combater facções e o crime organizado, com castração química para estupradores, auxílio às famílias das vítimas e canais de denúncia de feminicídio.
+  texto: 69 Terras indígenas e quilombolas ...................................... 50 SEGURANÇA PÚBLICA Auxílio às famílias das vítimas ......................................... 15 Castração química para estupradores .......................... 14 Facções e crime organizado .............................................. 13 Feminicídio - Canais de denúncia ...................................
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Meio Ambiente
+  resumo: Tratar quem produz conforme a lei como parceiro na proteção ambiental e separar com clareza quem produz legalmente de quem destrói o meio ambiente para lucrar. Defender a Amazônia com soberania e presença do Estado.
+  texto: 'Quem produz respeitando a legislação deve ser tratado como parceiro na proteção ambiental, e não submetido à presunção de irregularidade. Combater o crime ambiental é separar com clareza quem produz legalmente de quem se apropria do patrimônio público e destrói o meio ambiente para lucrar. Amazônia: soberania e oportunidade. A Amazônia ocupa posição estratégica para o Brasil e para o mundo, mas pertence, antes de tudo, aos brasileiros. Sua proteção será conduzida com soberania, presença do Estado e oportunidade para quem vive na região.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Infraestrutura e Mobilidade
+  resumo: Reduzir o tempo de deslocamento com o transporte coletivo como base da mobilidade e parcerias que conciliem moradia e infraestrutura. Bancos públicos priorizarão metrô, transporte sobre trilhos e ônibus elétricos ou a biocombustível.
+  texto: É tempo roubado da família, do descanso e do estudo. Vamos pensar o desenvolvimento das cidades para reduzir o deslocamento da população, com o transporte coletivo como base da mobilidade e parcerias que diminuam o tempo de viagem do trabalhador, valorizando os contratos que conciliam moradia e infraestrutura no mesmo projeto. Os bancos públicos priorizarão o financiamento de linhas de metrô, transporte sobre trilhos e ônibus movidos a eletricidade e biocombustíveis. Menos tempo no trânsito é mais tempo em casa, e uma cidade que se atravessa rápido é uma cidade que trabalha melhor e polui menos. 52 Segurança hídrica água que chega, e enchente que não destrói Para milhões de brasileiros, sobretudo no Nordeste, a água ainda é uma incerteza diária, e a cada temporada de chuva outras tantas famílias perdem tudo em enchentes e deslizamentos.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Direitos Humanos
+  resumo: Ampliar os direitos das mulheres com o programa Brasil por Elas, a Central da Mulher e o aplicativo Central da Mulher, além de bônus de internet e medidas de conectividade.
+  texto: 16 BRASIL POR ELAS ................................................................................................................................................................ 17 CENTRAL DA MULHER ............................................................................................................................................................................... 17 APLICATIVO CENTRAL DA MULHER ........................................................................................................................................................ 18 BÔNUS DE INTERNET ................................................................................................................................................................................. 18 CLARIA ........................................................................................................................................................................................................
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Agricultura
+  resumo: Fortalecer o agronegócio e a agricultura familiar, com crédito, segurança jurídica no campo e defesa sanitária, ampliando a produção e a exportação de alimentos.
+  texto: '52 ENERGIA ...................................................................................................................................................................................................... 52 AGRONEGÓCIO ............................................................................................................................................................................................ 53 MINERAIS CRÍTICOS ................................................................................................................................................................................... 55 TECNOLOGIA E INOVAÇÃO ......................................................................................................................................................................... 56 MEIO AMBIENTE: O ATIVO VERDE DO BRASIL .......................................................................................................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Tecnologia e Inovação
+  resumo: Digitalizar 100% dos serviços públicos, ampliar a conectividade e o bônus de internet e digitalizar o SUS, promovendo um Estado digital e o desenvolvimento tecnológico.
+  texto: 16 Tráfico e cocaína nos portos ............................................. 15 TECNOLOGIA, INOVAÇÃO E ESTADO DIGITAL 100% dos serviços públicos digitalizados .................. 25 Bônus de internet .................................................................. 18 Conectividade - expansão .................................................. 24 Digitalização do SUS .............................................................
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Gestão Pública e Combate à Corrupção
+  resumo: Promover um amplo corte de gastos, o tesouraço, para enxugar a máquina, equilibrar as contas e reduzir impostos. Um Estado com transparência, mérito e regras claras para prevenir a corrupção.
+  texto: 'Nossa bandeira é um grande TESOURAÇO: um corte profundo e por todos os lados, que enxuga a máquina, coloca as contas em ordem e reduz os impostos que pesam sobre quem produz. E é também um Estado organizado para prevenir a corrupção: com transparência, mérito e regras claras, fecha -se o espaço para o desvio. É o que detalham as próximas páginas. Mais Brasil e menos Brasília "Mais Brasil, menos Brasília" não é uma frase nova para nós: é um jeito de governar que já praticamos. No nosso governo, o município deixou de ser um subordinado que pede favor em Brasília e passou a ser tratado como parceiro, com mais autonomia e mais protagonismo para o prefeito resolver a vida da sua cidade.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Política Externa
+  resumo: Conduzir uma política externa de soberania com profissionalismo, sem viés ideológico, priorizando o desenvolvimento regional e a inserção competitiva do Brasil no mundo.
+  texto: '59 DESENVOLVIMENTO REGIONAL: REDUZIR A DISTÂNCIA ENTRE AS REGIÕES ..................................................................................... 60 SOBERANIA COM PROFISSIONALISMO, NÃO COM IDEOLOGIA ............................................................................................................... 61 BRASIL NO MUNDO ..................................................................................................................................................................................... 62 COMPETITIVIDADE DOMÉSTICA ............................................................................................................................................................... 64 BRASIL QUE CUMPRE A CONSTITUIÇÃO ......................................................................................................................'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Assistência Social
+  resumo: Combater fraudes nos programas sociais e restringir o uso de benefícios em apostas, além de ampliar a moradia popular, como o Casa Verde e Amarela, e a proteção à população idosa.
+  texto: 26, 73 Pacote antifraude .................................................................. 72 ASSISTÊNCIA SOCIAL Apostas - conscientização .................................................. 33 Apostas com recurso de programas sociais ............... 33 Casa Verde e Amarela .......................................................... 47 Idosos - Casa segura para envelhecer ..........................
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip

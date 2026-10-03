@@ -10,28 +10,103 @@ formacao_academica: []
 dias_trabalhados_ultimos_2_anos: null
 eh_reeleicao: true
 noticias:
-- titulo: Maior região eleitoral do país, Sudeste tem disputa apertada entre Lula e Flávio Bolsonaro
-  veiculo: g1.globo.com
+- titulo: 'MAPA: Lula e Flávio Bolsonaro concentram campanha em SP, MG e RJ no 1º turno'
+  veiculo: G1
   data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbEl6X2FGY1BVRWZwWlNFeEdlTGFfNThDZkxOVDFzNU1SRG9iUDdVRGctaEE5T1FoZ0gwVVJ0YkE0MzROdlBINTR6bnFScXNZWnRaVkVFMURNOEczM253MHZWYnMtSE5QTmU1cXlaTk9YYTU5Q1dQVVc0UUlyLUFoVmxDbWlxUFduRXR2TkRhYkN3SHNHS1NfMy1YN0dMbEJicF8tWDBuRlpsTkVuSVRhNTRqd1Ztb0UxQ1hoTXZwZDU2bFdxTWpHYXZ4RXpldjgycTVqNEtua0Rjd05QNi1nQ0hsWFQ2MkZ1NnlLaUtLdVN2Y2JWTDllTDM0X3VfUl8yOGQ4UHp6N1rSAZcCQVVfeXFMTlJnd1dHY3lpUUhhRUlBZzFHdklWU19UWFdSRjhFZEhvWkJ4QkNON25TYkV0Vlo0eDNjbG01NXRTdFhOcnB2MnpmcDBzU0dscGc3ZUtXNnYtNUZiTTh3YUFLdUJxdUsyV2FxbzljbDMwVUhfa2h3TmkwUDZrNmd0NHVIT0h1SDE3UThlV0VSU1NWamR3ZjZ6UVN0NGtYTzFDZm84U0FUREdOeG00RHBKc3JmU20zMnFOeFAzQXRrS1c2aGpsekx3ZlN5NUdKLTlwQ0Y4VUw0MXdxVUotX2JTYTRMb2FfcC1IQTNDTXJDMWFwR0x2TmV1MzV5alBhckV6Q2NoYzBzRmpYTUhUU2otTEdqbXNwb0ZB?oc=5
-- titulo: 'CNT/MDA: Lula tem 47,8% e Flávio, 42,1%, dos votos válidos no 1º turno'
-  veiculo: UOL Notícias
+  url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTEw2US1wX1N2VnlFc1ZBM0lGajI1amZJVlpsTURnLUpWWVRkRzZaVHh5VGlPMktpdENVaUp2YVBBV0Q4QUh6TVFzSnNHbWttSGR4SG1pVmNIYlV5cjQyNzdEU2dNa2RoZGduMkJYelVmU3kwQXZLbEdMWVF6dzRYVDVOWUJMaFI3VFNVRzJHNFlHZVVHQTNPd2ZlRDNVOHFSb1d2NE1vRm5fQ2PSAboBQVVfeXFMT0ZtbHZRTE8tSkVlenJnSWhUYnVxdnhsLVVyYkx0ME5BcFlPTUNkV2tnaEpZMno3NW5sOXpGcWhLUXNNT0VNYTNoNG9rNjVnMEVCOFg5MHVNdGktRldVRTV1N2d1MTE4QVdPUnV2Zl9hRU1uVzhPVG9PZHNtQjlOYUE2MTItWUFKcXY4OUJYQ1pidzFGYWthbkdWU2pFZ1Q0Ukw4R0c1aWIwYnJLems5ME5VSk1GdFF0Tkt3?oc=5
+- titulo: 'Eleições 2026: Lula mobiliza eleitor mais velho; Flávio aposta em voto útil no 1º turno'
+  veiculo: G1
   data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUxvaEpZSmVmR3ZUQldrNUZoazB3MzNkWUxUd0FRQ0JhTnRJTGtvVUxEWk90Z0NETk5qZXp1TVNaQWZYa0V3aUxfNHl2MkE4bnY5RlhyQWU2Qmc1a21RR2xrOXotY1dqTWJpRENMVDNuTjd1aDV6LXd4eWhMTVV3bEdkTzBlb3dQRi1sQ1pXSzY2WEZHeFpnQ2ZvaWVRUUY2ZzU3MlQxWVBkaTFRNXphYXVURjU?oc=5
-- titulo: Campanha de Lula pede ao TSE investigação sobre fechamento de Embaixada dos EUA
-  veiculo: CartaCapital
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPdzVzcW5fWGlKRmh4aWEycGtLc0JaUE94VWpPQjNXbGhwYkNUSFhKNFMtczYzTF90V1N5Qk1vSnFxSll1WDlST1Y4UXpKUHBPRDVqZHRkaUxiVHE2NWhrSDhGOTlGMk9RV0tkb1JNQ3lBQ0MwdmFpYmY5RWtPbk9iUF93UGZJNHcyXzlxU0VvbFdxalUyWWVnNlMzQ2wxNGNrMzk0eVVqQ0NYblhLaEdjQUoxZjJ1UFFyakFKRXJR?oc=5
-- titulo: Multidão acompanha Lula em último ato de campanha em São Paulo
+  url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT3R4aVR1a3B5dUZSdElUN1BlOTNRM0VwZGw1a3o0T29JNXp0c2trekwzNVdfRUpKdTctdnBXd1E3SThlcjRWY1dsRmdzSTJXNVEtOFFpeExXWl9lVnFIVENTSlgta3hoTlcxTGtJeEdLQkZ3d3V1a2kzRURndmpRZjdTSE45R0I1a0I2Wl9uS2FCcWpVZUZaWXBGd3F5S1h3d200V2VaZllTWXRjNVVlRUxFcFdNUTFKY3VDZmlPbHZVOU83OHJwcWFWa3kwbDRIWWNrcTl1MktXM0VMeVBDZi13RFhkaEEwWmfSAfgBQVVfeXFMT0tSUUNGaTVnVWswUWY2WmZzcjJhY1BsYUg5RmxwTHNtcDlKRmFYaVdxdDFrbzFVT3JCQldhUlhVSHI0TG5veXA2QXR3b0xYYlQ3NUZ6cnFtRVhOZ0FsUkdsNHZtSjJ0Tm0wc2FTZjBkN2RqZTJ2R3NLdVBQM2JmMzFkNXlzckZGb0w2MHk5Szh0V2tNZmhPb1N4SUdLcC13aW5LYWlYOUhDLXZRMjJfN2kteldtaEpBWmV5QzJiNmpCOEFPX1lFaHdxbUxHc3hDMmd3OE5HblBrMDJMbVY5T2p2djZpVjVXb05Tc1hlQWpkQUh3MU9pZmU?oc=5
+- titulo: Lula não deveria disputar reeleição por conta da 'idade avançada' e de políticas econômicas 'medíocres', diz Economist
+  veiculo: BBC
+  data: '2025-12-31'
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LbVpPbEtCczV5NlhTT0YtcXNwbFlVblYzTHdmTldSWm9QLXFzTGJnQ3NuYnBfVGJRMzRYbWg4UEpzb2FzdzVHbHBVVXcwd1VlVGJISTNBdWJTMzFsb0t3cTFn0gFnQVVfeXFMTXdQdXl0VFQ5TlNJMVNYVzBEQm9vdF9FWUpyYmEyVVlrSlJxM2FzZDVZSnBta0M5bnc0ZEZtQUJyT3lWd2J3cW9yeTBNdEZTWmRWMWIwZjRCNVdVUUJQSDJzRmd6bXM0VQ?oc=5
+- titulo: Em ano eleitoral, Lula terá agenda internacional reduzida; veja o que está previsto para 2026
+  veiculo: Brasil de Fato
+  data: '2025-12-24'
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM0pjU001ZVNsWWc0WUhYSnFhZVNSNldnSXFrNWNrTk1mdkRpdDV6Rkt4dWktUEVaMzhSV3VwdUZDbk1IVHFDT0ZyQnNQVl82dXJEZzdFZ012WktwOEdFeTdyejd6WkRqa2ZDTlJFeWpnaVVMbHNkSUJTa05FZTVrTDVQMXg2emR5STFLMVlKQlh6NHZNRC12SlVZcUpVaV9kMUN2T2VTX1lvbHlHUEJnZTZEQWt6cFZJMERSTWdVWi1SeHlodmJFQ3NtY1ZjZG9v?oc=5
+- titulo: 'Lula: Jornal britânico compara presidente brasileiro a Biden e diz que estado de saúde gera dúvidas sobre candidatura em 2026'
+  veiculo: BBC
+  data: '2024-12-16'
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE45V3VVLUFwbm9BMDZQYUQ4TzdGQjFNRHA4R0NsbEZETmpGclNjSDZlcFhQWVR5SVAwUEJ5X1M5bkI3T2EzcUprZTB4Z19oMFpGd2s4c2s1R25qLW9FWkh6OTNn0gFnQVVfeXFMUDgzTUVLYjh2RExSTzlEdGVkbDdRTTRjVjBnUGgyNC0yOXhtc1hYNXhrNks5Y1A0Zy00emRJVXVQSDhLSXR5RXJxcjR2NG4ySFZWLWdKWmhNeWs2OTFLN3JjWC1HOFRvaw?oc=5
+- titulo: 'Lula internado: o que é a embolização da artéria meníngea, cirurgia complementar que Lula fez'
+  veiculo: BBC
+  data: '2024-12-12'
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nb2FMUXlWbjVrYzZzNnlHNEkweGNPb2g2ZW9wZm5fWUx6aUZsT2cyY3BaLVJBU3d4cXN3cGVmaXV3NlRsM3JuWUlRVTk1MmhHWW9DMVlZNWxsNnVaY1ZHeWl30gFnQVVfeXFMTkhuUjF1QjNlbXRlb3JBVTNCUWNVM2tJc292Z3ppaWN3WThocDc5dGhTRlMtTU1aMmVMaTdlaGJKUWptREM0Mlk1Z2hfX0lsVEx5b0o1WHc0ODQ3SGZ5aThjdDZWS1hWbw?oc=5
+- titulo: 'Checagem de fatos: Fala de Lula sobre “sete anos que nos restam” é referência à Agenda 2030 da ONU'
+  veiculo: Reuters
+  data: '2023-12-20'
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnJaQTd3bXNTa3hKWDhxU1hzMlpkMk9obUJHc3JDVWhGRHQ3SXdrb0FZbnZtWUQ3VDRXa2VXRlZXXzdYSDd0OTZwUUxvenlrakhnS0NLTkEzMmc5RFFodDBEVEFuWENUZ18xZTFmNExraldWdlllZ3Q3Wjl0T0pDR2ViWXF2WlgzdjVZ?oc=5
+- titulo: Congresso derruba veto de Lula e mantém marco temporal indígena
   veiculo: Agência Brasil
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxObWRETmxyc3JmdDcyMDlvcjQ2cEJyTEdQeHNkNU96UlhqRDJpQmlBei1wc1pBemN6a2JZQ0ZEc0ZDaHNSV3hZNWVFU2k3QlN2TlAxcGRoZ3ZRX3hnZm1xTEQ1MVpfMUFVNVpBV2c4X1gzRGZiSmRhSjJoS2ZRdWVNVUZqN0NHTEZ4a2hrUk1tNjJNQURIWHFlbVZROWN4N2RPZUVqVG5vZzNPMV9GVnJ6VTlyaXlvdkh3cW02Ng?oc=5
-- titulo: Ônibus grátis em todo o Brasil tendem a ajudar Lula na abstenção
-  veiculo: Poder360
-  data: '2026-10-03'
-  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQR2xVQzBfbjVMZ0FEUjJCWDc4Z0hzWUEwRVdwenUwaktRX0lHSWJDdHZSZzNlRXF1Zmw2V19rb3Z5dXpJaWQtbE5tUksyZTE4ZG1oWWNvZEtjUVpqaGxmY01mYnVydzVPYk5rbFd4T25aWk1NdXpRV1RPUmRtWGs1WkpWQk45emQ0THVMU0txMWlwSWp3OGJ1NlpEaEFTX0lxOWlJ?oc=5
+  data: '2023-12-14'
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTTBIWUpsb0NaV1QzODNCLWdxc1hwaTdubW1ETjM2LUxfai1QQ2xpZWVxb216WE1TcHlQRi1VUU9OcnM0V2RnemtoRk03STR5LW5MZXZTQlNqSk1TdVpyY0VmUTRYUGhlUE1UWEtaamJ1MklwaFRoT0ZoVzhuMXlMTzBXVmh3UEptMmNpWlBwN3REek9pQV84b1JEbEJJSGYybkJaRlgyaGtaeXNlQXZkOHM5bUlQNnlHeG10NlhB?oc=5
+- titulo: Os líderes estrangeiros presentes na posse de Lula
+  veiculo: BBC
+  data: '2022-12-31'
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hQzF4bXA3RE9OdElsUWJCbmJKdW9udFdSbXdJT25mSFo1eU5rdzh5YThDbXdkWDB4MjgtU2tLR2h3ajFESkhnLWE4R25UU0VXbVdjYlV3Q01GZ9IBX0FVX3lxTE1BLTRKVTZVcGg5VXktT3V2VGs2a0ZKX3k0WU1mZGFmY0ZKNHgybFRjOHFadVFUWU1Mc0JVb0pfaG5tZ3RSWGpmeTVwdkZBYV8tYnMyOHJSVl9kMDI5Ymdr?oc=5
+- titulo: Como Santa Catarina foi de Estado eleitor de Lula a reduto bolsonarista
+  veiculo: BBC
+  data: '2022-12-14'
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HUlZkMWNPME5jal9pU2h4ZGZPQXNnWEk3NFVrQWFUcm9yRnVhZnBZekVSNF9PcklMMjJlcGhKcjNIZ09yYS1BdTN0R2JHTkxUR0l3M0dENGpEZ9IBX0FVX3lxTE1GUWV5YjJ4LWVLRTN2UWJQVS1TRkZaS1lGSjR5U1B2QnMtYURJakt1NkZyUkxXVTVMNDZJOEFSMWY3OXdNZnNObUMzeW9nVl9lME9RR3p0dWFTN09EZVo0?oc=5
 projetos_aprovados: []
 fontes:
 - https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
+- https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
 atualizado_em: '2026-10-03'
-foto: https://upload.wikimedia.org/wikipedia/commons/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg
+foto: assets/photos/luiz-inacio-lula-da-silva.jpg
+propostas_governo:
+- area: Economia e Trabalho
+  resumo: Valorização real do salário mínimo e reforma tributária que faz os mais ricos pagarem mais, com alívio para os mais pobres, além de estímulo à indústria e ao emprego formal.
+  texto: Nossa estrutura tributária mudou para melhor. Tributamos a renda dos super ricos e fechamos diversas brechas que só geravam distorções na economia, como a tributação de offshores e fundos exclusivos. Ao mesmo tempo, reduzimos o peso dos impostos sobre os mais pobres, com medidas de isenção total ou parcial do Imposto de Renda. Na prática, cerca de 140 mil contribuintes do topo da pirâmide social passaram a contribuir mais, viabilizando alívio tributário para mais de 15 milhões de brasileiros e brasileiras. Aprovamos a histórica reforma tributária do consumo.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Educação
+  resumo: Fortalecer a coordenação federativa, retomar obras de creches e escolas, valorizar os professores e ampliar a educação básica, técnica e superior.
+  texto: A negligência do Governo Federal no enfretamento à Covid 19 resultou na perda de 700 mil vidas e a falta de coordenação de campanhas nacionais de vacinação teve como consequência a queda dramática das taxas de imunização infantil. Na educação, a ausência de uma coordenação federativa integrada, a redução dos recursos e a paralisia de milhares de obras de creches e escolas que abandonaram os municípios à própria sorte, deprimindo a qualidade pedagógica e estimulando o aumento da evasão escolar. No mercado de trabalho e na previdência, observamos a precarização das relações laborais, a expansão da informalidade e o desamparo de trabalhadores de plataforma, reduzindo o rendimento médio real das famílias. A agenda de Ciência, Tecnologia e Inovação esteve no centro dos ataques negacionistas e dos cortes orçamentários arbitrários que comprometeram a pesquisa científica e o futuro do País. No campo cultural, o desmonte institucional culminou na extinção do próprio Ministério da Cultura
+    (MinC), rebaixado a órgão subalterno e alvo de ataques ideológicos sistemáticos.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Saúde
+  resumo: Fortalecer o SUS com mais financiamento e atenção primária, ampliar a vacinação e reduzir filas e desigualdades no acesso à saúde.
+  texto: O Brasil já demonstrou, em vários momentos de sua história, que é capaz de realizar transformações essenciais quando reúne liderança política, capacidade institucional e energia social. Foi assim na construção do maior sistema universal público de saúde, o SUS, no combate à fome e à pobreza, na liderança em energias renováveis e na produção de alimentos. Este programa aposta nessa força. Aposta que uma criança nascida em qualquer região, de qualquer origem, terá mais oportunidades do que as gerações anteriores. Não porque o futuro esteja garantido, mas porque políticas públicas sérias, bem planejadas, participativas e voltadas para quem mais precisa são capazes de mudar a vida das pessoas.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Segurança Pública
+  resumo: Enfrentar o crime organizado e as milícias, reforçar o controle de armas e integrar as forças de segurança com políticas de prevenção e direitos humanos.
+  texto: A gestão federal passada opôs-se de forma veemente ao suporte emergencial destinado aos fazedores de cultura duramente impactados pela pandemia. A segurança pública, sob o pretexto da desregulamentação, facilitou a proliferação descontrolada de armas de fogo, o que fortaleceu estruturas de milícias e facções criminosas nos territórios vulneráveis e ampliou a letalidade das violências domésticas, em especial contra mulheres, crianças e adolescentes. A demolição planejada das estruturas ambientais legitimou o garimpo ilegal, a grilagem de terras públicas e o aumento recorde do desmatamento ilegal. Esse desmonte institucional promoveu o aumento expressivo de conflitos no campo e o assassinato de defensores ambientais e lideranças tradicionais pela ação impune de redes criminosas. 10 PROGRAMA DE GOVERNO Internacionalmente, o Brasil foi isolado geopoliticamente, sofrendo rebaixamento de seu prestígio diplomático, desidratação de acordos regionais e o risco iminente de perda de direito
+    de voto em organismos multilaterais pelo não pagamento de cotas internacionais básicas.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Meio Ambiente
+  resumo: Combater o desmatamento ilegal e o garimpo, retomar a fiscalização ambiental e liderar a transição para uma economia de baixo carbono.
+  texto: 'AMPLIAR A SEGURANÇA ENERGÉTICA E LIDERAR A TRANSIÇÃO PARA UMA ECONOMIA DE BAIXO CARBONO .............................................................................................................................................................................................................................................63 11. PROMOVER A SUSTENTABILIDADE AMBIENTAL E CLIMÁTICA ........................................................................................................69 12. VALORIZAR O TRABALHO EM SUAS MÚL TIPLAS FORMAS ..................................................................................................................73 13. DEFENDER A SOBERANIA NACIONAL E O PROTAGONISMO INTERNACIONAL DO BRASIL .......................................77 Índice 4 PROGRAMA DE GOVERNO O que nos move são os sonhos do povo brasileiro. 5 6 PROGRAMA DE GOVERNO DIRETRIZES PARA O PROGRAMA DE TRANSFORMAÇÃO DO BRASIL: UM PAÍS SOBERANO, DEMOCRÁTICO, DESENVOLVIDO, SUSTENTÁVEL E CRIATIVO
+    COMPROMISSO COM O PROJETO DE NAÇÃO O povo brasileiro sonha e almeja um futuro melhor.'
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Infraestrutura e Mobilidade
+  resumo: Ampliar investimentos pelo Novo PAC em rodovias, ferrovias, portos, energia, saneamento e habitação, com concessões, inclusão digital e conectividade.
+  texto: O Novo PAC levou à mobilização de um volume histórico de investimentos, previstos em R$1,3 trilhão até o final de 2026, articulando recursos do orçamento federal, das empresas estatais, do setor privado e de financiamentos. São investimentos em rodovias, ferrovias, portos, aeroportos, energia, infraestrutura urbana, habitação, saneamento básico, saúde, educação, inclusão digital e 12 PROGRAMA DE GOVERNO conectividade. Batemos recordes de investimentos em infraestrutura e em leilões de concessões de logística e energia. O País voltou a crescer com redução das desigualdades, algo que só ocorreu nos nossos governos. A política de valorização real do salário-mínimo e o mercado de trabalho aquecido levaram a uma expansão da massa salarial e do consumo.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Direitos Humanos
+  resumo: Fortalecer políticas de igualdade racial e de gênero e os direitos dos povos indígenas, ampliando a participação social no orçamento.
+  texto: Construímos, na atual gestão, o PPA mais participativo da história, com plenárias em todos os estados e municípios e mais de 1,4 milhão de participantes na plataforma Brasil Participativo. Reforçamos a utilização no orçamento de marcadores que permitem acompanhar gastos relacionados a cada uma das agendas transversais do PPA 2024-2027 (mulheres; meio ambiente; igualdade racial; povos indígenas; crianças e adolescentes). Queremos que o PPA 2028- 2031 seja ainda mais participativo e que o ciclo orçamentário federal brasileiro também seja objeto de participação social. Propomos ainda enfrentar uma grave distorção na elaboração e gestão do orçamento federal – o atual sistema de emendas parlamentares. No orçamento de 2026, as emendas somaram R$ 50 bilhões, consumindo aproximadamente um quinto dos recursos discricionários do Poder Executivo.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Agricultura
+  resumo: Fortalecer a agricultura familiar e o Plano Safra, garantir segurança alimentar e conciliar a produção agropecuária com a preservação ambiental.
+  texto: No próximo mandato, vamos assegurar que quem alimenta o Brasil continue a ter condições adequadas para produzir e prosperar. Queremos um país que garanta segurança alimentar, fortaleça sua produção agropecuária e agroindustrial, promova a inclusão produtiva no meio rural, fortaleça a agricultura familiar, agregue valor às exportações, preserve o meio ambiente e assegure alimentos de qualidade a preços acessíveis. Um Brasil competitivo, inovador e sustentável, capaz de produzir riqueza, combater a fome e ampliar sua presença nos mercados internacionais. Vamos continuar expandindo o Plano Safra da Agricultura Familiar, com juros compatíveis com o perfil do agricultor e tipo de produto, com prioridade para produção de alimentos da cesta básica. Reforçaremos ainda mais as linhas de crédito específicas para agroecologia, produção orgânica e sociobiodiversidade, a inovação e a introdução de tecnologias e máquinas adaptadas.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Tecnologia e Inovação
+  resumo: Retomar os investimentos em ciência, tecnologia e inovação, ampliar a inclusão digital e estimular a indústria e a transformação digital do país.
+  texto: No mercado de trabalho e na previdência, observamos a precarização das relações laborais, a expansão da informalidade e o desamparo de trabalhadores de plataforma, reduzindo o rendimento médio real das famílias. A agenda de Ciência, Tecnologia e Inovação esteve no centro dos ataques negacionistas e dos cortes orçamentários arbitrários que comprometeram a pesquisa científica e o futuro do País. No campo cultural, o desmonte institucional culminou na extinção do próprio Ministério da Cultura (MinC), rebaixado a órgão subalterno e alvo de ataques ideológicos sistemáticos. A gestão federal passada opôs-se de forma veemente ao suporte emergencial destinado aos fazedores de cultura duramente impactados pela pandemia. A segurança pública, sob o pretexto da desregulamentação, facilitou a proliferação descontrolada de armas de fogo, o que fortaleceu estruturas de milícias e facções criminosas nos territórios vulneráveis e ampliou a letalidade das violências domésticas, em especial contra
+    mulheres, crianças e adolescentes.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Gestão Pública e Combate à Corrupção
+  resumo: Fortalecer o planejamento do Estado, democratizar o orçamento público e ampliar a transparência no uso dos recursos.
+  texto: Somos o verdadeiro novo porque enfrentamos o velho sistema que mantém o Brasil no atraso, na desigualdade e na dependência. Queremos continuar perseguindo esses objetivos, o que exige enfrentar as forças políticas do passado, que atuam para conservar privilégios e não democratizar o uso adequado dos recursos públicos, com transparência e foco nas grandes questões nacionais. Nossa tarefa é derrotar o projeto liberal-conservador para seguir construindo um Brasil popular, democrático, soberano e justo. O Brasil que sonhamos e que seja partilhado por todos e todas. Estamos prontos para continuar as tarefas de ampliar a capacidade de planejamento do Estado brasileiro, fortalecer a base produtiva e tecnológica, democratizar o orçamento público, reafirmar a soberania nacional e enfrentar as ameaças externas que desconsideram os interesses do povo brasileiro.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Política Externa
+  resumo: Reafirmar a soberania e o protagonismo internacional do Brasil, com autonomia estratégica, integração regional e defesa nacional.
+  texto: Defender a soberania nacional e o protagonismo internacional do Brasil O mundo contemporâneo vivencia o ressurgimento do unilateralismo, do protecionismo e de conflitos sem precedentes desde a Segunda Guerra Mundial. Em um cenário de tensões geopolíticas crescentes e quebras das regras de convivência internacional, o Brasil deve reafirmar sua soberania e preservar sua 78 PROGRAMA DE GOVERNO capacidade de fazer escolhas políticas e econômicas de forma independente, à luz de seus interesses, sem qualquer tipo de subordinação estratégica Neste cenário, política externa e defesa nacional são dimensões complementares de uma mesma estratégia voltada à proteção dos interesses do Brasil. Não há projeção internacional soberana sem capacidade de defesa. Defendemos uma política de defesa baseada na autonomia estratégica, na inovação tecnológica, na integração entre defesa e desenvolvimento e na combinação entre persuasão diplomática e capacidade de dissuasão, o que exige um orçamento nacional
+    consoante a essas necessidades e responsabilidades. A defesa nacional exige Forças Armadas bem equipadas e uma indústria de defesa sólida, capazes de proteger o território brasileiro e seus recursos naturais diante de ameaças externas.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip
+- area: Assistência Social
+  resumo: Expandir o Bolsa Família e programas de renegociação de dívidas das famílias, reduzindo a pobreza e a desigualdade.
+  texto: O Bolsa Família foi recriado e expandido com benefícios especiais para crianças e adolescentes. A desigualdade, medida pelo coeficiente de Gini, atingiu o menor patamar histórico de 0,504, enquanto a pobreza extrema recuou para o menor nível da série de 4,6% da população. Herdamos uma taxa Selic elevada e uma política econômica equivocada do governo que levaram ao endividamento elevado das famílias. Para aliviar o comprometimento da renda com dívidas das famílias e das empresas, promovemos duas edições do programa Desenrola Brasil. Em 2026, o Novo Desenrola Brasil apoiou famílias de menor renda, pequenos negócios e agricultores familiares, oferecendo descontos elevados, juros menores e prazos mais longos.
+  fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip

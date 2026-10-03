@@ -8,9 +8,8 @@ import { createElement, createFragmentFromHtml, replaceContent } from '../core/d
 import { selectVisibleColumns } from '../domain/candidateColumns.js';
 import { sortCandidates } from '../domain/candidates.js';
 
-function buildPhotoCell(candidate, isCompared, handlers) {
+function buildSelectionCell(candidate, isCompared, handlers) {
   const label = createElement('label', { class: 'pick', title: 'Selecionar para comparar' });
-
   const checkbox = createElement('input', {
     type: 'checkbox',
     'aria-label': `Selecionar ${candidate.nome_urna || candidate.nome_completo} para comparar`,
@@ -20,7 +19,11 @@ function buildPhotoCell(candidate, isCompared, handlers) {
   checkbox.addEventListener('change', () => {
     if (!handlers.onToggleCompare(candidate.id, checkbox.checked)) checkbox.checked = false;
   });
+  label.append(checkbox);
+  return createElement('td', { class: 'cell-select' }, label);
+}
 
+function buildPhotoCell(candidate) {
   const media = candidate.foto
     ? createElement('img', {
         class: 'thumb',
@@ -29,15 +32,13 @@ function buildPhotoCell(candidate, isCompared, handlers) {
         loading: 'lazy',
       })
     : createElement('span', { class: 'thumb cell-muted', style: 'display:grid;place-items:center' }, '—');
-
-  label.append(checkbox, media);
-  return createElement('td', { class: 'cell-photo' }, label);
+  return createElement('td', { class: 'cell-photo' }, media);
 }
 
 function buildHeaderCell(column, sort, onSortColumn) {
   const attributes = { scope: 'col' };
   if (column.isNumeric) attributes.class = 'num';
-  if (column.isFixed) attributes.class = attributes.class ? `${attributes.class} no-sort` : 'no-sort';
+  if (column.isFixed) attributes.class = attributes.class ? `${attributes.class} no-sort cell-photo-head` : 'no-sort cell-photo-head';
   if (sort.key === column.key) {
     attributes['aria-sort'] = sort.direction === 1 ? 'ascending' : 'descending';
   }
@@ -54,9 +55,12 @@ function buildDataCell(column, candidate) {
 }
 
 function buildCandidateRow(candidate, columns, isCompared, handlers) {
-  const cells = columns.map((column) =>
-    column.isFixed ? buildPhotoCell(candidate, isCompared, handlers) : buildDataCell(column, candidate),
-  );
+  const cells = [
+    buildSelectionCell(candidate, isCompared, handlers),
+    ...columns.map((column) =>
+      column.isFixed ? buildPhotoCell(candidate) : buildDataCell(column, candidate),
+    ),
+  ];
 
   const row = createElement(
     'tr',
@@ -78,11 +82,14 @@ export function renderCandidatesTable({ tableElement, columns, visibleKeys, cand
   const sortColumn = columns.find((column) => column.key === sort.key);
   const orderedCandidates = sortCandidates(candidates, sortColumn, sort.direction);
 
-  const headerRow = createElement(
-    'tr',
-    {},
-    visibleColumns.map((column) => buildHeaderCell(column, sort, handlers.onSortColumn)),
-  );
+  const headerRow = createElement('tr', {}, [
+    createElement(
+      'th',
+      { class: 'cell-select no-sort', scope: 'col' },
+      createElement('span', { class: 'sr-only' }, 'Selecionar'),
+    ),
+    ...visibleColumns.map((column) => buildHeaderCell(column, sort, handlers.onSortColumn)),
+  ]);
   const bodyRows = orderedCandidates.map((candidate) =>
     buildCandidateRow(candidate, visibleColumns, comparedIds.has(candidate.id), handlers),
   );

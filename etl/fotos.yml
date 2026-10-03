@@ -1,0 +1,16 @@
+# Foto de cada candidato (miniaturas otimizadas em assets/photos, ~512px JPG).
+# Fonte original: Wikimedia Commons. Usado por etl/tse.py e etl/dossie.py.
+luiz-inacio-lula-da-silva: "assets/photos/luiz-inacio-lula-da-silva.jpg"
+flavio-nantes-bolsonaro: "assets/photos/flavio-nantes-bolsonaro.jpg"
+romeu-zema-neto: "assets/photos/romeu-zema-neto.jpg"
+ronaldo-ramos-caiado: "assets/photos/ronaldo-ramos-caiado.jpg"
+augusto-jorge-cury: "assets/photos/augusto-jorge-cury.jpg"
+pablo-henrique-costa-marcal: "assets/photos/pablo-henrique-costa-marcal.jpg"
+rui-costa-pimenta: "assets/photos/rui-costa-pimenta.jpg"
+edmilson-silva-costa: "assets/photos/edmilson-silva-costa.jpg"
+hertz-da-conceicao-dias: "assets/photos/hertz-da-conceicao-dias.jpg"
+leonardo-alves-de-araujo-2: "assets/photos/leonardo-alves-de-araujo-2.jpg"
+renan-antonio-ferreira-dos-santos: "assets/photos/renan-antonio-ferreira-dos-santos.jpg"
+clariana-zacarkim-barao: "assets/photos/clariana-zacarkim-barao.jpg"
+samara-martins-da-silva-feitosa: "assets/photos/samara-martins-da-silva-feitosa.jpg"
+wilson-grassi-junior: "assets/photos/wilson-grassi-junior.jpg"

@@ -78,6 +78,9 @@ Definidos em `data/schema.json`: identificação (nome, nº, partido, coligaçã
 ```bash
 python etl/tse.py --ano 2026 --uf AM      # candidatos (TSE)
 python etl/ibge.py --ano 2026             # população (IBGE)
+python etl/dossie.py --ano 2026 --cargo PRESIDENTE --uf AM   # semeia dossiês
+python etl/propostas.py --ano 2026 --cargo PRESIDENTE --uf AM # propostas (TSE)
+python etl/noticias.py --ano 2026 --cargo PRESIDENTE --uf AM  # notícias (10 anos)
 python etl/validar.py 2026                # valida os YAML
 ```
 
@@ -85,6 +88,10 @@ python etl/validar.py 2026                # valida os YAML
 e atualiza `<ano>/index.yml`. Cargos nacionais (SG_UF=BR) ficam com `uf: null`.
 `eh_reeleicao` é inferido do `historico_candidatura` (eleito ao mesmo cargo no
 pleito anterior do mandato; Senador = 8 anos, demais = 4).
+
+`etl/propostas.py` baixa os PDFs de proposta de governo do TSE e grava
+`propostas_governo` (resumo automático + texto bruto por área). `etl/noticias.py`
+busca as 10 notícias mais relevantes dos últimos 10 anos (Google News RSS).
 
 ## Adicionar um novo ano
 
