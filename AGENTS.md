@@ -30,11 +30,22 @@ Google News RSS, GDELT, imprensa.
 ## Estrutura
 
 ```
-index.html            página raiz (seletor de ano)
-assets/               app.js, styles.css
+index.html            página raiz (seletor de ano/cargo)
+assets/
+  js/                 módulos ES (main, core, data, domain, state, components)
+  styles.css
+  photos/<id>.jpg     fotos otimizadas dos candidatos (~512px)
+  vendor/             js-yaml
+  brazil-map.png
 data/schema.json      contrato dos campos
+data/years.json       anos disponíveis (consumido pela página)
 etl/                  scripts de coleta nas APIs oficiais
+  tse.py  ibge.py  dossie.py  propostas.py  noticias.py  validar.py
+  fotos.yml           mapa id -> foto (usado por tse.py e dossie.py)
 _templates/           modelos de YAML
+docker-compose.yml    nginx local
+nginx/default.conf
+serve.sh              sobe o container (http://localhost:8080)
 <ano>/                dados do ano (ex.: 2026/)
   index.yml           manifesto do ano
   <CARGO>.yml         lista nominal de candidatos
@@ -60,38 +71,66 @@ AGENTS.md
 
 ## Campos do dossiê (`analise/<id>.yml`)
 
-Definidos em `data/schema.json`: identificação (nome, nº, partido, coligação),
-`formacao_academica`, `dias_trabalhados_ultimos_2_anos`, `eh_reeleicao`,
-`noticias`, `projetos_aprovados`, `fontes`, `atualizado_em`.
+Definidos em `data/schema.json`: identificação (nome, nº, partido, coligação,
+`foto`), `grau_instrucao` e `ocupacao` (TSE), `formacao_academica` (pesquisada),
+`dias_trabalhados_ultimos_2_anos`, `eh_reeleicao`, `noticias` (até 10, últimos 10
+anos), `propostas_governo` (por área: `resumo` + `texto` bruto + `fonte`),
+`projetos_aprovados`, `fontes`, `atualizado_em`.
 
 > `linha_do_tempo` não existe: a trajetória é inferida de `projetos_aprovados`.
 
-## Fluxo de trabalho
+## Fluxo de análise de um cargo
 
-1. Coletar nas APIs oficiais (ver `etl/`).
-2. Gravar/atualizar os YAML seguindo `_templates/`.
-3. Validar contra `data/schema.json`.
-4. Atualizar `atualizado_em` e `fontes`.
+Passo a passo (exemplo: Governador do Amazonas, 2026). Os passos 1 e 2 são anuais;
+3 a 6 são por cargo.
 
-### ETL (scripts genéricos por ano)
+1. **Candidatos (TSE)** — baixa `consulta_cand` e `historico_candidatura`, gera um
+   `<CARGO>.yml` por cargo e atualiza `index.yml`. Já popula `foto` a partir de
+   `etl/fotos.yml`.
+   ```bash
+   python etl/tse.py --ano 2026 --uf AM
+   ```
+2. **População (IBGE)** — uma vez por ano.
+   ```bash
+   python etl/ibge.py --ano 2026
+   ```
+3. **Semear dossiês** — cria `analise/<id>.yml` com a identificação oficial
+   (grau de instrução, ocupação, reeleição). Não sobrescreve dossiês existentes.
+   ```bash
+   python etl/dossie.py --ano 2026 --cargo GOVERNADOR --uf AM
+   ```
+4. **Fotos** — obter imagem de alta resolução (preferir Wikimedia Commons/fonte
+   oficial), **otimizar** (~512px, JPG) em `assets/photos/<id>.jpg`, registrar em
+   `etl/fotos.yml` e propagar (rodar `etl/tse.py` e atualizar o campo `foto` dos
+   dossiês). Sem imagem disponível ⇒ `foto: null`.
+5. **Propostas de governo (TSE)** — baixa os PDFs de proposta, segmenta nas áreas
+   (Economia, Educação, Saúde, Segurança, Meio Ambiente, Infraestrutura, Direitos
+   Humanos, Agricultura, Tecnologia, Gestão, Política Externa, Assistência Social)
+   e grava `resumo` (automático) + `texto` (bruto) + `fonte`.
+   ```bash
+   python etl/propostas.py --ano 2026 --cargo GOVERNADOR --uf AM
+   ```
+   Em seguida **curar os `resumo`** diretamente nos YAMLs: reescrever para frases
+   limpas, fiéis e autocontidas (o automático às vezes pega sumário/artefato).
+   Manter o `texto` bruto. Paralelizável por grupos de candidatos.
+6. **Notícias** — busca os últimos 10 anos e grava as 10 mais relevantes
+   (ranking por veículo + diversidade por ano). Google News RSS (não oficial).
+   ```bash
+   python etl/noticias.py --ano 2026 --cargo GOVERNADOR --uf AM
+   ```
+7. **Validar** contra `data/schema.json`.
+   ```bash
+   python etl/validar.py 2026
+   ```
+8. **Publicar/atualizar o site** (nginx serve o diretório; dados com `no-store`).
+   ```bash
+   ./serve.sh        # http://localhost:8080
+   ```
 
-```bash
-python etl/tse.py --ano 2026 --uf AM      # candidatos (TSE)
-python etl/ibge.py --ano 2026             # população (IBGE)
-python etl/dossie.py --ano 2026 --cargo PRESIDENTE --uf AM   # semeia dossiês
-python etl/propostas.py --ano 2026 --cargo PRESIDENTE --uf AM # propostas (TSE)
-python etl/noticias.py --ano 2026 --cargo PRESIDENTE --uf AM  # notícias (10 anos)
-python etl/validar.py 2026                # valida os YAML
-```
-
-`etl/tse.py` descobre os cargos do próprio dado, gera um `<CARGO>.yml` por cargo
-e atualiza `<ano>/index.yml`. Cargos nacionais (SG_UF=BR) ficam com `uf: null`.
+Scripts são genéricos por ano: `--ano`, `--uf`, `--cargo`. `etl/tse.py` descobre
+os cargos do próprio dado; cargos nacionais (SG_UF=BR) ficam com `uf: null`.
 `eh_reeleicao` é inferido do `historico_candidatura` (eleito ao mesmo cargo no
 pleito anterior do mandato; Senador = 8 anos, demais = 4).
-
-`etl/propostas.py` baixa os PDFs de proposta de governo do TSE e grava
-`propostas_governo` (resumo automático + texto bruto por área). `etl/noticias.py`
-busca as 10 notícias mais relevantes dos últimos 10 anos (Google News RSS).
 
 ## Adicionar um novo ano
 
