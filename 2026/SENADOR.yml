@@ -10,7 +10,7 @@ candidatos:
   coligacao: MUDAR É URGENTE
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: null
+  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Capit%C3%A3o_Alberto_Neto.jpg/500px-Capit%C3%A3o_Alberto_Neto.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-eduardo-de-souza-braga
   nome_completo: Carlos Eduardo De Souza Braga
@@ -20,7 +20,7 @@ candidatos:
   coligacao: FORÇA AMAZONAS
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: null
+  foto: https://upload.wikimedia.org/wikipedia/commons/f/f8/Foto_oficial_de_Eduardo_Braga.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: dailson-de-queiroz-correa
   nome_completo: Dailson De Queiroz Corrêa
@@ -40,7 +40,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: null
+  foto: https://upload.wikimedia.org/wikipedia/commons/8/8d/Foto_oficial_de_Pl%C3%ADnio_Val%C3%A9rio.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ismael-franklin-goncalves
   nome_completo: Ismael Franklin Goncalves
@@ -60,7 +60,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: null
+  foto: https://upload.wikimedia.org/wikipedia/commons/f/fc/2020_EVANDRO_DE_FREITAS_OLIVEIRA_CANDIDATO_PREFEITO_PR_MARINGA_TSE_%28160000867509%29.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-evany-do-nascimento
   nome_completo: Maria Evany Do Nascimento
@@ -70,7 +70,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: null
+  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Professora_Evany.jpg/500px-Professora_Evany.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: milton-rogerio-moreira-pinto
   nome_completo: Milton Rogério Moreira Pinto
@@ -90,5 +90,5 @@ candidatos:
   coligacao: UNIÃO PELO AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: null
+  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Wilson_Lima%2C_January_2023_%28cropped%29.jpg/500px-Wilson_Lima%2C_January_2023_%28cropped%29.jpg
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
