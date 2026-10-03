@@ -10,6 +10,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: abel-de-franca-pedraca-filho
   nome_completo: Abel De Franca Pedraca Filho
@@ -19,6 +20,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ademir-principe-de-rojas
   nome_completo: Ademir Principe De Rojas
@@ -28,6 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: adenilson-lima-reis
   nome_completo: Adenilson Lima Reis
@@ -37,6 +40,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: adjuto-rodrigues-afonso
   nome_completo: Adjuto Rodrigues Afonso
@@ -46,6 +50,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: adriane-cristine-cabral-magalhaes
   nome_completo: Adriane Cristine Cabral Magalhaes
@@ -55,6 +60,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ailton-fernandes-rodrigues
   nome_completo: Ailton Fernandes Rodrigues
@@ -64,6 +70,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alcimar-maciel-pereira
   nome_completo: Alcimar Maciel Pereira
@@ -73,6 +80,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alcinete-feitosa-dos-santos
   nome_completo: Alcinete Feitosa Dos Santos
@@ -82,6 +90,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: aldenor-ernesto-de-lima-filho
   nome_completo: Aldenor Ernesto De Lima Filho
@@ -91,6 +100,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alessandra-martins-de-oliveira-farias
   nome_completo: Alessandra Martins De Oliveira Farias
@@ -100,6 +110,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: almir-inacio-da-silva
   nome_completo: Almir Inacio Da Silva
@@ -109,6 +120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: amadeu-da-silva-soares-junior
   nome_completo: Amadeu Da Silva Soares Junior
@@ -118,6 +130,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: amanda-sales-fecury-moraes
   nome_completo: Amanda Sales Fecury Moraes
@@ -127,6 +140,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-beatriz-fernandes-silva
   nome_completo: Ana Beatriz Fernandes Silva
@@ -136,6 +150,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-claudia-montenegro-ramos
   nome_completo: Ana Claudia Montenegro Ramos
@@ -145,6 +160,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-maria-do-nascimento-brito
   nome_completo: Ana Maria Do Nascimento Brito
@@ -154,6 +170,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-maria-oliveira-da-silva
   nome_completo: Ana Maria Oliveira Da Silva
@@ -163,6 +180,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: anderson-da-silva-santos
   nome_completo: Anderson Da Silva Santos
@@ -172,6 +190,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: anderson-jose-de-souza-almada
   nome_completo: Anderson José De Souza Almada
@@ -181,6 +200,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: andrea-santos-ramos
   nome_completo: Andrea Santos Ramos
@@ -190,6 +210,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: andrea-suely-abrantes-de-oliveira
   nome_completo: Andrea Suely Abrantes De Oliveira
@@ -199,6 +220,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: andressa-franca-brasil
   nome_completo: Andressa Franca Brasil
@@ -208,6 +230,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: angela-maria-dos-santos-pereira
   nome_completo: Angela Maria Dos Santos Pereira
@@ -217,6 +240,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: anisio-felipe-rodrigues-junior
   nome_completo: Anisio Felipe Rodrigues Junior
@@ -226,6 +250,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: anne-cristine-alves-da-mota
   nome_completo: Anne Cristine Alves Da Mota
@@ -235,6 +260,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: antonia-do-nascimento-linhares
   nome_completo: Antonia Do Nascimento Linhares
@@ -244,6 +270,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: antonio-jose-fernandes-sa
   nome_completo: Antônio José Fernandes Sá
@@ -253,6 +280,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: astrid-oliveira-amazonas
   nome_completo: Astrid Oliveira Amazonas
@@ -262,6 +290,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ayslan-christennes-carvalho-marques
   nome_completo: Ayslan Christennes Carvalho Marques
@@ -271,6 +300,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: brena-dianna-modesto-barbosa-feitoza
   nome_completo: Brena Dianna Modesto Barbosa Feitoza
@@ -280,6 +310,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: brenda-oliveira-dos-santos
   nome_completo: Brenda Oliveira Dos Santos
@@ -289,6 +320,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: bruna-castro-dos-santos
   nome_completo: Bruna Castro Dos Santos
@@ -298,6 +330,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-alberto-brito-d-avila
   nome_completo: Carlos Alberto Brito D Avila
@@ -307,6 +340,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-alberto-machado-de-jesus
   nome_completo: Carlos Alberto Machado De Jesus
@@ -316,6 +350,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-eduardo-bessa-de-sa
   nome_completo: Carlos Eduardo Bessa De Sa
@@ -325,6 +360,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-jose-moraes-aparicio
   nome_completo: Carlos Jose Moraes Aparicio
@@ -334,6 +370,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: catianne-alves-de-souza-prado
   nome_completo: Catianne Alves De Souza Prado
@@ -343,6 +380,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cicero-pereira-da-silva
   nome_completo: Cicero Pereira Da Silva
@@ -352,6 +390,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cimara-alencar-cavalcante
   nome_completo: Cimara Alencar Cavalcante
@@ -361,6 +400,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: claudia-mendes-carvalho
   nome_completo: Claudia Mendes Carvalho
@@ -370,6 +410,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: claudio-vieira-dos-santos
   nome_completo: Claudio Vieira Dos Santos
@@ -379,6 +420,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: clenda-souza-de-almeida
   nome_completo: Clenda Souza De Almeida
@@ -388,6 +430,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: clodoaldo-dias-da-silva
   nome_completo: Clodoaldo Dias Da Silva
@@ -397,6 +440,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: clovis-moreira-saldanha
   nome_completo: Clovis Moreira Saldanha
@@ -406,6 +450,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cristiane-amaral-sales-telles
   nome_completo: Cristiane Amaral Sales Telles
@@ -415,6 +460,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cristiano-da-silva-d-angelo
   nome_completo: Cristiano Da Silva D Angelo
@@ -424,6 +470,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: dagoberto-ramos-de-brito
   nome_completo: Dagoberto Ramos De Brito
@@ -433,6 +480,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: dan-camara
   nome_completo: Dan Camara
@@ -442,6 +490,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: daniel-djuda-pereira-de-almeida
   nome_completo: Daniel Djuda Pereira De Almeida
@@ -451,6 +500,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: daniel-lima-silva
   nome_completo: Daniel Lima Silva
@@ -460,6 +510,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: danielle-delgado-goncalves
   nome_completo: Danielle Delgado Gonçalves
@@ -469,6 +520,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: david-nunes-bemerguy
   nome_completo: David Nunes Bemerguy
@@ -478,6 +530,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: david-valente-reis
   nome_completo: David Valente Reis
@@ -487,6 +540,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: debora-salgueiro-de-menezes
   nome_completo: Debora Salgueiro De Menezes
@@ -496,6 +550,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: deoley-pereira-da-silva
   nome_completo: Deoley Pereira Da Silva
@@ -505,6 +560,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: diego-mauro-laranjeira-rita
   nome_completo: Diego Mauro Laranjeira Rita
@@ -514,6 +570,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: dilson-castro-pereira
   nome_completo: Dilson Castro Pereira
@@ -523,6 +580,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: diorgenis-albuquerque-santiago
   nome_completo: Diorgenis Albuquerque Santiago
@@ -532,6 +590,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: donmarques-anveres-de-mendonca
   nome_completo: Donmarques Anveres De Mendonça
@@ -541,6 +600,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edilon-melo-de-queiroz
   nome_completo: Edilon Melo De Queiroz
@@ -550,6 +610,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edineth-rayana-rodrigues-pinho
   nome_completo: Edineth Rayana Rodrigues Pinho
@@ -559,6 +620,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edmilson-lopes-da-silva
   nome_completo: Edmilson Lopes Da Silva
@@ -568,6 +630,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ednailson-leite-rozenha
   nome_completo: Ednailson Leite Rozenha
@@ -577,6 +640,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edson-rodrigues-cavalcante
   nome_completo: Edson Rodrigues Cavalcante
@@ -586,6 +650,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eduardo-assuncao-alfaia
   nome_completo: Eduardo Assuncao Alfaia
@@ -595,6 +660,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: edvan-pires-purus
   nome_completo: Edvan Pires Purus
@@ -604,6 +670,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: elan-martins-de-alencar
   nome_completo: Elan Martins De Alencar
@@ -613,6 +680,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: elda-garcia-de-freitas-moraes
   nome_completo: Elda Garcia De Freitas Moraes
@@ -622,6 +690,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: elen-lima-de-souza
   nome_completo: Elen Lima De Souza
@@ -631,6 +700,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eliandro-jorge-nogueira-de-araujo
   nome_completo: Eliandro Jorge Nogueira De Araujo
@@ -640,6 +710,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: elicleia-lopes-branches
   nome_completo: Elicleia Lopes Branches
@@ -649,6 +720,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: elson-marcelo-lima-de-souza
   nome_completo: Elson Marcelo Lima De Souza
@@ -658,6 +730,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: emanoel-da-costa-pinheiro
   nome_completo: Emanoel Da Costa Pinheiro
@@ -667,6 +740,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eneida-maria-silva-lopes-vasconcelos
   nome_completo: Eneida Maria Silva Lopes Vasconcelos
@@ -676,6 +750,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eraldo-trindade-da-silva
   nome_completo: Eraldo Trindade Da Silva
@@ -685,6 +760,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eron-garcia-de-sa
   nome_completo: Eron Garcia De Sa
@@ -694,6 +770,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eronildo-braga-bezerra
   nome_completo: Eronildo Braga Bezerra
@@ -703,6 +780,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ester-lemos-dos-santos
   nome_completo: Ester Lemos Dos Santos
@@ -712,6 +790,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: eurico-de-angelo-tavares
   nome_completo: Eurico De Angelo Tavares
@@ -721,6 +800,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: evenaldo-de-oliveira-braga
   nome_completo: Evenaldo De Oliveira Braga
@@ -730,6 +810,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fabiola-barros-marques
   nome_completo: Fabiola Barros Marques
@@ -739,6 +820,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fabricio-almeida-bruce
   nome_completo: Fabricio Almeida Bruce
@@ -748,6 +830,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fabricio-mar-cardoso
   nome_completo: Fabricio Mar Cardoso
@@ -757,6 +840,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fernando-melo-de-morais
   nome_completo: Fernando Melo De Morais
@@ -766,6 +850,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: flavia-ketlen-matos-da-silva
   nome_completo: Flavia Ketlen Matos Da Silva
@@ -775,6 +860,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: framackison-da-costa-soares
   nome_completo: Framackison Da Costa Soares
@@ -784,6 +870,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francidalva-de-morais-machado
   nome_completo: Francidalva De Morais Machado
@@ -793,6 +880,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-carpegiane-veras-de-andrade
   nome_completo: Francisco Carpegiane Veras De Andrade
@@ -802,6 +890,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-da-silva-araujo
   nome_completo: Francisco Da Silva Araújo
@@ -811,6 +900,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-de-melo-neto-assayag
   nome_completo: Francisco De Melo Neto Assayag
@@ -820,6 +910,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-do-nascimento-gomes
   nome_completo: Francisco Do Nascimento Gomes
@@ -829,6 +920,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-fabio-de-lima-farias
   nome_completo: Francisco Fabio De Lima Farias
@@ -838,6 +930,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-jean-paz-morais
   nome_completo: Francisco Jean Paz Morais
@@ -847,6 +940,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-luciano-dos-santos-vieira
   nome_completo: Francisco Luciano Dos Santos Vieira
@@ -856,6 +950,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-moraiare-romano
   nome_completo: Francisco Moraiare Romano
@@ -865,6 +960,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: frank-de-souza-parente
   nome_completo: Frank De Souza Parente
@@ -874,6 +970,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: frank-rodrigues-da-silva
   nome_completo: Frank Rodrigues Da Silva
@@ -883,6 +980,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fabio-da-silva-duarte
   nome_completo: Fábio Da Silva Duarte
@@ -892,6 +990,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: felix-de-melo-ferreira
   nome_completo: Félix De Melo Ferreira
@@ -901,6 +1000,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: george-augusto-monteiro-lins-de-albuquerque
   nome_completo: George Augusto Monteiro Lins De Albuquerque
@@ -910,6 +1010,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: geraldo-ribeiro-da-silva-junior
   nome_completo: Geraldo Ribeiro Da Silva Junior
@@ -919,6 +1020,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gideane-brasil-da-silva
   nome_completo: Gideane Brasil Da Silva
@@ -928,6 +1030,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gilmar-de-oliveira-nascimento
   nome_completo: Gilmar De Oliveira Nascimento
@@ -937,6 +1040,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gilmara-correa-guimaraes
   nome_completo: Gilmara Correa Guimaraes
@@ -946,6 +1050,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gina-maria-reis-gonzalez
   nome_completo: Gina Maria Reis González
@@ -955,6 +1060,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: givancir-de-oliveira-silva
   nome_completo: Givancir De Oliveira Silva
@@ -964,6 +1070,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: glauber-marcos-cavalcante-duarte
   nome_completo: Glauber Marcos Cavalcante Duarte
@@ -973,6 +1080,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: glenio-jose-marques-seixas
   nome_completo: Glenio Jose Marques Seixas
@@ -982,6 +1090,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gracinete-da-costa-souza
   nome_completo: Gracinete Da Costa Souza
@@ -991,6 +1100,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: greiciane-dos-santos-souza
   nome_completo: Greiciane Dos Santos Souza
@@ -1000,6 +1110,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gustavo-costa-morais
   nome_completo: Gustavo Costa Morais
@@ -1009,6 +1120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: helisson-felipe-lobo-de-moraes
   nome_completo: Helisson Felipe Lobo De Moraes
@@ -1018,6 +1130,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: herbert-amazonas-massulo
   nome_completo: Herbert Amazonas Massulo
@@ -1027,6 +1140,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: hudson-almeida-jorge
   nome_completo: Hudson Almeida Jorge
@@ -1036,6 +1150,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: humberto-valencio-gomes
   nome_completo: Humberto Valêncio Gomes
@@ -1045,6 +1160,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ingrid-alves-de-mendonca-oliveira
   nome_completo: Ingrid Alves De Mendonça Oliveira
@@ -1054,6 +1170,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: isabelly-aurora-simplicio-souza
   nome_completo: Isabelly Aurora Simplicio Souza
@@ -1063,6 +1180,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: isaias-batista-goncalves-de-souza
   nome_completo: Isaias Batista Goncalves De Souza
@@ -1072,6 +1190,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jair-aguiar-souto
   nome_completo: Jair Aguiar Souto
@@ -1081,6 +1200,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jairo-ribeiro-dias
   nome_completo: Jairo Ribeiro Dias
@@ -1090,6 +1210,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: janaina-soares-dos-anjos
   nome_completo: Janaina Soares Dos Anjos
@@ -1099,6 +1220,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: janete-ferreira-da-mota
   nome_completo: Janete Ferreira Da Mota
@@ -1108,6 +1230,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jaziel-pires-ribeiro
   nome_completo: Jaziel Pires Ribeiro
@@ -1117,6 +1240,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jean-carlos-de-alencar-carvalho
   nome_completo: Jean Carlos De Alencar Carvalho
@@ -1126,6 +1250,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jender-de-melo-lobato
   nome_completo: Jender De Melo Lobato
@@ -1135,6 +1260,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joana-mary-de-lemos-travassos
   nome_completo: Joana Mary De Lemos Travassos
@@ -1144,6 +1270,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joana-paula-da-silva-dantas
   nome_completo: Joana Paula Da Silva Dantas
@@ -1153,6 +1280,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-bosco-gomes-saraiva
   nome_completo: Joao Bosco Gomes Saraiva
@@ -1162,6 +1290,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-luiz-almeida-da-silva
   nome_completo: Joao Luiz Almeida Da Silva
@@ -1171,6 +1300,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: john-henrique-lima-vasconcelos
   nome_completo: John Henrique Lima Vasconcelos
@@ -1180,6 +1310,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jonas-do-nascimento-natario
   nome_completo: Jonas Do Nascimento Natario
@@ -1189,6 +1320,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jonatas-santos-do-nascimento
   nome_completo: Jonatas Santos Do Nascimento
@@ -1198,6 +1330,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jorge-thiago-carvalho-abrahim
   nome_completo: Jorge Thiago Carvalho Abrahim
@@ -1207,6 +1340,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-claudenor-de-castro-pontes
   nome_completo: Jose Claudenor De Castro Pontes
@@ -1216,6 +1350,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-da-silva-oliveira
   nome_completo: Jose Da Silva Oliveira
@@ -1225,6 +1360,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-damasceno-mendes
   nome_completo: Jose Damasceno Mendes
@@ -1234,6 +1370,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-ediney-freitas-de-mesquita
   nome_completo: Jose Ediney Freitas De Mesquita
@@ -1243,6 +1380,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-ricardo-wendling
   nome_completo: Jose Ricardo Wendling
@@ -1252,6 +1390,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: josepha-gomes-abreu
   nome_completo: Josepha Gomes Abreu
@@ -1261,6 +1400,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-raimundo-barreto-marques
   nome_completo: José Raimundo Barreto Marques
@@ -1270,6 +1410,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joyce-coelho-viana
   nome_completo: Joyce Coelho Viana
@@ -1279,6 +1420,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jozileia-fernandes-de-oliveira
   nome_completo: Jozileia Fernandes De Oliveira
@@ -1288,6 +1430,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-fernandes-de-azevedo
   nome_completo: João Fernandes De Azevedo
@@ -1297,6 +1440,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-francisco-de-miranda-soares
   nome_completo: João Francisco De Miranda Soares
@@ -1306,6 +1450,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-kennedy-de-lima-marques
   nome_completo: João Kennedy De Lima Marques
@@ -1315,6 +1460,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-paulo-melo-da-fonseca
   nome_completo: João Paulo Melo Da Fonseca
@@ -1324,6 +1470,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-roberto-da-silva
   nome_completo: João Roberto Da Silva
@@ -1333,6 +1480,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-wellington-de-medeiros-cursino
   nome_completo: João Wellington De Medeiros Cursino
@@ -1342,6 +1490,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jucimar-de-oliveira-veloso-junior
   nome_completo: Jucimar De Oliveira Veloso Junior
@@ -1351,6 +1500,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jucinara-oliveira-da-silva-rodrigues
   nome_completo: Jucinara Oliveira Da Silva Rodrigues
@@ -1360,6 +1510,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: junio-dos-santos-de-lima
   nome_completo: Junio Dos Santos De Lima
@@ -1369,6 +1520,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jessica-gonzaga-napoleao-valois
   nome_completo: Jéssica Gonzaga Napoleão Valois
@@ -1378,6 +1530,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: karla-damasceno-campos
   nome_completo: Karla Damasceno Campos
@@ -1387,6 +1540,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: katia-regina-de-souza-ventura
   nome_completo: Katia Regina De Souza Ventura
@@ -1396,6 +1550,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: katiane-gama-feitoza
   nome_completo: Katiane Gama Feitoza
@@ -1405,6 +1560,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: katryna-bernardo-da-costa
   nome_completo: Katryna Bernardo Da Costa
@@ -1414,6 +1570,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: keitton-wyllyson-pinheiro-batista
   nome_completo: Keitton Wyllyson Pinheiro Batista
@@ -1423,6 +1580,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: kenny-anny-neves-de-souza
   nome_completo: Kenny Anny Neves De Souza
@@ -1432,6 +1590,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: kidson-maia-de-souza
   nome_completo: Kidson Maia De Souza
@@ -1441,6 +1600,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leandro-lucas-alves
   nome_completo: Leandro Lucas Alves
@@ -1450,6 +1610,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leilane-oliveira-do-carmo
   nome_completo: Leilane Oliveira Do Carmo
@@ -1459,6 +1620,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leivson-luiz-lopes-da-silva
   nome_completo: Leivson Luiz Lopes Da Silva
@@ -1468,6 +1630,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leno-nogueira-de-menezes
   nome_completo: Leno Nogueira De Menezes
@@ -1477,6 +1640,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: liliane-oliveira-da-silva
   nome_completo: Liliane Oliveira Da Silva
@@ -1486,6 +1650,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: loren-doanne-luniere-santiago-cavalcante
   nome_completo: Loren Doanne Luniere Santiago Cavalcante
@@ -1495,6 +1660,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: louismar-de-matos-bonates
   nome_completo: Louismar De Matos Bonates
@@ -1504,6 +1670,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lourisval-pereira-da-conceicao
   nome_completo: Lourisval Pereira Da Conceição
@@ -1513,6 +1680,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luana-dos-santos-medeiros
   nome_completo: Luana Dos Santos Medeiros
@@ -1522,6 +1690,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lucas-paiva-de-abreu
   nome_completo: Lucas Paiva De Abreu
@@ -1531,6 +1700,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lucas-sa-de-araujo
   nome_completo: Lucas Sa De Araujo
@@ -1540,6 +1710,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lucia-regina-antony
   nome_completo: Lucia Regina Antony
@@ -1549,6 +1720,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luciana-lima-de-melo
   nome_completo: Luciana Lima De Melo
@@ -1558,6 +1730,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luciana-pereira-franca
   nome_completo: Luciana Pereira Franca
@@ -1567,6 +1740,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luis-felipe-silva-de-souza
   nome_completo: Luis Felipe Silva De Souza
@@ -1576,6 +1750,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luiz-bezerra-correa
   nome_completo: Luiz Bezerra Correa
@@ -1585,6 +1760,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luiz-castro-andrade-neto
   nome_completo: Luiz Castro Andrade Neto
@@ -1594,6 +1770,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lucio-moises-santana-gusmao
   nome_completo: Lúcio Moisés Santana Gusmão
@@ -1603,6 +1780,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mailson-de-jesus-de-carvalho-furtado
   nome_completo: Mailson De Jesus De Carvalho Furtado
@@ -1612,6 +1790,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: manoel-ademar-pinheiro-brito
   nome_completo: Manoel Ademar Pinheiro Brito
@@ -1621,6 +1800,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: manoel-cunha-da-mota
   nome_completo: Manoel Cunha Da Mota
@@ -1630,6 +1810,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: manoel-eduardo-dos-santos-assis
   nome_completo: Manoel Eduardo Dos Santos Assis
@@ -1639,6 +1820,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: manoel-peres-loureiro
   nome_completo: Manoel Peres Loureiro
@@ -1648,6 +1830,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: manuel-silva-das-chagas
   nome_completo: Manuel Silva Das Chagas
@@ -1657,6 +1840,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mara-nubia-de-almeida-cintra
   nome_completo: Mara Núbia De Almeida Cintra
@@ -1666,6 +1850,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcel-alexandre-da-silva
   nome_completo: Marcel Alexandre Da Silva
@@ -1675,6 +1860,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcello-freire-demasi
   nome_completo: Marcello Freire Demasi
@@ -1684,6 +1870,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcellus-jose-barroso-campelo
   nome_completo: Marcellus Jose Barroso Campelo
@@ -1693,6 +1880,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcelo-klinger-dos-santos-brasil
   nome_completo: Marcelo Klinger Dos Santos Brasil
@@ -1702,6 +1890,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcelo-palhano-sanches
   nome_completo: Marcelo Palhano Sanches
@@ -1711,6 +1900,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcia-regina-cardoso-arruda
   nome_completo: Marcia Regina Cardoso Arruda
@@ -1720,6 +1910,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcio-andre-braga-ferreira
   nome_completo: Marcio Andre Braga Ferreira
@@ -1729,6 +1920,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcio-jose-alves-barros
   nome_completo: Marcio José Alves Barros
@@ -1738,6 +1930,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marco-antonio-andrade-castilhos-filho
   nome_completo: Marco Antonio Andrade Castilhos Filho
@@ -1747,6 +1940,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcos-jose-sena-patricio
   nome_completo: Marcos Jose Sena Patricio
@@ -1756,6 +1950,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcus-vinicius-oliveira-de-almeida
   nome_completo: Marcus Vinicius Oliveira De Almeida
@@ -1765,6 +1960,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-amelia-dos-santos-castro
   nome_completo: Maria Amelia Dos Santos Castro
@@ -1774,6 +1970,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-aparecida-tavares-coderch
   nome_completo: Maria Aparecida Tavares Coderch
@@ -1783,6 +1980,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-de-nazare-pereira-da-silva
   nome_completo: Maria De Nazare Pereira Da Silva
@@ -1792,6 +1990,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-do-perpetuo-socorro-cardoso-almeida
   nome_completo: Maria Do Perpetuo Socorro Cardoso Almeida
@@ -1801,6 +2000,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-do-socorro-de-fatima-da-silva-alves-dutra
   nome_completo: Maria Do Socorro De Fatima Da Silva Alves Dutra
@@ -1810,6 +2010,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-edith-de-medeiros-falcao
   nome_completo: Maria Edith De Medeiros Falcão
@@ -1819,6 +2020,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-elizabeth-dos-santos-oliveira
   nome_completo: Maria Elizabeth Dos Santos Oliveira
@@ -1828,6 +2030,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-jacqueline-coelho-pinheiro
   nome_completo: Maria Jacqueline Coelho Pinheiro
@@ -1837,6 +2040,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-jose-guimaraes-ferreira
   nome_completo: Maria Jose Guimaraes Ferreira
@@ -1846,6 +2050,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-raimunda-gomes
   nome_completo: Maria Raimunda Gomes
@@ -1855,6 +2060,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marilene-alves-de-oliveira
   nome_completo: Marilene Alves De Oliveira
@@ -1864,6 +2070,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marinete-de-sousa-moura
   nome_completo: Marinete De Sousa Moura
@@ -1873,6 +2080,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mario-cesar-rodrigues-balduino
   nome_completo: Mario Cesar Rodrigues Balduino
@@ -1882,6 +2090,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marlucia-vieira-de-souza
   nome_completo: Marlucia Vieira De Souza
@@ -1891,6 +2100,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: matheus-de-resende-garcia
   nome_completo: Matheus De Resende Garcia
@@ -1900,6 +2110,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mauricio-wilker-de-azevedo-barreto
   nome_completo: Mauricio Wilker De Azevedo Barreto
@@ -1909,6 +2120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mauro-pereira-coelho
   nome_completo: Mauro Pereira Coelho
@@ -1918,6 +2130,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mayra-benita-alves-dias-garcia
   nome_completo: Mayra Benita Alves Dias Garcia
@@ -1927,6 +2140,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: meyb-cristny-dos-santos-seixas
   nome_completo: Meyb Cristny Dos Santos Seixas
@@ -1936,6 +2150,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: michael-pinto-lemos
   nome_completo: Michael Pinto Lemos
@@ -1945,6 +2160,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: michaell-da-silva-santos
   nome_completo: Michaell Da Silva Santos
@@ -1954,6 +2170,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: michel-felipe-claudio
   nome_completo: Michel Felipe Claudio
@@ -1963,6 +2180,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: michella-dos-santos-oliveira
   nome_completo: Michella Dos Santos Oliveira
@@ -1972,6 +2190,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: michelle-barbosa-andrews
   nome_completo: Michelle Barbosa Andrews
@@ -1981,6 +2200,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: moises-loiola-de-souza
   nome_completo: Moisés Loiola De Souza
@@ -1990,6 +2210,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: marcia-daniele-silva-santos
   nome_completo: Márcia Daniele Silva Santos
@@ -1999,6 +2220,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: monica-alves-de-souza-mota
   nome_completo: Mônica Alves De Souza Mota
@@ -2008,6 +2230,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nadia-saldanha-castro
   nome_completo: Nadia Saldanha Castro
@@ -2017,6 +2240,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: naglia-suely-amorim-da-costa-de-souza
   nome_completo: Naglia Suely Amorim Da Costa De Souza
@@ -2026,6 +2250,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nazanilda-lima-da-silva
   nome_completo: Nazanilda Lima Da Silva
@@ -2035,6 +2260,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nedy-santana-vale
   nome_completo: Nedy Santana Vale
@@ -2044,6 +2270,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: neibe-da-silva-araujo-junior
   nome_completo: Neibe Da Silva Araujo Junior
@@ -2053,6 +2280,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nelson-rocha-junior
   nome_completo: Nelson Rocha Junior
@@ -2062,6 +2290,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: neuriane-da-silva-melo
   nome_completo: Neuriane Da Silva Melo
@@ -2071,6 +2300,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nicia-andrea-mota-medeiros
   nome_completo: Nicia Andrea Mota Medeiros
@@ -2080,6 +2310,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nissia-aguiar
   nome_completo: Níssia Aguiar
@@ -2089,6 +2320,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: orcharlinghton-angelino-de-sousa-jati
   nome_completo: Orcharlinghton Angelino De Sousa Jati
@@ -2098,6 +2330,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: otacilio-negreiros-neto
   nome_completo: Otacilio Negreiros Neto
@@ -2107,6 +2340,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: paulo-cesar-pereira-bardales
   nome_completo: Paulo Cesar Pereira Bardales
@@ -2116,6 +2350,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: paulo-honorato-mendes
   nome_completo: Paulo Honorato Mendes
@@ -2125,6 +2360,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: paulo-jose-batista-almeida
   nome_completo: Paulo José Batista Almeida
@@ -2134,6 +2370,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: paulo-mavignier-nogueira
   nome_completo: Paulo Mavignier Nogueira
@@ -2143,6 +2380,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: pericles-barata-pires-de-carvalho
   nome_completo: Pericles Barata Pires De Carvalho
@@ -2152,6 +2390,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: pericles-rodrigues-do-nascimento
   nome_completo: Pericles Rodrigues Do Nascimento
@@ -2161,6 +2400,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: phelippe-santos-sidi
   nome_completo: Phelippe Santos Sidi
@@ -2170,6 +2410,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: prissila-correa-de-melo
   nome_completo: Prissila Correa De Melo
@@ -2179,6 +2420,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: radyr-gomes-de-oliveira
   nome_completo: Radyr Gomes De Oliveira
@@ -2188,6 +2430,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rafael-jacob-benoliel
   nome_completo: Rafael Jacob Benoliel
@@ -2197,6 +2440,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rafael-pereira-bastos
   nome_completo: Rafael Pereira Bastos
@@ -2206,6 +2450,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ramon-pedrosa-ferreira
   nome_completo: Ramon Pedrosa Ferreira
@@ -2215,6 +2460,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: raul-lima-de-miranda-neto
   nome_completo: Raul Lima De Miranda Neto
@@ -2224,6 +2470,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: reinaldo-brandao-da-costa
   nome_completo: Reinaldo Brandao Da Costa
@@ -2233,6 +2480,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: renato-de-souza-marques
   nome_completo: Renato De Souza Marques
@@ -2242,6 +2490,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: roberto-frederico-paes-junior
   nome_completo: Roberto Frederico Paes Junior
@@ -2251,6 +2500,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: robervaldo-nascimento-de-souza
   nome_completo: Robervaldo Nascimento De Souza
@@ -2260,6 +2510,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: robson-rizannio-teles-bezerra
   nome_completo: Robson Rizannio Teles Bezerra
@@ -2269,6 +2520,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rodinei-moura-ramos
   nome_completo: Rodinei Moura Ramos
@@ -2278,6 +2530,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rodrigo-de-sa-barbosa
   nome_completo: Rodrigo De Sa Barbosa
@@ -2287,6 +2540,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rodrigo-de-souza-melo
   nome_completo: Rodrigo De Souza Melo
@@ -2296,6 +2550,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rodrigo-furtado-da-silva
   nome_completo: Rodrigo Furtado Da Silva
@@ -2305,6 +2560,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rodrigo-guedes-oliveira-de-araujo
   nome_completo: Rodrigo Guedes Oliveira De Araujo
@@ -2314,6 +2570,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: romildo-ferreira-pimentel
   nome_completo: Romildo Ferreira Pimentel
@@ -2323,6 +2580,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ronildo-gomes-de-souza
   nome_completo: Ronildo Gomes De Souza
@@ -2332,6 +2590,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ronildo-nogueira-palmere
   nome_completo: Ronildo Nogueira Palmere
@@ -2341,6 +2600,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ronilson-rodrigues-de-souza
   nome_completo: Ronilson Rodrigues De Souza
@@ -2350,6 +2610,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rosalina-maria-de-oliveira-farias
   nome_completo: Rosalina Maria De Oliveira Farias
@@ -2359,6 +2620,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: rosilene-da-silva-souza
   nome_completo: Rosilene Da Silva Souza
@@ -2368,6 +2630,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ruan-wendell-moraes-ribeiro
   nome_completo: Ruan Wendell Moraes Ribeiro
@@ -2377,6 +2640,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sandoval-fernando-cardoso-de-freitas
   nome_completo: Sandoval Fernando Cardoso De Freitas
@@ -2386,6 +2650,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sergio-nunes-de-souza
   nome_completo: Sergio Nunes De Souza
@@ -2395,6 +2660,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sergio-roberto-kruke-da-costa
   nome_completo: Sergio Roberto Kruke Da Costa
@@ -2404,6 +2670,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sidinei-tavares-de-souza
   nome_completo: Sidinei Tavares De Souza
@@ -2413,6 +2680,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: silvyane-parente-de-araujo-castro
   nome_completo: Silvyane Parente De Araujo Castro
@@ -2422,6 +2690,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: simao-peixoto-lima
   nome_completo: Simão Peixoto Lima
@@ -2431,6 +2700,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sinesio-da-silva-campos
   nome_completo: Sinesio Da Silva Campos
@@ -2440,6 +2710,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: soraia-tenorio-rojas-soares
   nome_completo: Soraia Tenorio Rojas Soares
@@ -2449,6 +2720,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: samara-silva-souza-do-nascimento
   nome_completo: Sâmara Silva Souza Do Nascimento
@@ -2458,6 +2730,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: tarcisio-luiz-leao-e-souza
   nome_completo: Tarcisio Luiz Leao E Souza
@@ -2467,6 +2740,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: tatiana-ferreira-da-luz
   nome_completo: Tatiana Ferreira Da Luz
@@ -2476,6 +2750,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: tatiana-januaria-da-rocha
   nome_completo: Tatiana Januaria Da Rocha
@@ -2485,6 +2760,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: tatiana-maria-da-silva-figueira
   nome_completo: Tatiana Maria Da Silva Figueira
@@ -2494,6 +2770,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: thiago-silva-dos-santos
   nome_completo: Thiago Silva Dos Santos
@@ -2503,6 +2780,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: tiago-do-vale-falcao
   nome_completo: Tiago Do Vale Falcão
@@ -2512,6 +2790,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: valdemarina-sousa-de-lima
   nome_completo: Valdemarina Sousa De Lima
@@ -2521,6 +2800,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: valeska-leal-de-souza
   nome_completo: Valeska Leal De Souza
@@ -2530,6 +2810,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: valquindar-ferreira-mar-junior
   nome_completo: Valquindar Ferreira Mar Junior
@@ -2539,6 +2820,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: vangela-barreto-de-freitas
   nome_completo: Vangela Barreto De Freitas
@@ -2548,6 +2830,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: victor-hudson-dos-santos-laborda
   nome_completo: Victor Hudson Dos Santos Laborda
@@ -2557,6 +2840,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: vivian-silveira-amorim
   nome_completo: Vivian Silveira Amorim
@@ -2566,6 +2850,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: viviana-pinheiro-lira-de-oliveira
   nome_completo: Viviana Pinheiro Lira De Oliveira
@@ -2575,6 +2860,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wanderley-caldeira-monteiro
   nome_completo: Wanderley Caldeira Monteiro
@@ -2584,6 +2870,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wando-fonteles-gomes
   nome_completo: Wando Fonteles Gomes
@@ -2593,6 +2880,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wendel-de-souza-soares
   nome_completo: Wendel De Souza Soares
@@ -2602,6 +2890,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: willace-oliveira-de-souza
   nome_completo: Willace Oliveira De Souza
@@ -2611,6 +2900,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wilson-dos-santos-marques-filho
   nome_completo: Wilson Dos Santos Marques Filho
@@ -2620,6 +2910,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wladimir-medeiros-campos
   nome_completo: Wladimir Medeiros Campos
@@ -2629,6 +2920,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: yomara-jesuina-lins-rodrigues
   nome_completo: Yomara Jesuina Lins Rodrigues
@@ -2638,6 +2930,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: yura-niwa-wani-ni-nawavo-marubo-comapa-franco
   nome_completo: Yura Niwa Wani Ni Nawavo Marubo Comapa Franco
@@ -2647,4 +2940,5 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

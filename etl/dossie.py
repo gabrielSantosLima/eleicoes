@@ -47,6 +47,7 @@ def montar(ano: int, cargo: str, uf: str | None, force: bool) -> None:
             "numero": c["numero"],
             "partido": c["partido"],
             "coligacao": c["coligacao"],
+            "foto": c.get("foto"),
             "grau_instrucao": c["grau_instrucao"],
             "ocupacao": c["ocupacao"],
             "formacao_academica": [],

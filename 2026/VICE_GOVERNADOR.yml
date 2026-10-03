@@ -10,6 +10,7 @@ candidatos:
   coligacao: FORÇA AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: igor-felipe-oliveira-bezerra
   nome_completo: Igor Felipe Oliveira Bezerra
@@ -19,6 +20,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: juliana-frota-reboucas
   nome_completo: Juliana Frota Rebouças
@@ -28,6 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leonardo-balbi-da-silva
   nome_completo: Leonardo Balbi Da Silva
@@ -37,6 +40,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: mario-anibal-gomes-da-costa-junior
   nome_completo: Mario Anibal Gomes Da Costa Junior
@@ -46,6 +50,7 @@ candidatos:
   coligacao: MUDAR É URGENTE
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: serafim-fernandes-correa
   nome_completo: Serafim Fernandes Correa
@@ -55,6 +60,7 @@ candidatos:
   coligacao: UNIÃO PELO AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: shadia-hussami-hauache-fraxe
   nome_completo: Shadia Hussami Hauache Fraxe
@@ -64,4 +70,5 @@ candidatos:
   coligacao: PRA CIMA AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

@@ -10,6 +10,7 @@ candidatos:
   coligacao: MUDAR É URGENTE
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-eduardo-de-souza-braga
   nome_completo: Carlos Eduardo De Souza Braga
@@ -19,6 +20,7 @@ candidatos:
   coligacao: FORÇA AMAZONAS
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: dailson-de-queiroz-correa
   nome_completo: Dailson De Queiroz Corrêa
@@ -28,6 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-plinio-valerio-tomaz
   nome_completo: Francisco Plinio Valerio Tomaz
@@ -37,6 +40,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ismael-franklin-goncalves
   nome_completo: Ismael Franklin Goncalves
@@ -46,6 +50,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: jose-evandro-de-oliveira
   nome_completo: José Evandro De Oliveira
@@ -55,6 +60,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-evany-do-nascimento
   nome_completo: Maria Evany Do Nascimento
@@ -64,6 +70,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: milton-rogerio-moreira-pinto
   nome_completo: Milton Rogério Moreira Pinto
@@ -73,6 +80,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: wilson-miranda-lima
   nome_completo: Wilson Miranda Lima
@@ -82,4 +90,5 @@ candidatos:
   coligacao: UNIÃO PELO AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

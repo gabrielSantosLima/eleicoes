@@ -10,6 +10,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: david-antonio-abisai-pereira-de-almeida
   nome_completo: David Antônio Abisai Pereira De Almeida
@@ -19,6 +20,7 @@ candidatos:
   coligacao: PRA CIMA AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gilberto-vasconcelos-da-silva
   nome_completo: Gilberto Vasconcelos Da Silva
@@ -28,6 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: isael-franklin-goncalves
   nome_completo: Isael Franklin Gonçalves
@@ -37,6 +40,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-do-carmo-seffair-lins-de-albuquerque
   nome_completo: Maria Do Carmo Seffair Lins De Albuquerque
@@ -46,6 +50,7 @@ candidatos:
   coligacao: MUDAR É URGENTE
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: omar-jose-abdelaziz
   nome_completo: Omar Jose Abdelaziz
@@ -55,6 +60,7 @@ candidatos:
   coligacao: FORÇA AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: roberto-maia-cidade-filho
   nome_completo: Roberto Maia Cidade Filho
@@ -64,4 +70,5 @@ candidatos:
   coligacao: UNIÃO PELO AMAZONAS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

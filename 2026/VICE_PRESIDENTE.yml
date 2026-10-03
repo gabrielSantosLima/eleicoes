@@ -10,6 +10,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: antonio-carlos-silva
   nome_completo: Antonio Carlos Silva
@@ -19,6 +20,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: aroldo-medina
   nome_completo: Aroldo Medina
@@ -28,6 +30,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cleusa-dos-santos
   nome_completo: Cleusa Dos Santos
@@ -37,6 +40,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fabiana-cristina-tavares-torquato
   nome_completo: Fabiana Cristina Tavares Torquato
@@ -46,6 +50,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: geraldo-jose-rodrigues-alckmin-filho
   nome_completo: Geraldo Jose Rodrigues Alckmin Filho
@@ -55,6 +60,7 @@ candidatos:
   coligacao: BRASIL PRONTO PRA MAIS
   eh_reeleicao: true
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: gilberto-kassab
   nome_completo: Gilberto Kassab
@@ -64,6 +70,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: julio-cesar-delgado
   nome_completo: Julio Cesar Delgado
@@ -73,6 +80,7 @@ candidatos:
   coligacao: BRASIL DOS NOSSOS SONHOS
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: leonardo-alves-de-araujo
   nome_completo: Leonardo Alves De Araujo
@@ -82,6 +90,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: luis-eduardo-grangeiro-girao
   nome_completo: Luis Eduardo Grangeiro Girão
@@ -91,6 +100,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: raquel-nonato-de-bricio
   nome_completo: Raquel Nonato De Bricio
@@ -100,6 +110,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: silvia-hellen-da-silva-pereira
   nome_completo: Silvia Hellen Da Silva Pereira
@@ -109,6 +120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: sued-haidar-nogueira
   nome_completo: Suêd Haidar Nogueira
@@ -118,6 +130,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: vanessa-portugal-barbosa
   nome_completo: Vanessa Portugal Barbosa
@@ -127,4 +140,5 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip

@@ -50,8 +50,17 @@ CAMPOS_CARGO = (
     "coligacao",
     "eh_reeleicao",
     "situacao_candidatura",
+    "foto",
     "fonte",
 )
+
+
+def carregar_fotos() -> dict[str, str]:
+    caminho = os.path.join(ROOT, "etl", "fotos.yml")
+    if os.path.exists(caminho):
+        with open(caminho, encoding="utf-8") as f:
+            return yaml.safe_load(f) or {}
+    return {}
 
 
 def baixar(url: str, destino: str) -> str:
@@ -128,6 +137,7 @@ def coletar(
     zip_path = baixar(url, f"consulta_cand_{ano}.zip")
     linhas = ler_csv_zip(zip_path, f"consulta_cand_{ano}_BRASIL.csv")
     eleitos = carregar_eleitos(ano)
+    fotos = carregar_fotos()
 
     por_cargo: dict[str, list[dict]] = defaultdict(list)
     nacional: dict[str, bool] = defaultdict(lambda: True)
@@ -158,6 +168,7 @@ def coletar(
                 "coligacao": limpar(r["NM_COLIGACAO"]),
                 "eh_reeleicao": eh_reeleicao,
                 "situacao_candidatura": None,
+                "foto": fotos.get(cid),
                 "fonte": url,
                 "sq": sq,
                 "grau_instrucao": limpar(r["DS_GRAU_INSTRUCAO"]),

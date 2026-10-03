@@ -20,6 +20,7 @@
           "type": ["string", "null"],
           "enum": ["deferida", "indeferida", "cassada", "renúncia", "falecido", null]
         },
+        "foto": { "type": ["string", "null"] },
         "fonte": { "type": ["string", "null"] }
       }
     },
@@ -139,6 +140,7 @@
         "numero": { "type": ["integer", "null"] },
         "partido": { "type": "string" },
         "coligacao": { "type": ["string", "null"] },
+        "foto": { "type": ["string", "null"] },
         "grau_instrucao": { "type": ["string", "null"] },
         "ocupacao": { "type": ["string", "null"] },
         "formacao_academica": {
