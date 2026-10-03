@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sistema de apoio à decisão de voto: dados oficiais dos candidatos e da população brasileira.">
+  <title>Eleições — Decida seu voto</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/vendor/js-yaml.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+  <div id="loading" class="loading" role="status" aria-live="polite">
+    <div class="loading__spinner" aria-hidden="true"></div>
+    <p>Carregando dados eleitorais…</p>
+  </div>
+
+  <header class="topbar" id="topbar" hidden>
+    <a class="topbar__brand" href="#population">Eleições <span id="year-label"></span></a>
+    <nav class="topbar__nav">
+      <label class="topbar__label" for="cargo-select">Cargo</label>
+      <select id="cargo-select" class="select" aria-label="Selecione o cargo"></select>
+    </nav>
+  </header>
+
+  <main id="app" hidden>
+    <section class="hero" id="population">
+      <div class="hero__content">
+        <p class="hero__eyebrow">População do Brasil</p>
+        <h1 class="hero__number" id="pop-number">—</h1>
+        <p class="hero__caption">pessoas <span id="pop-year"></span></p>
+        <p class="hero__note" id="pop-census"></p>
+        <a class="hero__cta" href="#candidates">Conheça os candidatos ↓</a>
+      </div>
+      <div class="hero__map">
+        <img id="brazil-map" src="assets/brazil-map.png" alt="Mapa do Brasil" loading="lazy">
+      </div>
+    </section>
+
+    <section class="candidates" id="candidates">
+      <header class="section-head">
+        <h2 id="candidates-title">Candidatos</h2>
+        <p class="section-sub" id="candidates-sub"></p>
+      </header>
+
+      <div class="cloud" id="column-cloud" role="group" aria-label="Mostrar ou ocultar colunas"></div>
+
+      <div class="table-wrap">
+        <table id="candidates-table" class="table">
+          <caption class="sr-only" id="table-caption">Relação de candidatos</caption>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="compare-bar" class="compare-bar" hidden>
+    <span id="compare-count" class="compare-bar__count"></span>
+    <div class="compare-bar__actions">
+      <button id="compare-open" class="btn btn--primary" type="button">Comparar</button>
+      <button id="compare-clear" class="btn btn--ghost" type="button">Limpar</button>
+    </div>
+  </div>
+
+  <aside id="detail" class="detail" hidden aria-label="Detalhes do candidato"></aside>
+  <div id="compare" class="modal" hidden aria-label="Comparação de candidatos"></div>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <footer class="footer" id="footer"></footer>
+</body>
+</html>
