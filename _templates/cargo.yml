@@ -1,0 +1,15 @@
+# Template: lista nominal de candidatos de um cargo
+# Arquivo destino: <ano>/<CARGO>.yml
+ano: 2026
+cargo: Presidente
+uf: null # null para cargos nacionais; UF para cargos estaduais
+candidatos:
+  - id: fulano-de-tal
+    nome_completo: "Fulano de Tal"
+    nome_urna: "Fulano"
+    numero: 12
+    partido: "XX"
+    coligacao: null
+    eh_reeleicao: false
+    situacao_candidatura: deferida
+    fonte: "https://divulgacandcontas.tse.jus.br/"

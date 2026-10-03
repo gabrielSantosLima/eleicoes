@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/eleicoes/data/schema.json",
+  "title": "Schema dos dados eleitorais",
+  "description": "Contrato dos arquivos YAML do repositório eleicoes.",
+  "$defs": {
+    "candidato_resumo": {
+      "type": "object",
+      "required": ["id", "nome_completo", "partido"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "nome_completo": { "type": "string" },
+        "nome_urna": { "type": ["string", "null"] },
+        "numero": { "type": ["integer", "null"] },
+        "partido": { "type": "string" },
+        "coligacao": { "type": ["string", "null"] },
+        "eh_reeleicao": { "type": ["boolean", "null"] },
+        "situacao_candidatura": {
+          "type": ["string", "null"],
+          "enum": ["deferida", "indeferida", "cassada", "renúncia", "falecido", null]
+        },
+        "fonte": { "type": ["string", "null"] }
+      }
+    },
+    "cargo": {
+      "type": "object",
+      "required": ["ano", "cargo", "candidatos"],
+      "additionalProperties": false,
+      "properties": {
+        "ano": { "type": "integer" },
+        "cargo": { "type": "string" },
+        "uf": { "type": ["string", "null"] },
+        "candidatos": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/candidato_resumo" }
+        }
+      }
+    },
+    "resultado_item": {
+      "type": "object",
+      "required": ["id", "nome", "votos"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "partido": { "type": ["string", "null"] },
+        "votos": { "type": "integer" },
+        "percentual": { "type": ["number", "null"] },
+        "eleito": { "type": ["boolean", "null"] },
+        "fonte": { "type": ["string", "null"] }
+      }
+    },
+    "resultado": {
+      "type": "object",
+      "required": ["ano", "cargo", "turno", "resultados"],
+      "additionalProperties": false,
+      "properties": {
+        "ano": { "type": "integer" },
+        "cargo": { "type": "string" },
+        "uf": { "type": ["string", "null"] },
+        "turno": { "type": "integer", "enum": [1, 2] },
+        "comparecimento": { "type": ["integer", "null"] },
+        "abstencoes": { "type": ["integer", "null"] },
+        "brancos": { "type": ["integer", "null"] },
+        "nulos": { "type": ["integer", "null"] },
+        "resultados": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/resultado_item" }
+        }
+      }
+    },
+    "populacao": {
+      "type": "object",
+      "required": ["ano", "escopo", "fonte", "dados"],
+      "additionalProperties": false,
+      "properties": {
+        "ano": { "type": "integer" },
+        "escopo": { "type": "string" },
+        "fonte": { "type": "string" },
+        "censo": { "type": ["integer", "null"] },
+        "atualizado_em": { "type": ["string", "null"] },
+        "dados": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["localidade", "populacao"],
+            "additionalProperties": false,
+            "properties": {
+              "localidade": { "type": "string" },
+              "codigo_ibge": { "type": ["string", "null"] },
+              "populacao": { "type": "integer" }
+            }
+          }
+        }
+      }
+    },
+    "noticia": {
+      "type": "object",
+      "required": ["titulo"],
+      "additionalProperties": false,
+      "properties": {
+        "titulo": { "type": "string" },
+        "veiculo": { "type": ["string", "null"] },
+        "data": { "type": ["string", "null"], "format": "date" },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "formacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "curso": { "type": ["string", "null"] },
+        "instituicao": { "type": ["string", "null"] },
+        "conclusao": { "type": ["integer", "null"] }
+      }
+    },
+    "projeto": {
+      "type": "object",
+      "required": ["titulo"],
+      "additionalProperties": false,
+      "properties": {
+        "titulo": { "type": "string" },
+        "ano": { "type": ["integer", "null"] },
+        "descricao": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "candidato_dossie": {
+      "type": "object",
+      "required": ["id", "nome_completo", "partido"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "nome_completo": { "type": "string" },
+        "nome_urna": { "type": ["string", "null"] },
+        "numero": { "type": ["integer", "null"] },
+        "partido": { "type": "string" },
+        "coligacao": { "type": ["string", "null"] },
+        "formacao_academica": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/formacao" }
+        },
+        "dias_trabalhados_ultimos_2_anos": { "type": ["integer", "null"] },
+        "eh_reeleicao": { "type": ["boolean", "null"] },
+        "noticias": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/noticia" }
+        },
+        "projetos_aprovados": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/projeto" }
+        },
+        "fontes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "atualizado_em": { "type": ["string", "null"], "format": "date" }
+      }
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/$defs/cargo" },
+    { "$ref": "#/$defs/resultado" },
+    { "$ref": "#/$defs/populacao" },
+    { "$ref": "#/$defs/candidato_dossie" }
+  ]
+}

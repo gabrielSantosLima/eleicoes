@@ -1,0 +1,23 @@
+ano: 2026
+eleicoes:
+  - cargo: Presidente
+    arquivo: PRESIDENTE.yml
+    resultado: PRESIDENTE_RESULTADO.yml
+    uf: null
+  - cargo: Senador
+    arquivo: SENADOR.yml
+    resultado: SENADOR_RESULTADO.yml
+    uf: null
+  - cargo: Deputado Federal
+    arquivo: DEPUTADO_FEDERAL.yml
+    resultado: DEPUTADO_FEDERAL_RESULTADO.yml
+    uf: null
+  - cargo: Deputado Estadual
+    arquivo: DEPUTADO_ESTADUAL.yml
+    resultado: DEPUTADO_ESTADUAL_RESULTADO.yml
+    uf: null
+populacao:
+  - POPULACAO.yml
+  - POPULACAO_MANAUS.yml
+fontes: fontes.yml
+atualizado_em: 2026-10-03

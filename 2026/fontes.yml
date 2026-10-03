@@ -1,0 +1,17 @@
+ano: 2026
+fontes:
+  - nome: "TSE — Dados Abertos"
+    url: "https://dadosabertos.tse.jus.br/"
+    uso: "Candidaturas, bens, resultados, prestação de contas"
+  - nome: "Câmara dos Deputados — API v2"
+    url: "https://dadosabertos.camara.leg.br/api/v2/"
+    uso: "Deputados, proposições, votações, despesas"
+  - nome: "Senado Federal — API"
+    url: "https://legis.senado.leg.br/dadosabertos/"
+    uso: "Senadores, matérias, votações"
+  - nome: "Portal da Transparência — API"
+    url: "https://api.portaldatransparencia.gov.br/api-de-dados/"
+    uso: "Servidores, remuneração, emendas"
+  - nome: "IBGE — APIs"
+    url: "https://servicodados.ibge.gov.br/api/v3/"
+    uso: "População e localidades"

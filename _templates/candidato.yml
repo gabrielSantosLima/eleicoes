@@ -1,0 +1,27 @@
+# Template: dossiê de uma pessoa
+# Arquivo destino: <ano>/analise/<id>.yml
+id: fulano-de-tal
+nome_completo: "Fulano de Tal"
+nome_urna: "Fulano"
+numero: 12
+partido: "XX"
+coligacao: null
+formacao_academica:
+  - curso: "Direito"
+    instituicao: "UFAM"
+    conclusao: 2005
+dias_trabalhados_ultimos_2_anos: null
+eh_reeleicao: false
+noticias:
+  - titulo: "Título da notícia"
+    veiculo: "Veículo"
+    data: 2024-05-01
+    url: "https://..."
+projetos_aprovados:
+  - titulo: "Título do projeto"
+    ano: 2023
+    descricao: "Descrição"
+    url: "https://..."
+fontes:
+  - "https://dadosabertos.tse.jus.br/"
+atualizado_em: 2026-10-03

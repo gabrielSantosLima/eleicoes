@@ -1,0 +1,18 @@
+# Template: resultado de um cargo
+# Arquivo destino: <ano>/<CARGO>_RESULTADO.yml
+ano: 2026
+cargo: Presidente
+uf: null
+turno: 1
+comparecimento: null
+abstencoes: null
+brancos: null
+nulos: null
+resultados:
+  - id: fulano-de-tal
+    nome: "Fulano de Tal"
+    partido: "XX"
+    votos: 0
+    percentual: 0.0
+    eleito: false
+    fonte: "https://dadosabertos.tse.jus.br/"
