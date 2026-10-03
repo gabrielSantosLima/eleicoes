@@ -21,7 +21,7 @@ function applyAttributes(element, attributes) {
 }
 
 function appendChildren(element, children) {
-  for (const child of [].concat(children)) {
+  for (const child of flatten(children)) {
     if (child === null || child === undefined) continue;
     element.append(child.nodeType ? child : document.createTextNode(String(child)));
   }
@@ -38,9 +38,13 @@ export function createElement(tagName, attributes = {}, children = []) {
   return element;
 }
 
-/** Replace all children of `element`, ignoring nullish entries. */
+/** Replace all children of `element`, ignoring nullish entries (flattens arrays). */
 export function replaceContent(element, children) {
-  element.replaceChildren(...[].concat(children).filter(Boolean));
+  element.replaceChildren(...flatten(children).filter(Boolean));
+}
+
+function flatten(value) {
+  return Array.isArray(value) ? value.flatMap(flatten) : [value];
 }
 
 /** Build a document fragment from an HTML string. */

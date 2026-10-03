@@ -39,7 +39,7 @@ a { color: inherit; }
 .topbar { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px clamp(16px, 4vw, 48px); background: rgba(255,255,255,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 .topbar[hidden] { display: none; }
 .topbar__brand { font-weight: 800; text-decoration: none; color: var(--green-dark); }
-.topbar__nav { display: flex; align-items: center; gap: 8px; }
+.topbar__nav { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .topbar__label { font-size: 0.8rem; color: var(--muted); }
 .select { padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; font: inherit; color: var(--ink); cursor: pointer; }
 .select:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
@@ -127,20 +127,22 @@ a { color: inherit; }
   flex: none;
 }
 .candidate-card__id { min-width: 0; display: grid; gap: 2px; }
-.candidate-card__fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 0; }
-.candidate-card__field { min-width: 0; }
+.candidate-card__fields { margin: 0; border-top: 1px solid var(--line); }
+.candidate-card__field { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
 .candidate-card__field dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
-.candidate-card__field dd { margin: 3px 0 0; font-size: 0.92rem; }
+.candidate-card__field dd { margin: 0; font-size: 0.92rem; text-align: right; overflow-wrap: anywhere; }
 
 /* ---------- Compare bar ---------- */
 .compare-bar { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 45; display: flex; align-items: center; gap: 16px; padding: 10px 16px; background: var(--ink); color: #fff; border-radius: 999px; box-shadow: 0 12px 30px rgba(0,0,0,0.3); }
 .compare-bar[hidden] { display: none; }
 .compare-bar__count { font-size: 0.9rem; }
 .compare-bar__actions { display: flex; gap: 8px; }
-.btn { padding: 8px 16px; border-radius: 999px; border: 1px solid transparent; font: inherit; font-weight: 600; cursor: pointer; }
+.btn { padding: 8px 16px; border-radius: 999px; border: 1px solid transparent; font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap; }
 .btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
 .btn--primary { background: var(--yellow); color: #3a2f00; }
 .btn--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.4); }
+.topbar__cta { background: var(--green); color: #fff; box-shadow: 0 4px 12px rgba(0, 124, 46, 0.25); }
+.topbar__cta:hover { background: var(--green-dark); }
 
 /* ---------- Drawer / Modal ---------- */
 .detail, .modal { position: fixed; top: 0; right: 0; z-index: 60; height: 100vh; width: min(460px, 94vw); overflow-y: auto; padding: 24px; background: #fff; box-shadow: -20px 0 50px rgba(0,0,0,0.18); animation: slideIn 0.25s ease; }
@@ -159,10 +161,47 @@ a { color: inherit; }
 .detail__year { margin: 14px 0 6px; font-size: 0.9rem; color: var(--green-dark); }
 .detail ul { margin: 0; padding-left: 18px; }
 .detail li { margin-bottom: 8px; }
-.detail a { color: var(--blue); word-break: break-word; }
+.detail a { color: var(--blue); overflow-wrap: anywhere; }
+.detail p, .detail li, .detail dd { overflow-wrap: anywhere; }
+.detail { overflow-x: hidden; }
 .detail__empty { color: var(--muted); font-style: italic; }
 .scrim { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,0.4); }
 .scrim[hidden] { display: none; }
+
+/* ---------- Santinho wizard ---------- */
+.wizard { position: fixed; inset: 0; z-index: 70; overflow-y: auto; padding: 24px; background: rgba(12, 26, 18, 0.55); }
+.wizard[hidden] { display: none; }
+.wizard__panel { max-width: 720px; margin: 0 auto; background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; }
+.wizard__bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.wizard__progress { font-size: 0.8rem; color: var(--muted); }
+.wizard__title { color: var(--green-dark); font-size: 1.5rem; margin-bottom: 6px; }
+.wizard__hint { color: var(--muted); font-size: 0.92rem; margin-bottom: 14px; }
+.wizard__search { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; font: inherit; margin-bottom: 12px; }
+.wizard__search:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.wizard__list { display: grid; gap: 8px; max-height: 54vh; overflow-y: auto; }
+.wizard__candidate { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: #fff; text-align: left; cursor: pointer; font: inherit; }
+.wizard__candidate:hover { border-color: var(--green); }
+.wizard__candidate.is-picked { border-color: var(--green); background: var(--green-soft); }
+.wizard__candidate-photo { width: 44px; height: 44px; object-fit: cover; border-radius: 8px; border: 2px solid var(--yellow); background: #eee; display: grid; place-items: center; }
+.wizard__candidate-name { font-weight: 700; }
+.wizard__candidate-meta { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.wizard__empty { color: var(--muted); font-style: italic; }
+.wizard__nav { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; flex-wrap: wrap; }
+.wizard__btn { padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.wizard__btn:hover { border-color: var(--green); }
+.wizard__btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.wizard__btn--primary { background: var(--green); border-color: var(--green); color: #fff; }
+.wizard__btn--primary:hover { background: var(--green-dark); border-color: var(--green-dark); }
+.wizard__btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.wizard__review { display: grid; gap: 12px; }
+.wizard__review-item { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.wizard__review-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.wizard__review-cargo { font-weight: 700; color: var(--green-dark); }
+.wizard__link { border: none; background: none; color: var(--blue); cursor: pointer; font: inherit; text-decoration: underline; }
+.wizard__review-list { margin: 6px 0 0; padding-left: 18px; }
+.wizard__preview { display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; margin-bottom: 12px; }
+.wizard__preview img { max-width: 100%; border-radius: 10px; }
+.wizard__error { color: var(--error); margin-top: 10px; }
 
 /* ---------- Compare table ---------- */
 .compare h2 { color: var(--green-dark); margin-bottom: 16px; }
@@ -195,20 +234,26 @@ a { color: inherit; }
   .table-wrap { display: none; }
   .cards { display: grid; gap: 12px; }
 
-  .topbar { flex-wrap: wrap; padding: 10px 16px; }
+  .topbar { flex-wrap: wrap; gap: 8px 12px; padding: 10px 16px; }
+  .topbar__nav { width: 100%; justify-content: space-between; flex-wrap: nowrap; gap: 8px; }
+  .topbar__label { display: none; }
+  .select { flex: 1 1 auto; min-width: 0; }
+  .topbar__cta { flex: 0 0 auto; padding: 8px 14px; font-size: 0.82rem; }
   .candidates { padding-left: 16px; padding-right: 16px; padding-bottom: 104px; }
   .cloud { padding: 10px; }
   .chip { font-size: 0.82rem; padding: 6px 11px; }
 
   .compare-bar { left: 12px; right: 12px; bottom: 12px; transform: none; width: auto; justify-content: space-between; border-radius: 16px; }
 
-  .detail, .modal { width: 100vw; }
-  .detail { padding: 20px; }
+  .detail, .modal { width: 100%; max-width: 100%; }
+  .detail { padding: 18px; }
   .compare { font-size: 0.85rem; }
+  .wizard { padding: 0; }
+  .wizard__panel { border-radius: 0; min-height: 100vh; }
+  .wizard__list { max-height: 48vh; }
 }
 
 @media (max-width: 420px) {
-  .candidate-card__fields { grid-template-columns: 1fr; }
   .hero__number { font-size: clamp(2.6rem, 16vw, 4rem); }
 }
 

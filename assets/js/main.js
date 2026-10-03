@@ -17,6 +17,7 @@ import { renderCandidateDetail } from './components/candidateDetail.js';
 import { renderComparisonModal, renderCompareBar } from './components/comparison.js';
 import { renderSourcesFooter } from './components/sourcesFooter.js';
 import { hideLoadingOverlay, showErrorOverlay } from './components/overlays.js';
+import { createSantinhoWizard } from './features/santinho/ballotWizard.js';
 
 const MAX_COMPARISON = 4;
 const DEFAULT_CARGO_NAME = 'Presidente';
@@ -44,12 +45,20 @@ const elements = {
   compareClearButton: select('#compare-clear'),
   detail: select('#detail'),
   compare: select('#compare'),
+  santinho: select('#santinho'),
+  santinhoOpen: select('#santinho-open'),
   scrim: select('#scrim'),
   footer: select('#footer'),
 };
 
 const repository = createElectionRepository();
 const store = createElectionStore();
+const santinhoWizard = createSantinhoWizard({
+  repository,
+  electionStore: store,
+  container: elements.santinho,
+  scrim: elements.scrim,
+});
 
 /* ----------------------------- rendering ----------------------------- */
 
@@ -148,6 +157,7 @@ function closeOverlays() {
   elements.detail.hidden = true;
   elements.compare.hidden = true;
   elements.scrim.hidden = true;
+  santinhoWizard.close();
 }
 
 /* ---------------------------- data loading --------------------------- */
@@ -225,6 +235,7 @@ async function bootstrap() {
 elements.cargoSelect.addEventListener('change', () => loadCargo(elements.cargoSelect.value));
 elements.compareOpenButton.addEventListener('click', handleOpenComparison);
 elements.compareClearButton.addEventListener('click', handleClearComparison);
+elements.santinhoOpen.addEventListener('click', () => santinhoWizard.open());
 elements.scrim.addEventListener('click', closeOverlays);
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeOverlays();
