@@ -13,6 +13,7 @@ const KEYS = {
   model: (id) => `eleicoes:ai:model:${id}`,
   key: (id) => `eleicoes:ai:key:${id}`,
   configOpen: 'eleicoes:ai:configOpen',
+  size: 'eleicoes:ai:size',
 };
 
 const CONTEXT_BUDGET = 128000;
@@ -46,6 +47,8 @@ export function createAssistant() {
   const helpButton = select('#ai-help');
   const statusElement = select('#ai-status');
   const closeButton = select('#ai-close');
+  const fullscreenButton = select('#ai-fullscreen');
+  const resizeHandle = select('#ai-resize');
   const clearButton = select('#ai-clear');
   const tokenFill = select('#ai-tokens-fill');
   const tokenLabel = select('#ai-tokens-label');
@@ -58,6 +61,7 @@ export function createAssistant() {
   let dataset = null;
   let sessionTokens = 0;
   let introShown = false;
+  let savedSize = null;
 
   const ORIENTATION = [
     'Olá! Sou o assistente de IA deste site. Posso responder sobre os candidatos de 2026 (nomes, números e cargos) e sobre os resumos das propostas de governo.',
@@ -255,6 +259,68 @@ export function createAssistant() {
     window.open(currentProvider().helpUrl, '_blank', 'noopener');
   });
 
+  function setFullscreen(on) {
+    if (on && !panel.classList.contains('is-fullscreen')) {
+      savedSize = { width: panel.style.width, height: panel.style.height };
+      // Clear inline size so the fullscreen class (100% x 100%) can apply.
+      panel.style.width = '';
+      panel.style.height = '';
+    }
+    panel.classList.toggle('is-fullscreen', on);
+    fullscreenButton.setAttribute('aria-pressed', on ? 'true' : 'false');
+    const icon = fullscreenButton.querySelector('.material-symbols-outlined');
+    if (icon) icon.textContent = on ? 'close_fullscreen' : 'open_in_full';
+    if (!on && savedSize) {
+      panel.style.width = savedSize.width;
+      panel.style.height = savedSize.height;
+      savedSize = null;
+    }
+  }
+
+  function applySavedSize() {
+    try {
+      const size = JSON.parse(readStorage(KEYS.size) || 'null');
+      if (size?.width && size?.height) {
+        panel.style.width = `${size.width}px`;
+        panel.style.height = `${size.height}px`;
+      }
+    } catch {
+      /* ignore malformed size */
+    }
+  }
+
+  function setupResize() {
+    const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+    resizeHandle.addEventListener('pointerdown', (event) => {
+      if (panel.classList.contains('is-fullscreen')) return;
+      event.preventDefault();
+      const rect = panel.getBoundingClientRect();
+      const start = { x: event.clientX, y: event.clientY, width: rect.width, height: rect.height };
+      const maxWidth = window.innerWidth - 24;
+      const maxHeight = window.innerHeight - 24;
+      document.body.style.userSelect = 'none';
+      resizeHandle.setPointerCapture?.(event.pointerId);
+      const onMove = (moveEvent) => {
+        const width = clamp(start.width + (start.x - moveEvent.clientX), 320, maxWidth);
+        const height = clamp(start.height + (start.y - moveEvent.clientY), 380, maxHeight);
+        panel.style.width = `${width}px`;
+        panel.style.height = `${height}px`;
+      };
+      const onUp = () => {
+        resizeHandle.removeEventListener('pointermove', onMove);
+        resizeHandle.removeEventListener('pointerup', onUp);
+        document.body.style.userSelect = '';
+        writeStorage(KEYS.size, JSON.stringify({ width: panel.offsetWidth, height: panel.offsetHeight }));
+      };
+      resizeHandle.addEventListener('pointermove', onMove);
+      resizeHandle.addEventListener('pointerup', onUp);
+    });
+  }
+
+  fullscreenButton.addEventListener('click', () => setFullscreen(!panel.classList.contains('is-fullscreen')));
+
+  applySavedSize();
+  setupResize();
   applyProvider(readStorage(KEYS.provider) || DEFAULT_PROVIDER);
   // Entra colapsado se já houver uma chave configurada para o provedor atual.
   setConfigOpen(!keyInput.value.trim());
