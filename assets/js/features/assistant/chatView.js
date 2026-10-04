@@ -1,12 +1,22 @@
 /**
- * Custom chat view: message log + composer.
+ * Custom chat view: message log + composer, with `@candidate` mentions.
  * `onSend` is provided by the panel and returns { text, meta }.
  */
 import { createElement, replaceContent } from '../../core/dom.js';
 import { renderMarkdown } from './markdown.js';
 
+const MENTION_RE = /@([\p{L}\p{N} ]{0,40})$/u;
+
+function normalize(text) {
+  return String(text ?? '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
 export function createChatView({ host, onSend, placeholder = 'Escreva sua pergunta…' }) {
   const messages = [];
+  let candidates = [];
   let busy = false;
 
   const log = createElement('div', { class: 'chat__log', role: 'log', 'aria-live': 'polite' });
@@ -21,11 +31,23 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
     createElement('span', { class: 'material-symbols-outlined', 'aria-hidden': 'true' }, 'send'),
   ]);
   const form = createElement('form', { class: 'chat__form' }, [input, sendButton]);
+  const mentions = createElement('div', { class: 'chat__mentions', hidden: true, role: 'listbox' });
+  const composer = createElement('div', { class: 'chat__composer' }, [mentions, form]);
 
-  replaceContent(host, [log, form]);
+  replaceContent(host, [log, composer]);
+
+  const mentionState = { items: [], active: 0 };
+
+  /* ------------------------------- messages ------------------------------ */
 
   function scrollToBottom() {
     log.scrollTop = log.scrollHeight;
+  }
+
+  function htmlFragment(markup) {
+    const template = document.createElement('template');
+    template.innerHTML = markup;
+    return template.content;
   }
 
   function bubbleFor(message) {
@@ -44,21 +66,11 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
     return bubble;
   }
 
-  function htmlFragment(markup) {
-    const template = document.createElement('template');
-    template.innerHTML = markup;
-    return template.content;
-  }
-
-  function appendMessage(message) {
-    log.append(bubbleFor(message));
-    scrollToBottom();
-  }
-
   function addMessage(role, text, meta = null) {
     const message = { role, text, meta };
     messages.push(message);
-    appendMessage(message);
+    log.append(bubbleFor(message));
+    scrollToBottom();
     return message;
   }
 
@@ -82,6 +94,82 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
     }
   }
 
+  /* ------------------------------- mentions ------------------------------ */
+
+  function hideMentions() {
+    mentions.hidden = true;
+    mentionState.items = [];
+    mentionState.active = 0;
+  }
+
+  function renderMentions(items) {
+    mentionState.items = items;
+    mentionState.active = 0;
+    replaceContent(
+      mentions,
+      items.map((candidate, index) =>
+        createElement(
+          'button',
+          { class: `chat__mention${index === 0 ? ' is-active' : ''}`, type: 'button', role: 'option' },
+          [
+            createElement('span', {}, candidate.nome),
+            createElement('small', {}, `${candidate.cargo}${candidate.partido ? ` · ${candidate.partido}` : ''}`),
+          ],
+        ),
+      ),
+    );
+    items.forEach((candidate, index) => {
+      mentions.children[index].addEventListener('mousedown', (event) => {
+        event.preventDefault();
+        selectMention(candidate);
+      });
+    });
+    mentions.hidden = false;
+  }
+
+  function updateMentions() {
+    if (busy || candidates.length === 0) {
+      hideMentions();
+      return;
+    }
+    const caret = input.selectionStart ?? input.value.length;
+    const match = input.value.slice(0, caret).match(MENTION_RE);
+    if (!match) {
+      hideMentions();
+      return;
+    }
+    const query = normalize(match[1].trim());
+    const items = candidates
+      .filter((candidate) => !query || normalize(candidate.nome).includes(query))
+      .slice(0, 6);
+    if (items.length === 0) {
+      hideMentions();
+      return;
+    }
+    renderMentions(items);
+  }
+
+  function selectMention(candidate) {
+    const caret = input.selectionStart ?? input.value.length;
+    const before = input.value.slice(0, caret).replace(MENTION_RE, `@${candidate.nome} `);
+    const after = input.value.slice(caret);
+    input.value = before + after;
+    const position = before.length;
+    input.setSelectionRange(position, position);
+    hideMentions();
+    input.focus();
+    autoGrow();
+  }
+
+  function moveMention(delta) {
+    const total = mentionState.items.length;
+    if (total === 0) return;
+    mentionState.active = (mentionState.active + delta + total) % total;
+    [...mentions.children].forEach((child, index) => child.classList.toggle('is-active', index === mentionState.active));
+  }
+
+  /* -------------------------------- compose ------------------------------ */
+
   function autoGrow() {
     input.style.height = 'auto';
     input.style.height = `${Math.min(input.scrollHeight, 140)}px`;
@@ -90,6 +178,7 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
   async function runSend(rawText) {
     const text = String(rawText ?? '').trim();
     if (!text || busy) return;
+    hideMentions();
     addMessage('user', text);
     setBusy(true);
     try {
@@ -115,8 +204,19 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
     event.preventDefault();
     submit();
   });
-  input.addEventListener('input', autoGrow);
+  input.addEventListener('input', () => {
+    autoGrow();
+    updateMentions();
+  });
+  input.addEventListener('click', updateMentions);
+  input.addEventListener('blur', () => setTimeout(hideMentions, 120));
   input.addEventListener('keydown', (event) => {
+    if (!mentions.hidden) {
+      if (event.key === 'ArrowDown') return event.preventDefault(), moveMention(1);
+      if (event.key === 'ArrowUp') return event.preventDefault(), moveMention(-1);
+      if (event.key === 'Enter') return event.preventDefault(), selectMention(mentionState.items[mentionState.active]);
+      if (event.key === 'Escape') return event.preventDefault(), hideMentions();
+    }
     if (event.key === 'Enter' && !event.shiftKey) {
       event.preventDefault();
       submit();
@@ -126,6 +226,9 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
   return {
     addMessage,
     send: runSend,
+    setCandidates(list) {
+      candidates = Array.isArray(list) ? list : [];
+    },
     getHistory: () => messages.slice(),
     clear() {
       messages.length = 0;

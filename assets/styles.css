@@ -264,6 +264,15 @@ a { color: inherit; }
 .chat__send:hover { background: var(--green-dark); }
 .chat__send:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
 .chat__send:disabled { opacity: 0.5; cursor: not-allowed; }
+.chat__composer { position: relative; flex: 0 0 auto; }
+.chat__mentions { position: absolute; left: 8px; right: 8px; bottom: calc(100% + 6px); z-index: 5; max-height: 220px; overflow-y: auto; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
+.chat__mentions[hidden] { display: none; }
+.chat__mention { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; width: 100%; padding: 8px 10px; border: none; background: none; text-align: left; font: inherit; font-size: 0.88rem; cursor: pointer; }
+.chat__mention + .chat__mention { border-top: 1px solid var(--line); }
+.chat__mention:hover, .chat__mention.is-active { background: var(--green-soft); }
+.chat__mention small { color: var(--muted); font-size: 0.75rem; white-space: nowrap; }
+.detail__ask { display: inline-flex; align-items: center; gap: 6px; margin: 0 0 14px; }
+.detail__ask .material-symbols-outlined { font-size: 18px; }
 .material-symbols-outlined { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; -webkit-font-smoothing: antialiased; }
 
 /* ---------- Compare table ---------- */

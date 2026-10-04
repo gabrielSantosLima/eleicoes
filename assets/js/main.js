@@ -135,8 +135,14 @@ function handleToggleCompare(candidateId, isChecked) {
 }
 
 function handleOpenCandidate(candidate) {
-  renderCandidateDetail(elements.detail, candidate, closeOverlays);
+  renderCandidateDetail(elements.detail, candidate, closeOverlays, handleAskCandidate);
   elements.scrim.hidden = false;
+}
+
+function handleAskCandidate(candidate) {
+  closeOverlays();
+  const name = candidate.nome_completo || candidate.nome_urna;
+  assistant.ask(`Quem é ${name}? Se os dados locais não bastarem, busque na internet e cite as fontes.`);
 }
 
 function handleOpenComparison() {
@@ -244,6 +250,6 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeOverlays();
 });
 
-createAssistant();
+const assistant = createAssistant();
 
 bootstrap();

@@ -1,17 +1,11 @@
 /**
  * Floating AI assistant: a FAB that opens a chat panel with a custom chat view.
- * The conversation is grounded on the single context file and calls the chosen
- * provider directly from the browser (BYO key).
+ * The chat is powered by the generic `agent/` module (provider-agnostic, skills).
  */
 import { createElement, replaceContent, select } from '../../core/dom.js';
 import { PROVIDERS, DEFAULT_PROVIDER, getProvider } from './providerCatalog.js';
-import {
-  loadContext,
-  buildSystemContent,
-  requestChatCompletion,
-  listModels,
-  formatMetadata,
-} from './assistantClient.js';
+import { loadContext, buildSystemContent, formatMetadata } from './assistantClient.js';
+import { createAgent, createDefaultSkills, listModels } from '../../agent/index.js';
 import { createChatView } from './chatView.js';
 
 const KEYS = {
@@ -57,7 +51,11 @@ export function createAssistant() {
   const tokenLabel = select('#ai-tokens-label');
   const chatHost = select('#ai-chat');
 
+  const skills = createDefaultSkills();
+  const chatView = createChatView({ host: chatHost, onSend: handleSend });
+
   let systemContent = null;
+  let dataset = null;
   let sessionTokens = 0;
   let introShown = false;
 
@@ -66,12 +64,10 @@ export function createAssistant() {
     '',
     'Para começar:',
     '- Escolha o provedor e cole sua chave de API no painel.',
-    '- Pergunte, por exemplo: "Quais são os candidatos a presidente?" ou "O que o candidato X propõe para a saúde?"',
+    '- Digite @ para mencionar um candidato, ou pergunte: "Quais são os candidatos a presidente?"',
     '',
-    'Os dados vêm dos arquivos públicos deste repositório.',
+    'Se a informação não estiver nos dados, posso buscar na internet (fontes citadas).',
   ].join('\n');
-
-  const chatView = createChatView({ host: chatHost, onSend: handleSend });
 
   replaceContent(
     providerSelect,
@@ -157,22 +153,37 @@ export function createAssistant() {
     if (!apiKey) throw new Error(`Informe a chave da API do ${provider.label}.`);
     if (!model) throw new Error('Selecione um modelo.');
 
-    const result = await requestChatCompletion({ provider, apiKey, model, systemContent, history });
+    const agent = createAgent({
+      provider,
+      apiKey,
+      model,
+      systemContext: systemContent,
+      skills,
+      context: dataset,
+    });
+    const result = await agent.ask(history);
     updateTokenIndicator(result.usage);
-    return { text: result.text, meta: formatMetadata(result.elapsedMs, result.usage) };
+
+    let answer = result.text;
+    if (result.sources?.length) {
+      const sources = result.sources.map((source) => `- [${source.title}](${source.url})`).join('\n');
+      answer += `\n\n**Fontes**\n${sources}`;
+    }
+    return { text: answer, meta: formatMetadata(result.elapsedMs, result.usage) };
   }
 
   function setConfigOpen(open) {
     configEl.hidden = !open;
     configToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    configEl.dataset.open = open ? 'true' : 'false';
     writeStorage(KEYS.configOpen, open ? '1' : '');
   }
 
   async function ensureReady() {
     if (!systemContent) {
       statusElement.textContent = 'Carregando dados…';
-      systemContent = buildSystemContent(await loadContext());
+      dataset = await loadContext();
+      systemContent = buildSystemContent(dataset);
+      chatView.setCandidates(dataset.map((candidate) => ({ nome: candidate.nome, cargo: candidate.cargo })));
     }
     updateStatus();
   }
@@ -196,6 +207,16 @@ export function createAssistant() {
   function closePanel() {
     panel.hidden = true;
     fab.setAttribute('aria-expanded', 'false');
+  }
+
+  /** Open the assistant and send a question (used by "Quem É?"). */
+  function ask(text) {
+    if (panel.hidden) openPanel();
+    ensureReady()
+      .then(() => chatView.send(text))
+      .catch((error) => {
+        statusElement.textContent = error?.message ?? 'Falha ao carregar o assistente.';
+      });
   }
 
   fab.addEventListener('click', () => (panel.hidden ? openPanel() : closePanel()));
@@ -228,4 +249,6 @@ export function createAssistant() {
   applyProvider(readStorage(KEYS.provider) || DEFAULT_PROVIDER);
   // Entra colapsado se já houver uma chave configurada para o provedor atual.
   setConfigOpen(!keyInput.value.trim());
+
+  return { open: openPanel, ask };
 }

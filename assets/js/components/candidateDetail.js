@@ -99,13 +99,22 @@ function buildHeader(candidate) {
   return header;
 }
 
-export function renderCandidateDetail(drawerElement, candidate, onClose) {
+export function renderCandidateDetail(drawerElement, candidate, onClose, onAsk) {
   const closeButton = createElement('button', { class: 'close', type: 'button', 'aria-label': 'Fechar' }, '×');
   closeButton.addEventListener('click', onClose);
+
+  const askButton = onAsk
+    ? createElement('button', { class: 'detail__ask btn btn--primary', type: 'button' }, [
+        createElement('span', { class: 'material-symbols-outlined', 'aria-hidden': 'true' }, 'person_search'),
+        'Quem É?',
+      ])
+    : null;
+  if (askButton) askButton.addEventListener('click', () => onAsk(candidate));
 
   replaceContent(drawerElement, [
     closeButton,
     buildHeader(candidate),
+    askButton,
     infoRow('Nome completo', candidate.nome_completo),
     infoRow('Número', isMissing(candidate.numero) ? null : candidate.numero),
     infoRow('Coligação', candidate.coligacao),
