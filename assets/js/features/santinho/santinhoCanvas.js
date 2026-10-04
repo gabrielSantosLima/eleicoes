@@ -34,6 +34,7 @@ function loadImage(src) {
   if (!src) return Promise.resolve(null);
   return new Promise((resolve) => {
     const image = new Image();
+    image.crossOrigin = 'anonymous';
     image.onload = () => resolve(image);
     image.onerror = () => resolve(null);
     image.src = src;
@@ -131,7 +132,7 @@ function drawCell(ctx, item, x, y, width, height, image) {
   ctx.fillText(`${item.candidate.partido || ''} · ${number}`, x + width / 2, cursorY + 6);
 }
 
-export async function buildSantinhoImage(items, { ano, uf }) {
+async function renderSantinho(items, { ano, uf }, includePhotos) {
   const count = items.length;
   const cols = count <= 4 ? count : Math.ceil(count / 2);
   const rows = Math.ceil(count / cols);
@@ -166,7 +167,9 @@ export async function buildSantinhoImage(items, { ano, uf }) {
   ctx.font = `600 24px ${FONT}`;
   ctx.fillText(`Eleições ${ano}${uf ? ` · ${uf}` : ''}`, padding, 120);
 
-  const images = await Promise.all(items.map((item) => loadImage(item.candidate.foto)));
+  const images = includePhotos
+    ? await Promise.all(items.map((item) => loadImage(item.candidate.foto)))
+    : items.map(() => null);
 
   items.forEach((item, index) => {
     const row = Math.floor(index / cols);
@@ -176,5 +179,24 @@ export async function buildSantinhoImage(items, { ano, uf }) {
     drawCell(ctx, item, x, y, cellWidth, cellHeight, images[index]);
   });
 
-  return new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+  return new Promise((resolve, reject) => {
+    try {
+      canvas.toBlob(
+        (blob) => (blob ? resolve(blob) : reject(new Error('Falha ao gerar a imagem.'))),
+        'image/png',
+      );
+    } catch (error) {
+      reject(error);
+    }
+  });
+}
+
+export async function buildSantinhoImage(items, meta) {
+  try {
+    return await renderSantinho(items, meta, true);
+  } catch (error) {
+    // Canvas pode ficar "tainted" por fotos de outra origem; refaz sem fotos.
+    console.warn('Santinho: refazendo sem fotos.', error);
+    return renderSantinho(items, meta, false);
+  }
 }

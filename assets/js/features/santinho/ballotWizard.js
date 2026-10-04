@@ -282,7 +282,10 @@ export function createSantinhoWizard({ repository, electionStore, container, scr
           state.blob = blob;
           shareButton.disabled = false;
         })
-        .catch(() => replaceContent(preview, createElement('p', { class: 'wizard__error' }, 'Não foi possível gerar a imagem.')));
+        .catch((error) => {
+          console.error('Falha ao gerar o santinho:', error);
+          replaceContent(preview, createElement('p', { class: 'wizard__error' }, 'Não foi possível gerar a imagem.'));
+        });
     }
 
     const shareSupported = isShareSupported();
