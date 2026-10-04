@@ -18,6 +18,7 @@ import { renderComparisonModal, renderCompareBar } from './components/comparison
 import { renderSourcesFooter } from './components/sourcesFooter.js';
 import { hideLoadingOverlay, showErrorOverlay } from './components/overlays.js';
 import { createSantinhoWizard } from './features/santinho/ballotWizard.js';
+import { createAssistant } from './features/assistant/chatPanel.js';
 
 const MAX_COMPARISON = 4;
 const DEFAULT_CARGO_NAME = 'Presidente';
@@ -240,5 +241,7 @@ elements.scrim.addEventListener('click', closeOverlays);
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeOverlays();
 });
+
+createAssistant();
 
 bootstrap();

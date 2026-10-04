@@ -203,12 +203,13 @@ export function createSantinhoWizard({ repository, electionStore, container, scr
     const current = store.getPick(cargo);
     let next;
     if (current.includes(id)) {
+      // Clicking the selected candidate again removes it.
       next = current.filter((value) => value !== id);
-    } else if (current.length >= seats) {
-      state.error = seats > 1 ? `Você só pode escolher ${seats} candidatos.` : 'Escolha apenas um candidato.';
-      return;
-    } else {
+    } else if (current.length < seats) {
       next = [...current, id];
+    } else {
+      // Seats are full: swap out the oldest pick for the new one.
+      next = [...current.slice(current.length - (seats - 1)), id];
     }
     state.error = null;
     store.setPick(cargo, next);
