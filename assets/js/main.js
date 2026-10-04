@@ -95,7 +95,9 @@ function renderTableView() {
 }
 
 function renderCompareBarView() {
-  renderCompareBar(elements.compareBar, elements.compareCount, store.getComparedIds().size, MAX_COMPARISON);
+  const count = store.getComparedIds().size;
+  renderCompareBar(elements.compareBar, elements.compareCount, count, MAX_COMPARISON);
+  elements.compareOpenButton.disabled = count < 2;
 }
 
 function renderCargoView() {
@@ -139,7 +141,7 @@ function handleOpenCandidate(candidate) {
 
 function handleOpenComparison() {
   const selectedCandidates = store.getSelectedCandidates();
-  if (selectedCandidates.length === 0) return;
+  if (selectedCandidates.length < 2) return;
   renderComparisonModal(
     elements.compare,
     { candidates: selectedCandidates, columns: store.getColumns(), cargoLabel: store.getCargoEntry()?.cargo ?? '' },

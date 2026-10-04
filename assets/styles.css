@@ -139,6 +139,7 @@ a { color: inherit; }
 .compare-bar__actions { display: flex; gap: 8px; }
 .btn { padding: 8px 16px; border-radius: 999px; border: 1px solid transparent; font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap; }
 .btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .btn--primary { background: var(--yellow); color: #3a2f00; }
 .btn--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.4); }
 .topbar__cta { background: var(--green); color: #fff; box-shadow: 0 4px 12px rgba(0, 124, 46, 0.25); }

@@ -9,7 +9,10 @@ export function renderCompareBar(barElement, countElement, selectedCount, maxSel
     return;
   }
   barElement.hidden = false;
-  countElement.textContent = `${selectedCount} de ${maxSelection} selecionado${selectedCount === 1 ? '' : 's'}`;
+  countElement.textContent =
+    selectedCount < 2
+      ? `${selectedCount} de ${maxSelection} selecionado — selecione ao menos 2 para comparar.`
+      : `${selectedCount} de ${maxSelection} selecionados`;
 }
 
 function buildHeaderRow(candidates) {
