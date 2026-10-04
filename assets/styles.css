@@ -267,10 +267,10 @@ a { color: inherit; }
 
 /* ---------- Compare table ---------- */
 .compare h2 { color: var(--green-dark); margin-bottom: 16px; }
-.compare table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-.compare th, .compare td { border: 1px solid var(--line); padding: 10px 12px; vertical-align: top; text-align: left; }
+.compare table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 0.9rem; }
+.compare th, .compare td { border: 1px solid var(--line); padding: 10px 12px; vertical-align: top; text-align: left; overflow-wrap: anywhere; }
 .compare thead th { background: var(--surface); position: sticky; top: 0; }
-.compare th.attr { width: 220px; background: var(--surface); font-weight: 700; }
+.compare th.attr { width: 22%; background: var(--surface); font-weight: 700; }
 .compare td.diff { background: #fff7cc; }
 .compare .compare-photo { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; border: 2px solid var(--yellow); }
 .compare__heading { margin: 26px 0 12px; color: var(--green-dark); font-size: 1rem; }
