@@ -37,7 +37,7 @@ export const PROVIDERS = Object.freeze([
     id: 'deepinfra',
     label: 'DeepInfra',
     baseUrl: 'https://api.deepinfra.com/v1/openai',
-    model: 'meta-llama/Llama-3.3-70B-Instruct-Turbo',
+    model: 'deepseek-ai/DeepSeek-V4.1-Flash',
     extraHeaders: {},
     helpUrl: 'https://deepinfra.com/dash/api_keys',
     helpTip: 'Acesse o DeepInfra → Dashboard → API keys.',
