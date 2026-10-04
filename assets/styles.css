@@ -251,6 +251,9 @@ a { color: inherit; }
 .chat__content ul, .chat__content ol { margin: 0 0 6px; padding-left: 20px; }
 .chat__content code { background: rgba(0, 0, 0, 0.06); padding: 1px 5px; border-radius: 5px; font-family: ui-monospace, Consolas, monospace; font-size: 0.85em; }
 .chat__content a { color: var(--blue); overflow-wrap: anywhere; }
+.chat__content table { border-collapse: collapse; width: 100%; margin: 0 0 6px; font-size: 0.85rem; }
+.chat__content th, .chat__content td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; overflow-wrap: anywhere; }
+.chat__content th { background: var(--surface); }
 .chat__meta { margin-top: 6px; font-size: 0.72rem; color: var(--muted); }
 .chat__bubble--typing { display: flex; gap: 4px; align-items: center; }
 .chat__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); animation: chatdot 1s infinite ease-in-out; }
