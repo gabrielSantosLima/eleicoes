@@ -87,10 +87,16 @@ export async function listModels({ provider, apiKey }) {
 }
 
 function toApiMessages(history) {
-  return history.map((message) => ({
-    role: message.role === 'ai' ? 'assistant' : message.role,
-    content: message.text ?? '',
-  }));
+  const messages = history
+    .filter((message) => message.role === 'user' || message.role === 'assistant' || message.role === 'ai')
+    .map((message) => ({
+      role: message.role === 'ai' ? 'assistant' : message.role,
+      content: message.text ?? '',
+    }));
+  // Some chat templates require the conversation to start with a user message,
+  // so drop any leading assistant messages (e.g. the local orientation text).
+  while (messages.length && messages[0].role !== 'user') messages.shift();
+  return messages;
 }
 
 export async function requestChatCompletion({
