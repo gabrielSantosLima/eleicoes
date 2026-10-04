@@ -76,13 +76,28 @@ function drawTag(ctx, text, x, y) {
   ctx.fillText(text, x + paddingX, y + height / 2 + 1);
 }
 
+function drawImageCover(ctx, image, x, y, width, height) {
+  const iw = image.naturalWidth || image.width;
+  const ih = image.naturalHeight || image.height;
+  if (!iw || !ih) {
+    ctx.drawImage(image, x, y, width, height);
+    return;
+  }
+  const scale = Math.max(width / iw, height / ih);
+  const sourceWidth = width / scale;
+  const sourceHeight = height / scale;
+  const sourceX = (iw - sourceWidth) / 2;
+  const sourceY = (ih - sourceHeight) / 2;
+  ctx.drawImage(image, sourceX, sourceY, sourceWidth, sourceHeight, x, y, width, height);
+}
+
 function drawPhoto(ctx, image, name, centerX, top, size) {
   const x = centerX - size / 2;
   ctx.save();
   roundRect(ctx, x, top, size, size, 22);
   ctx.clip();
   if (image) {
-    ctx.drawImage(image, x, top, size, size);
+    drawImageCover(ctx, image, x, top, size, size);
   } else {
     ctx.fillStyle = COLORS.placeholder;
     ctx.fillRect(x, top, size, size);
