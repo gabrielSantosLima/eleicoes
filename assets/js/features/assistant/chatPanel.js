@@ -4,7 +4,7 @@
  */
 import { createElement, replaceContent, select } from '../../core/dom.js';
 import { PROVIDERS, DEFAULT_PROVIDER, getProvider } from './providerCatalog.js';
-import { loadContext, buildSystemContent, formatMetadata } from './assistantClient.js';
+import { loadContext, SYSTEM_PROMPT, formatMetadata } from './assistantClient.js';
 import { createAgent, createDefaultSkills, createActivity, listModels } from '../../agent/index.js';
 import { createChatView } from './chatView.js';
 
@@ -191,7 +191,7 @@ export function createAssistant() {
     if (!systemContent) {
       statusElement.textContent = 'Carregando dados…';
       dataset = await loadContext();
-      systemContent = buildSystemContent(dataset);
+      systemContent = SYSTEM_PROMPT;
       chatView.setCandidates(dataset.map((candidate) => ({ nome: candidate.nome, cargo: candidate.cargo })));
     }
     updateStatus();
