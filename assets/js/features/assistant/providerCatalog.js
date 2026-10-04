@@ -16,7 +16,7 @@ export const PROVIDERS = Object.freeze([
     id: 'gemini',
     label: 'Google Gemini',
     baseUrl: 'https://generativelanguage.googleapis.com/v1beta/openai',
-    model: 'gemini-2.5-flash',
+    model: 'models/gemini-2.5-flash',
     extraHeaders: {},
     helpUrl: 'https://aistudio.google.com/app/apikey',
     helpTip: 'Acesse o Google AI Studio → Get API key.',

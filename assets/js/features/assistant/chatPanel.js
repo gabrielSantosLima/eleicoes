@@ -96,7 +96,10 @@ export function createAssistant() {
   }
 
   function setModelOptions(models, selected) {
-    replaceContent(modelSelect, models.map((id) => createElement('option', { value: id }, id)));
+    replaceContent(
+      modelSelect,
+      models.map((id) => createElement('option', { value: id }, id.replace(/^models\//, ''))),
+    );
     if (selected && models.includes(selected)) modelSelect.value = selected;
     modelSelect.disabled = models.length === 0;
   }
@@ -110,11 +113,17 @@ export function createAssistant() {
       return;
     }
     updateStatus('Listando modelos…');
-    const models = await listModels({ provider, apiKey });
-    setModelOptions(models, readStorage(KEYS.model(provider.id)) || provider.model);
-    writeStorage(KEYS.model(provider.id), modelSelect.value);
-    updateStatus();
-    setConfigOpen(false);
+    try {
+      const models = await listModels({ provider, apiKey });
+      setModelOptions(models, readStorage(KEYS.model(provider.id)) || provider.model);
+      writeStorage(KEYS.model(provider.id), modelSelect.value);
+      updateStatus();
+      setConfigOpen(false);
+    } catch (error) {
+      setModelOptions([provider.model], provider.model);
+      statusElement.textContent = error?.message ?? 'Falha ao listar os modelos.';
+      setConfigOpen(true);
+    }
   }
 
   function applyProvider(providerId) {

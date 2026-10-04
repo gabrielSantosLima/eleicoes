@@ -1,124 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sistema de apoio à decisão de voto: dados oficiais dos candidatos e da população brasileira.">
-  <title>Eleições — Decida seu voto</title>
-  <link rel="stylesheet" href="assets/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-  <script defer src="assets/vendor/js-yaml.min.js"></script>
-  <script type="module" src="assets/js/main.js"></script>
-</head>
-<body>
-  <div id="loading" class="loading" role="status" aria-live="polite">
-    <div class="loading__spinner" aria-hidden="true"></div>
-    <p>Carregando dados eleitorais…</p>
-  </div>
-
-  <header class="topbar" id="topbar" hidden>
-    <a class="topbar__brand" href="#population">Eleições <span id="year-label"></span></a>
-    <nav class="topbar__nav">
-      <label class="topbar__label" for="cargo-select">Cargo</label>
-      <select id="cargo-select" class="select" aria-label="Selecione o cargo"></select>
-      <button id="santinho-open" class="btn btn--primary topbar__cta" type="button">Criar meu santinho</button>
-    </nav>
-  </header>
-
-  <main id="app" hidden>
-    <section class="hero" id="population">
-      <div class="hero__content">
-        <p class="hero__eyebrow">População do Brasil</p>
-        <h1 class="hero__number" id="pop-number">—</h1>
-        <p class="hero__caption">pessoas <span id="pop-year"></span></p>
-        <p class="hero__note" id="pop-census"></p>
-        <a class="hero__cta" href="#candidates">Conheça os candidatos ↓</a>
-      </div>
-      <div class="hero__map">
-        <img id="brazil-map" src="assets/brazil-map.png" alt="Mapa do Brasil" loading="lazy">
-      </div>
-    </section>
-
-    <section class="candidates" id="candidates">
-      <header class="section-head">
-        <h2 id="candidates-title">Candidatos</h2>
-        <p class="section-sub" id="candidates-sub"></p>
-      </header>
-
-      <div class="cloud" id="column-cloud" role="group" aria-label="Mostrar ou ocultar colunas"></div>
-
-      <div class="table-wrap">
-        <table id="candidates-table" class="table">
-          <caption class="sr-only" id="table-caption">Relação de candidatos</caption>
-        </table>
-      </div>
-      <div class="cards" id="candidates-cards"></div>
-    </section>
-  </main>
-
-  <div id="compare-bar" class="compare-bar" hidden>
-    <span id="compare-count" class="compare-bar__count"></span>
-    <div class="compare-bar__actions">
-      <button id="compare-open" class="btn btn--primary" type="button">Comparar</button>
-      <button id="compare-clear" class="btn btn--ghost" type="button">Limpar</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sistema de apoio à decisão de voto: dados oficiais dos candidatos e da população brasileira."
+    />
+    <title>Eleições — Decida seu voto</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script defer src="assets/vendor/js-yaml.min.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div id="loading" class="loading" role="status" aria-live="polite">
+      <div class="loading__spinner" aria-hidden="true"></div>
+      <p>Carregando dados eleitorais…</p>
     </div>
-  </div>
 
-  <aside id="detail" class="detail" hidden aria-label="Detalhes do candidato"></aside>
-  <div id="compare" class="modal" hidden aria-label="Comparação de candidatos"></div>
-  <section id="santinho" class="wizard" hidden aria-label="Criar meu santinho"></section>
-
-  <button id="ai-fab" class="ai-fab" type="button" aria-label="Abrir assistente de IA" aria-expanded="false">
-    <span class="material-symbols-outlined" aria-hidden="true">smart_toy</span>
-  </button>
-  <section id="ai-panel" class="ai-panel" hidden aria-label="Assistente de IA">
-    <header class="ai-panel__bar">
-      <span class="ai-panel__title">
-        <span class="material-symbols-outlined" aria-hidden="true">smart_toy</span>
-        Assistente
-      </span>
-      <div class="ai-panel__actions">
-        <button id="ai-config-toggle" class="icon-btn" type="button" aria-label="Configurar provedor" aria-expanded="true">
-          <span class="material-symbols-outlined" aria-hidden="true">settings</span>
+    <header class="topbar" id="topbar" hidden>
+      <a class="topbar__brand" href="#population"
+        >Eleições <span id="year-label"></span
+      ></a>
+      <nav class="topbar__nav">
+        <label class="topbar__label" for="cargo-select">Cargo</label>
+        <select
+          id="cargo-select"
+          class="select"
+          aria-label="Selecione o cargo"
+        ></select>
+        <button
+          id="santinho-open"
+          class="btn btn--primary topbar__cta"
+          type="button"
+        >
+          Criar meu santinho
         </button>
-        <button id="ai-clear" class="icon-btn" type="button" aria-label="Limpar conversa">
-          <span class="material-symbols-outlined" aria-hidden="true">delete_sweep</span>
-        </button>
-        <button id="ai-close" class="close" type="button" aria-label="Fechar assistente">×</button>
-      </div>
+      </nav>
     </header>
-    <div class="ai-tokens" role="status">
-      <div class="ai-tokens__track"><span id="ai-tokens-fill" class="ai-tokens__fill"></span></div>
-      <span id="ai-tokens-label" class="ai-tokens__label">Uso de tokens aparecerá aqui.</span>
-    </div>
-    <div id="ai-config" class="ai-panel__config">
-      <div class="field">
-        <label class="field__label" for="ai-provider">Provedor</label>
-        <select id="ai-provider" class="select" aria-label="Provedor de IA"></select>
+
+    <main id="app" hidden>
+      <section class="hero" id="population">
+        <div class="hero__content">
+          <p class="hero__eyebrow">População do Brasil</p>
+          <h1 class="hero__number" id="pop-number">—</h1>
+          <p class="hero__caption">pessoas <span id="pop-year"></span></p>
+          <p class="hero__note" id="pop-census"></p>
+          <a class="hero__cta" href="#candidates">Conheça os candidatos ↓</a>
+        </div>
+        <div class="hero__map">
+          <img
+            id="brazil-map"
+            src="assets/brazil-map.png"
+            alt="Mapa do Brasil"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="candidates" id="candidates">
+        <header class="section-head">
+          <h2 id="candidates-title">Candidatos</h2>
+          <p class="section-sub" id="candidates-sub"></p>
+        </header>
+
+        <div
+          class="cloud"
+          id="column-cloud"
+          role="group"
+          aria-label="Mostrar ou ocultar colunas"
+        ></div>
+
+        <div class="table-wrap">
+          <table id="candidates-table" class="table">
+            <caption class="sr-only" id="table-caption">
+              Relação de candidatos
+            </caption>
+          </table>
+        </div>
+        <div class="cards" id="candidates-cards"></div>
+      </section>
+    </main>
+
+    <div id="compare-bar" class="compare-bar" hidden>
+      <span id="compare-count" class="compare-bar__count"></span>
+      <div class="compare-bar__actions">
+        <button id="compare-open" class="btn btn--primary" type="button">
+          Comparar
+        </button>
+        <button id="compare-clear" class="btn btn--ghost" type="button">
+          Limpar
+        </button>
       </div>
-      <div class="field">
-        <div class="field__row">
-          <label class="field__label" for="ai-key">Chave da API</label>
-          <button id="ai-help" class="link" type="button">
-            <span class="material-symbols-outlined" aria-hidden="true">help</span>
-            Como gerar a chave?
+    </div>
+
+    <aside
+      id="detail"
+      class="detail"
+      hidden
+      aria-label="Detalhes do candidato"
+    ></aside>
+    <div
+      id="compare"
+      class="modal"
+      hidden
+      aria-label="Comparação de candidatos"
+    ></div>
+    <section
+      id="santinho"
+      class="wizard"
+      hidden
+      aria-label="Criar meu santinho"
+    ></section>
+
+    <button
+      id="ai-fab"
+      class="ai-fab"
+      type="button"
+      aria-label="Abrir assistente de IA"
+      aria-expanded="false"
+    >
+      <span class="material-symbols-outlined" aria-hidden="true"
+        >smart_toy</span
+      >
+    </button>
+    <section
+      id="ai-panel"
+      class="ai-panel"
+      hidden
+      aria-label="Assistente de IA"
+    >
+      <header class="ai-panel__bar">
+        <span class="ai-panel__title">
+          <span class="material-symbols-outlined" aria-hidden="true"
+            >smart_toy</span
+          >
+          Assistente
+        </span>
+        <div class="ai-panel__actions">
+          <button
+            id="ai-config-toggle"
+            class="icon-btn"
+            type="button"
+            aria-label="Configurar provedor"
+            aria-expanded="true"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true"
+              >settings</span
+            >
+          </button>
+          <button
+            id="ai-clear"
+            class="icon-btn"
+            type="button"
+            aria-label="Limpar conversa"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true"
+              >delete_sweep</span
+            >
+          </button>
+          <button
+            id="ai-close"
+            class="close"
+            type="button"
+            aria-label="Fechar assistente"
+          >
+            ×
           </button>
         </div>
-        <input id="ai-key" class="input" type="password" placeholder="cole sua chave aqui" autocomplete="off" spellcheck="false">
+      </header>
+      <div class="ai-tokens" role="status">
+        <div class="ai-tokens__track">
+          <span id="ai-tokens-fill" class="ai-tokens__fill"></span>
+        </div>
+        <span id="ai-tokens-label" class="ai-tokens__label"
+          >Uso de tokens aparecerá aqui.</span
+        >
       </div>
-      <div class="field">
-        <label class="field__label" for="ai-model">Modelo</label>
-        <select id="ai-model" class="select" disabled aria-label="Modelo"></select>
+      <div id="ai-config" class="ai-panel__config">
+        <div class="field">
+          <label class="field__label" for="ai-provider">Provedor</label>
+          <select
+            id="ai-provider"
+            class="select"
+            aria-label="Provedor de IA"
+          ></select>
+        </div>
+        <div class="field">
+          <div class="field__row">
+            <label class="field__label" for="ai-key">Chave da API</label>
+            <button id="ai-help" class="link" type="button">
+              <span class="material-symbols-outlined" aria-hidden="true"
+                >help</span
+              >
+              Gere sua chave aqui
+            </button>
+          </div>
+          <input
+            id="ai-key"
+            class="input"
+            type="password"
+            placeholder="cole sua chave aqui"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </div>
+        <div class="field">
+          <label class="field__label" for="ai-model">Modelo</label>
+          <select
+            id="ai-model"
+            class="select"
+            disabled
+            aria-label="Modelo"
+          ></select>
+        </div>
+        <p id="ai-status" class="ai-panel__status" role="status"></p>
       </div>
-      <p id="ai-status" class="ai-panel__status" role="status"></p>
-    </div>
-    <div class="ai-panel__chat" id="ai-chat"></div>
-  </section>
+      <div class="ai-panel__chat" id="ai-chat"></div>
+    </section>
 
-  <div id="scrim" class="scrim" hidden></div>
+    <div id="scrim" class="scrim" hidden></div>
 
-  <footer class="footer" id="footer"></footer>
-</body>
+    <footer class="footer" id="footer"></footer>
+  </body>
 </html>
