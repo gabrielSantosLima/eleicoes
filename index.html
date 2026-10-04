@@ -145,6 +145,17 @@
         </span>
         <div class="ai-panel__actions">
           <button
+            id="ai-fullscreen"
+            class="icon-btn"
+            type="button"
+            aria-label="Tela cheia"
+            aria-pressed="false"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true"
+              >open_in_full</span
+            >
+          </button>
+          <button
             id="ai-config-toggle"
             class="icon-btn"
             type="button"
@@ -175,6 +186,7 @@
           </button>
         </div>
       </header>
+      <div id="ai-resize" class="ai-panel__resize" aria-hidden="true"></div>
       <div class="ai-tokens" role="status">
         <div class="ai-tokens__track">
           <span id="ai-tokens-fill" class="ai-tokens__fill"></span>
