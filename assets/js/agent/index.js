@@ -15,17 +15,19 @@ import { createActivity } from './activity.js';
 import { createSkillRegistry } from './skills/registry.js';
 import { dataSkill } from './skills/dataSkill.js';
 import { webSearchSkill } from './skills/webSearchSkill.js';
+import { readPageSkill } from './skills/readPageSkill.js';
 
 export { defineSkill } from './skills/defineSkill.js';
 export { createSkillRegistry } from './skills/registry.js';
 export { dataSkill } from './skills/dataSkill.js';
 export { webSearchSkill } from './skills/webSearchSkill.js';
+export { readPageSkill } from './skills/readPageSkill.js';
 export { createActivity } from './activity.js';
 export { listModels, requestCompletion, runAgent } from './agentClient.js';
 
-/** Default skill set: local data + internet search. */
+/** Default skill set: local data + internet search + page reader. */
 export function createDefaultSkills() {
-  return createSkillRegistry([dataSkill, webSearchSkill]);
+  return createSkillRegistry([dataSkill, webSearchSkill, readPageSkill]);
 }
 
 export function createAgent({
