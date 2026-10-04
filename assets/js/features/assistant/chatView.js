@@ -32,7 +32,14 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
   ]);
   const form = createElement('form', { class: 'chat__form' }, [input, sendButton]);
   const mentions = createElement('div', { class: 'chat__mentions', hidden: true, role: 'listbox' });
-  const composer = createElement('div', { class: 'chat__composer' }, [mentions, form]);
+  const statusIcon = createElement(
+    'span',
+    { class: 'material-symbols-outlined chat__status-icon', 'aria-hidden': 'true' },
+    'progress_activity',
+  );
+  const statusText = createElement('span', { class: 'chat__status-text' });
+  const statusEl = createElement('div', { class: 'chat__status', hidden: true, role: 'status' }, [statusIcon, statusText]);
+  const composer = createElement('div', { class: 'chat__composer' }, [statusEl, mentions, form]);
 
   replaceContent(host, [log, composer]);
 
@@ -74,24 +81,27 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
     return message;
   }
 
-  let typing = null;
+  function hideStatus() {
+    statusEl.hidden = true;
+    statusText.textContent = '';
+  }
+
+  function setStatus(text) {
+    if (!text) {
+      hideStatus();
+      return;
+    }
+    statusText.textContent = text;
+    statusEl.hidden = false;
+  }
+
   function setBusy(value) {
     busy = value;
     input.disabled = value;
     sendButton.disabled = value;
     form.classList.toggle('is-busy', value);
-    if (value) {
-      typing = createElement('div', { class: 'chat__bubble chat__bubble--assistant chat__bubble--typing' }, [
-        createElement('span', { class: 'chat__dot' }),
-        createElement('span', { class: 'chat__dot' }),
-        createElement('span', { class: 'chat__dot' }),
-      ]);
-      log.append(typing);
-      scrollToBottom();
-    } else if (typing) {
-      typing.remove();
-      typing = null;
-    }
+    if (value) setStatus('Pensando…');
+    else hideStatus();
   }
 
   /* ------------------------------- mentions ------------------------------ */
@@ -226,6 +236,7 @@ export function createChatView({ host, onSend, placeholder = 'Escreva sua pergun
   return {
     addMessage,
     send: runSend,
+    setStatus,
     setCandidates(list) {
       candidates = Array.isArray(list) ? list : [];
     },

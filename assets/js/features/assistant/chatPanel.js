@@ -5,7 +5,7 @@
 import { createElement, replaceContent, select } from '../../core/dom.js';
 import { PROVIDERS, DEFAULT_PROVIDER, getProvider } from './providerCatalog.js';
 import { loadContext, buildSystemContent, formatMetadata } from './assistantClient.js';
-import { createAgent, createDefaultSkills, listModels } from '../../agent/index.js';
+import { createAgent, createDefaultSkills, createActivity, listModels } from '../../agent/index.js';
 import { createChatView } from './chatView.js';
 
 const KEYS = {
@@ -153,23 +153,32 @@ export function createAssistant() {
     if (!apiKey) throw new Error(`Informe a chave da API do ${provider.label}.`);
     if (!model) throw new Error('Selecione um modelo.');
 
-    const agent = createAgent({
-      provider,
-      apiKey,
-      model,
-      systemContext: systemContent,
-      skills,
-      context: dataset,
-    });
-    const result = await agent.ask(history);
-    updateTokenIndicator(result.usage);
+    const activity = createActivity();
+    const unsubscribe = activity.subscribe((state) => chatView.setStatus(state ? state.message : null));
 
-    let answer = result.text;
-    if (result.sources?.length) {
-      const sources = result.sources.map((source) => `- [${source.title}](${source.url})`).join('\n');
-      answer += `\n\n**Fontes**\n${sources}`;
+    try {
+      const agent = createAgent({
+        provider,
+        apiKey,
+        model,
+        systemContext: systemContent,
+        skills,
+        context: dataset,
+        activity,
+      });
+      const result = await agent.ask(history);
+      updateTokenIndicator(result.usage);
+
+      let answer = result.text;
+      if (result.sources?.length) {
+        const sources = result.sources.map((source) => `- [${source.title}](${source.url})`).join('\n');
+        answer += `\n\n**Fontes**\n${sources}`;
+      }
+      return { text: answer, meta: formatMetadata(result.elapsedMs, result.usage) };
+    } finally {
+      unsubscribe();
+      chatView.setStatus(null);
     }
-    return { text: answer, meta: formatMetadata(result.elapsedMs, result.usage) };
   }
 
   function setConfigOpen(open) {

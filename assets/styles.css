@@ -265,6 +265,10 @@ a { color: inherit; }
 .chat__send:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
 .chat__send:disabled { opacity: 0.5; cursor: not-allowed; }
 .chat__composer { position: relative; flex: 0 0 auto; }
+.chat__status { display: flex; align-items: center; gap: 6px; padding: 8px 12px 2px; font-size: 0.8rem; color: var(--muted); }
+.chat__status[hidden] { display: none; }
+.chat__status-icon { font-size: 16px; flex: none; animation: spin 1s linear infinite; }
+.chat__status-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .chat__mentions { position: absolute; left: 8px; right: 8px; bottom: calc(100% + 6px); z-index: 5; max-height: 220px; overflow-y: auto; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
 .chat__mentions[hidden] { display: none; }
 .chat__mention { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; width: 100%; padding: 8px 10px; border: none; background: none; text-align: left; font: inherit; font-size: 0.88rem; cursor: pointer; }
@@ -335,4 +339,5 @@ a { color: inherit; }
   html { scroll-behavior: auto; }
   .hero__map img { animation: none; }
   .detail, .modal { animation: none; }
+  .chat__status-icon { animation: none; }
 }

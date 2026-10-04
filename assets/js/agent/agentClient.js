@@ -160,6 +160,7 @@ export async function runAgent({
   history,
   skills,
   context,
+  activity,
   maxIterations = 3,
   temperature,
   maxTokens,
@@ -173,6 +174,7 @@ export async function runAgent({
   let text = '';
 
   for (let iteration = 0; iteration <= maxIterations; iteration += 1) {
+    activity?.thinking();
     let result;
     try {
       result = await requestCompletion({
@@ -200,7 +202,10 @@ export async function runAgent({
     if (toolCalls && toolCalls.length && iteration < maxIterations) {
       messages.push({ role: 'assistant', content: result.text || null, tool_calls: toolCalls });
       for (const call of toolCalls) {
-        const outcome = await skills.execute(call.function?.name, parseArgs(call.function?.arguments), { data: context });
+        const name = call.function?.name;
+        activity?.tool(name);
+        const report = (message, meta) => activity?.message(message, { skill: name, ...(meta ?? {}) });
+        const outcome = await skills.execute(name, parseArgs(call.function?.arguments), { data: context, report });
         if (Array.isArray(outcome?.sources)) sources.push(...outcome.sources);
         messages.push({
           role: 'tool',
@@ -208,6 +213,7 @@ export async function runAgent({
           content: JSON.stringify({ text: outcome?.text ?? '', error: outcome?.error ?? null }),
         });
       }
+      activity?.message('Analisando resultados…', { phase: 'thinking' });
       continue;
     }
 
@@ -215,6 +221,7 @@ export async function runAgent({
     break;
   }
 
+  activity?.clear();
   return {
     text: text || 'Não foi possível gerar uma resposta.',
     usage,

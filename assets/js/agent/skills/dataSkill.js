@@ -23,6 +23,9 @@ export const dataSkill = defineSkill({
     required: ['termo'],
   },
   async run({ termo }, context = {}) {
+    const report = typeof context.report === 'function' ? context.report : () => {};
+    report(`Buscando na base local: "${termo}"`);
+
     const candidates = Array.isArray(context.data) ? context.data : [];
     const query = normalize(termo);
     if (!query) return { text: 'Consulta vazia.', sources: [] };
@@ -30,6 +33,8 @@ export const dataSkill = defineSkill({
     const matches = candidates
       .filter((candidate) => normalize(candidate.nome).includes(query))
       .slice(0, 5);
+
+    report(`${matches.length} candidato${matches.length === 1 ? '' : 's'} encontrado${matches.length === 1 ? '' : 's'}`);
 
     if (matches.length === 0) {
       return { text: 'Nenhum candidato encontrado na base local.', sources: [] };

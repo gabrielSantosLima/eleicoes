@@ -11,6 +11,7 @@
  *   const { text, sources } = await agent.ask(history);
  */
 import { runAgent } from './agentClient.js';
+import { createActivity } from './activity.js';
 import { createSkillRegistry } from './skills/registry.js';
 import { dataSkill } from './skills/dataSkill.js';
 import { webSearchSkill } from './skills/webSearchSkill.js';
@@ -19,6 +20,7 @@ export { defineSkill } from './skills/defineSkill.js';
 export { createSkillRegistry } from './skills/registry.js';
 export { dataSkill } from './skills/dataSkill.js';
 export { webSearchSkill } from './skills/webSearchSkill.js';
+export { createActivity } from './activity.js';
 export { listModels, requestCompletion, runAgent } from './agentClient.js';
 
 /** Default skill set: local data + internet search. */
@@ -33,12 +35,25 @@ export function createAgent({
   systemContext,
   skills,
   context,
+  activity,
   maxIterations,
   temperature,
   maxTokens,
 }) {
   return {
     ask: (history) =>
-      runAgent({ provider, apiKey, model, systemContent: systemContext, history, skills, context, maxIterations, temperature, maxTokens }),
+      runAgent({
+        provider,
+        apiKey,
+        model,
+        systemContent: systemContext,
+        history,
+        skills,
+        context,
+        activity,
+        maxIterations,
+        temperature,
+        maxTokens,
+      }),
   };
 }

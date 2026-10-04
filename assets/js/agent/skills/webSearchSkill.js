@@ -127,17 +127,24 @@ async function fetchViaReader(targetUrl) {
   return response.text();
 }
 
-async function searchEngine(engine, query) {
+async function searchEngine(engine, query, report) {
+  report(`Buscando por "${query}" no ${engine.name}`);
   try {
     const html = await fetchViaReader(engine.buildUrl(query));
-    return engine.parse(new DOMParser().parseFromString(html, 'text/html'));
+    const results = engine
+      .parse(new DOMParser().parseFromString(html, 'text/html'))
+      .filter((result) => result.title && result.url);
+    report(`${engine.name}: ${results.length} resultado${results.length === 1 ? '' : 's'}`);
+    return results;
   } catch {
+    report(`${engine.name}: sem resultados`);
     return [];
   }
 }
 
-async function searchWikipedia(query) {
+async function searchWikipedia(query, report) {
   const api = 'https://pt.wikipedia.org/w/api.php';
+  report('Buscando na Wikipédia');
   try {
     const searchUrl = `${api}?action=query&list=search&srsearch=${encodeURIComponent(query)}&srlimit=2&format=json&origin=*`;
     const searchData = await (await fetch(searchUrl)).json();
@@ -180,15 +187,22 @@ export const webSearchSkill = defineSkill({
     },
     required: ['query'],
   },
-  async run({ query }) {
+  async run({ query }, context = {}) {
+    const report = typeof context.report === 'function' ? context.report : () => {};
     const term = String(query ?? '').trim();
     if (!term) return { text: 'Consulta vazia.', sources: [] };
-    if (cache.has(term)) return cache.get(term);
+    if (cache.has(term)) {
+      report('Usando resultados em cache');
+      return cache.get(term);
+    }
 
+    report(`Buscando na internet: "${term}"`);
     const queryTokens = tokens(term);
-    const lists = await Promise.all(ENGINES.map((engine) => searchEngine(engine, term)));
-    const found = lists.flat();
-    if (found.length < 3) found.push(...(await searchWikipedia(term)));
+    const found = [];
+    for (const engine of ENGINES) {
+      found.push(...(await searchEngine(engine, term, report)));
+    }
+    if (found.length < 3) found.push(...(await searchWikipedia(term, report)));
 
     const seen = new Set();
     const picked = [];
@@ -211,6 +225,7 @@ export const webSearchSkill = defineSkill({
             sources: picked.map((item) => ({ title: item.title, url: item.url })),
           };
 
+    report(`${picked.length} resultado${picked.length === 1 ? '' : 's'} relevante${picked.length === 1 ? '' : 's'}`);
     cache.set(term, output);
     return output;
   },
