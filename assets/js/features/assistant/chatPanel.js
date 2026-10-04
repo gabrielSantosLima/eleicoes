@@ -59,7 +59,17 @@ export function createAssistant() {
 
   let systemContent = null;
   let sessionTokens = 0;
-  let autoSummaryDone = false;
+  let introShown = false;
+
+  const ORIENTATION = [
+    'Olá! Sou o assistente de IA deste site. Posso responder sobre os candidatos de 2026 (nomes, números e cargos) e sobre os resumos das propostas de governo.',
+    '',
+    'Para começar:',
+    '- Escolha o provedor e cole sua chave de API no painel.',
+    '- Pergunte, por exemplo: "Quais são os candidatos a presidente?" ou "O que o candidato X propõe para a saúde?"',
+    '',
+    'Os dados vêm dos arquivos públicos deste repositório.',
+  ].join('\n');
 
   const chatView = createChatView({ host: chatHost, onSend: handleSend });
 
@@ -164,11 +174,9 @@ export function createAssistant() {
     ensureReady()
       .then(() => {
         chatView.focus();
-        if (!autoSummaryDone && keyInput.value.trim() && chatView.getHistory().length === 0) {
-          autoSummaryDone = true;
-          chatView.send(
-            'Faça um breve resumo geral dos dados: quais cargos existem, quantos candidatos há em cada um e as principais propostas, em tópicos.',
-          );
+        if (!introShown && chatView.getHistory().length === 0) {
+          introShown = true;
+          chatView.addMessage('assistant', ORIENTATION);
         }
       })
       .catch((error) => {
