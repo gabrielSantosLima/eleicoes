@@ -9,7 +9,14 @@ import { createBallotStore } from './ballotStore.js';
 import { buildSantinhoImage } from './santinhoCanvas.js';
 import { shareSantinho, isShareSupported } from './ballotShare.js';
 
-const VOTE_ORDER = ['Presidente', 'Governador', 'Senador', 'Deputado Federal', 'Deputado Estadual', 'Deputado Distrital'];
+const VOTE_ORDER = [
+  'Deputado Federal',
+  'Deputado Estadual',
+  'Deputado Distrital',
+  'Senador',
+  'Governador',
+  'Presidente',
+];
 const SENATOR_SEATS = 2;
 const MAX_LISTED = 80;
 
