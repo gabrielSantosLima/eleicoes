@@ -10,7 +10,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://cdn.bncamazonas.com.br/wp-content/uploads/2025/08/adail-pinheiro-coari_foto-divulgacao.jpeg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: adriana-de-almeida-neves-xavier
   nome_completo: Adriana De Almeida Neves Xavier
@@ -40,7 +40,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://paraibaonline.com.br/wp-content/uploads/2025/08/tenente-coronel-vicente-campos.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alexandre-da-silva-salazar
   nome_completo: Alexandre Da Silva Salazar
@@ -60,7 +60,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/8/83/Mosteiro_da_Batalha-Homenagem_a_Mateus_Fernandes-20140915.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alexandre-neves-solorzano
   nome_completo: Alexandre Neves Solorzano
@@ -80,7 +80,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/a/a3/Coronel_Menezes_em_2019.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alfredo-pereira-do-nascimento
   nome_completo: Alfredo Pereira Do Nascimento
@@ -90,7 +90,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Alfredo_Nascimento_%28PL-AM%29.jpg/500px-Alfredo_Nascimento_%28PL-AM%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: alice-mafra-cavalcante-reis-penafort
   nome_completo: Alice Mafra Cavalcante Reis Penafort
@@ -150,7 +150,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Amom_Mandel.jpg/500px-Amom_Mandel.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-alice-roque-de-souza
   nome_completo: Ana Alice Roque De Souza
@@ -160,7 +160,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/4/4a/Ana_Cristina_Roque.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: ana-paula-mesquita-de-araujo
   nome_completo: Ana Paula Mesquita De Araujo
@@ -180,7 +180,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/4/41/Three_luxury_yachts_-_Lady_Anne%2C_Lady_Moura_and_Pelorus.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: antonio-dalmir-bezerra-salazar
   nome_completo: Antonio Dalmir Bezerra Salazar
@@ -220,7 +220,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Senador_Arthur_Virg%C3%ADlio.jpg/500px-Senador_Arthur_Virg%C3%ADlio.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: atila-sidney-lins-de-albuquerque
   nome_completo: Atila Sidney Lins De Albuquerque
@@ -230,7 +230,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Plen%C3%A1rio_do_Congresso_%2814815307186%29.jpg/500px-Plen%C3%A1rio_do_Congresso_%2814815307186%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: caila-carim-belchior
   nome_completo: Caila Carim Belchior
@@ -260,7 +260,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/pt/d/d0/Carlos_Alexandre_d%C3%A9cada_de_1970.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: carlos-edgar-tavares-de-oliveira
   nome_completo: Carlos Edgar Tavares De Oliveira
@@ -270,7 +270,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/6/66/De_Oliveira%2C_Edgar_G_-_Born-_%28BLANK%29%2C_Naturalized-_%28BLANK%29_-_DPLA_-_e32e685bd872e609065bf04961b8ffb8.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: cesar-augusto-oliveira-da-fonseca
   nome_completo: Cesar Augusto Oliveira Da Fonseca
@@ -320,7 +320,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/e/e4/Maciel_Daniel_De_Souza_%28Legavolley_2016%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: darlene-pereira-neves
   nome_completo: Darlene Pereira Neves
@@ -350,7 +350,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/8/86/Oscar_Pereira_da_Silva_-_Retrato_de_Ferdinando_Denis%2C_Acervo_do_Museu_Paulista_da_USP.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: denison-de-carvalho-vilar
   nome_completo: Denison De Carvalho Vilar
@@ -370,7 +370,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://media.gettyimages.com/id/2221272440/photo/ronaldinho-gaucho-of-brazil-seen-during-the-ronaldinho-show.jpg?s=1024x1024&w=gi&k=20&c=hlAFGeuDuRJ0AY2GGwTvFB6ojGr04MwPcVuLH-9UPYs=
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: diana-greicy-rodrigues-da-silva
   nome_completo: Diana Greicy Rodrigues Da Silva
@@ -490,7 +490,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Evaldo_Vasconcelos_Escrit%C3%B3rio.jpg/500px-Evaldo_Vasconcelos_Escrit%C3%B3rio.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fausto-vieira-dos-santos-junior
   nome_completo: Fausto Vieira Dos Santos Junior
@@ -500,7 +500,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Dep._Fausto_Santos_Jr.jpg/500px-Dep._Fausto_Santos_Jr.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: fernanda-aryel-rodrigues-de-almeida-lima
   nome_completo: Fernanda Aryel Rodrigues De Almeida Lima
@@ -510,7 +510,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://ofuxico.com.br/wp-content/uploads/2025/02/fernanda-lima.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: francisco-assis-santos-soares
   nome_completo: Francisco Assis Santos Soares
@@ -520,7 +520,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://fixner.com/wp-content/uploads/2019/05/Registro-de-jornada-1030x749.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: frank-carlos-oliveira-de-souza
   nome_completo: Frank Carlos Oliveira De Souza
@@ -990,7 +990,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://upload.wikimedia.org/wikipedia/commons/8/89/Natalia_lage_tv_brasil.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: nathalia-rachel-silva-nascimento
   nome_completo: Nathalia Rachel Silva Nascimento
@@ -1030,7 +1030,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pablo_Oliva_2019-11-19_1.jpg/500px-Pablo_Oliva_2019-11-19_1.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: patricia-barroso-veras
   nome_completo: Patricia Barroso Veras
@@ -1070,7 +1070,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/CMMPV_-_Comiss%C3%B5es_Mistas_Medidas_Provis%C3%B3rias_%2821924651764%29.jpg/500px-CMMPV_-_Comiss%C3%B5es_Mistas_Medidas_Provis%C3%B3rias_%2821924651764%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: paula-jussara-dos-santos-portela
   nome_completo: Paula Jussara Dos Santos Portela
@@ -1120,7 +1120,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/S%C3%A3o_Raimundo_Nonato.JPG/500px-S%C3%A3o_Raimundo_Nonato.JPG
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: raione-cabral-queiroz
   nome_completo: Raione Cabral Queiroz

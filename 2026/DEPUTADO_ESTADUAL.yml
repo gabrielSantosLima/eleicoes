@@ -190,7 +190,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Anderson_Santos_Itumbiara.JPG/500px-Anderson_Santos_Itumbiara.JPG
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: anderson-jose-de-souza-almada
   nome_completo: Anderson José De Souza Almada
@@ -960,7 +960,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://www.spurs-web.com/static/uploads/2023/06/fabrizio-romano.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: frank-de-souza-parente
   nome_completo: Frank De Souza Parente
@@ -1440,7 +1440,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Jo%C3%A3o_Azev%C3%AAdo%2C_May_2023_%28cropped%29.jpg/500px-Jo%C3%A3o_Azev%C3%AAdo%2C_May_2023_%28cropped%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: joao-francisco-de-miranda-soares
   nome_completo: João Francisco De Miranda Soares
@@ -1710,7 +1710,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://www.buddytv.com/wp-content/uploads/2022/06/lucas-the-spider.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: lucia-regina-antony
   nome_completo: Lucia Regina Antony
@@ -1970,7 +1970,7 @@ candidatos:
   coligacao: FEDERAÇÃO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://img.freepik.com/fotos-premium/virgen-carmen-santisima-virgen-maria-nuestra-senora-nossa-senhora-do-carmo-madre-dios-religion-catolica-madonna-religion-fe-cristianismo-jesucristo-santos-santo_771426-8836.jpg?w=2000
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-aparecida-tavares-coderch
   nome_completo: Maria Aparecida Tavares Coderch
@@ -2030,7 +2030,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: false
   situacao_candidatura: null
-  foto: https://img.freepik.com/fotos-premium/virgen-carmen-santisima-virgen-maria-nuestra-senora-nossa-senhora-do-carmo-madre-dios-religion-catolica-madonna-religion-fe-cristianismo-jesucristo-santos-santo_771426-8836.jpg?w=2000
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: maria-jacqueline-coelho-pinheiro
   nome_completo: Maria Jacqueline Coelho Pinheiro
@@ -2140,7 +2140,7 @@ candidatos:
   coligacao: PARTIDO ISOLADO
   eh_reeleicao: true
   situacao_candidatura: null
-  foto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/2023-02-07_Sess%C3%A3o_Ordin%C3%A1ria_da_Aleam_05_%28cropped%29.jpg/500px-2023-02-07_Sess%C3%A3o_Ordin%C3%A1ria_da_Aleam_05_%28cropped%29.jpg
+  foto: null
   fonte: https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip
 - id: meyb-cristny-dos-santos-seixas
   nome_completo: Meyb Cristny Dos Santos Seixas
